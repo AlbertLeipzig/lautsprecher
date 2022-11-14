@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "name": "",
+      "description": "",
+      "start": [[], []],
+      "end": [[], []],
+      "recurrence": 0,
+      "venueId": "",
+      "bandId": [],
+      "musicians": [],
+      "tags" : [],
+      "organizerId": "",
+      "imageLink" : "",
+      "eventLinks": []
+    }
+  ]
+}

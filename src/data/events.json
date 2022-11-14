@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "name": "OpenStage",
+      "description": "Du willst deinen Song endlich einmal vor Publikum spielen? Du möchtest neue Leute kennenlernen? Du möchtest in angenehmer Atmosphäre einen Abend verbringen? Seid dabei, wenn es immer wieder montags heißt: 3 Songs - the rest is up to you.... Du musst dich nicht anmelden. Du musst keine Nummer ziehen. Der OpenStage findet entsprechend der jeweils aktuell geltenden Corona-Regeln statt ",
+      "start": [
+        [14, 11, 2022],
+        [20, 0]
+      ],
+      "end": [
+        [14, 11, 2022],
+        [23, 0]
+      ],
+      "recurrence": 7,
+      "venueId": "VillaKeller",
+      "bandId": null,
+      "musicians": null,
+      "tags" : ["open stage", "jam session", "pop", "rock", "funk", "punk", "songwriter"],
+      "organizerId": "VillaKeller",
+      "imageLink": "https://scontent.flej1-1.fna.fbcdn.net/v/t39.30808-6/291336601_5160159894020617_3719042790690768055_n.jpg?stp=dst-jpg_p640x640&_nc_cat=103&ccb=1-7&_nc_sid=340051&_nc_ohc=1QtssNeu504AX_RCs_j&_nc_ht=scontent.flej1-1.fna&oh=00_AfCkHucmgBPt8V103-Lp7JfBNiC6VOxmUiI3pa_T8KFOEg&oe=63766DDB",
+      "eventLinks": "https://www.facebook.com/events/443809550602677/443809570602675/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+    },
+    {
+      "name": "DESPISED ICON & DECAPITATED ",
+      "description": "Avocado Booking presents",
+      "start": [
+        [15, 11, 2022],
+        [18, 0]
+      ],
+      "end": [
+        [15, 11, 2022],
+        [23, 0]
+      ],
+      "recurrence": null,
+      "venueId": "Felsenkeller",
+      "bandId": [
+        "DespisedIcon",
+        "Decapitated",
+        "BRAND OF SACRIFICE ",
+        "DISTANT",
+        "VISCERA"
+      ],
+      "musicians": null,
+      "tags": ["metal"],
+      "organizerId": "Felsenkeller",
+      "eventLinks": [
+        "https://www.facebook.com/despisedicon",
+        "https://www.facebook.com/decapitated?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
+        "https://www.facebook.com/decapitated?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
+        "https://www.facebook.com/DistantOfficial?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
+        "https://www.facebook.com/VisceraUK?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
+        "https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F386wpBT%3Ffbclid%3DIwAR0t4W5Wd5hf7k_OF9aRESpMydUhge8RBrQBKeG8CAUY1sKcqzaK40spIU4&h=AT18r9-ofT1rlAOLpl9-tBMn7KZm2lwDNEH5_4n8xcrgzI048nRwImGGnBrmUZeQTG7gzIIPQqLUmm4HloJRGE72fC4Sm7genB3kmWUDBdRGPJqorUqJxaEa85LfGgRWiP3a&__tn__=q&c[0]=AT0RPBIG4EzQ8ncOzkvX6PVcD6qDVHCnrgkZgSK5DrwyhwEriFN5915GK5o_jaWuWVx07P1as7FRae7SV03yc63Khv36GVNwbS9FAHkQqbVyYqntYfxgHszQiTXIbKJbTAl6tYqetvTE9LiAtVIXGbj4ZH_P"
+      ]
+    },
+    {
+      "name": "RAPWORKSHOP mit SHABO",
+      "description": "Each one teach one - der Rap Workshop mit dem Grünauer Rapper Shabo209 im HEIZHAUS Musikstudio für Jugendliche und junge Erwachsene Nutze die einmalige Gelegenheit und arbeite an deinem Style mit dem Grünauer Newcomer Shabo209 in entspannter Atmosphere und recorde deine Songs anschließend mit professionellem Studioequipment im HEIZHAUS Musikstudio. Du interessierst dich für das Angebot, hast noch Fragen dazu oder willst  gerne Mitmachen? Dann schreibt uns eine Mail an musik@heizhaus-leipzig.de oder kontaktiere uns über whatsapp 0157 35754554 Wann: jeden Dienstag von  18:30 - 21.30 Uhr Wo: HEIZHAUS Musikstudio Alte Salzstraße 59a, 04209 Leipzig Anmeldung vorher erforderlich. Wir freuen uns auch Dich! Deine HEIZI Crew",
+      "start": [
+        [15, 11, 2022],
+        [18, 30]
+      ],
+      "end": [
+        [15, 11, 2022],
+        [21, 30]
+      ],
+      "recurrence": 7,
+      "venueId": "Heizhaus Leipzig",
+      "bandId": null,
+      "musicians": "Sabo",
+      "tags" : ["rap", "hiphop"],
+      "organizerId": "Heizhaus Leipzig",
+      "eventLinks": "https://www.facebook.com/events/1220621832027703/1220621905361029/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+    },
+    {
+      "name": "Der W | Leipzig",
+      "description": " Stephan Weidner kehrt aus dem Stadion zurück in die Clubs des Landes: Mit DER W feiert der Bassist und Texter der megaerfolgreichen Böhsen Onkelz den emotionalen Schulterschluss aus nächster Nähe. Auf der Tour zum neuen Album 'V' lässt Weidner die Menschen ganz nah an sich ran. Seelisch vor allem, darum geht es bei DER W. Doch es geht auch um das gemeinsame Erlebnis, die Energie, die durch Reibung entsteht. Rock'n'Roll zum Anfassen.",
+      "start": [
+        [15, 11, 2022],
+        [19, 0]
+      ],
+      "end": [
+        [15, 11, 2022],
+        [22, 0]
+      ],
+      "recurrence": null,
+      "venueId": "Haus Auensee Leipzig",
+      "bandId": ["Der W ", "Vagabundos De Lujo"],
+      "musicians": null,
+      "organizerId": "Haus Auensee Leipzig",
+      "eventLinks": [
+        "https://www.facebook.com/events/714722879583642/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+      ]
+    }
+  ]
+}
