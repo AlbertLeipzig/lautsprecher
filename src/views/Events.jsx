@@ -1,7 +1,7 @@
-export const Calendar = () => {
+export const Events = () => {
   return (
     <div className="calendar">
-      <h1>Calendar</h1>
+      <h1>Veranstaltungen</h1>
     </div>
   );
 };
