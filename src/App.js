@@ -5,6 +5,7 @@ import { Events } from './views/Events';
 import { Impressum } from './views/Impressum';
 import { LandingPage } from './views/LandingPage';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/impressum" element={<Impressum />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

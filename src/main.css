@@ -1,3 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap");
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4c4c4c;
+}
 
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4c4c4c;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4c4c4c;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4c4c4c;
+}
+
+a {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4c4c4c;
+}
+a:visited {
+  color: #4c4c4c;
+}
 
 /*# sourceMappingURL=main.css.map */

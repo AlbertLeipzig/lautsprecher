@@ -7,7 +7,7 @@ export const Footer = () => {
       </p>
       </>
       <div className="social-container">
-        <a href="https://instagram.com" target={"_blank"}><img src={instagram} alt="instagram" /></a>
+        <a href="https://instagram.com" target={"_blank"}><img src="" alt="instagram" /></a>
       </div>
     </footer>
   );

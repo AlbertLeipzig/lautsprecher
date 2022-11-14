@@ -1,10 +1,13 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 export const Header = () => {
   return (
     <header>
       <>
-        <h1>Lautsprecher</h1>
-        <p>Musik Magazine der Stadt Leipzig</p>
+        <Link to="/">
+          Home
+          <h1>Lautsprecher</h1>
+          <p>Musik Magazine der Stadt Leipzig</p>
+        </Link>
       </>
       <div className="burger-menu">
         <div className="line1"></div>
@@ -12,9 +15,9 @@ export const Header = () => {
         <div className="line3"></div>
       </div>
       <nav className="header-nav">
-        <Link to ="/events">Veranstaltungen</Link>
-        <Link to ="/about">About</Link>
-        <Link to ="/contact">Kontakt</Link>
+        <Link to="/events">Veranstaltungen</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Kontakt</Link>
       </nav>
     </header>
   );
