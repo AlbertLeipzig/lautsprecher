@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 export const Header = () => {
   return (
     <header>
@@ -10,6 +11,11 @@ export const Header = () => {
         <div className="line2"></div>
         <div className="line3"></div>
       </div>
+      <nav className="header-nav">
+        <Link to ="/events">Veranstaltungen</Link>
+        <Link to ="/about">About</Link>
+        <Link to ="/contact">Kontakt</Link>
+      </nav>
     </header>
   );
 };
