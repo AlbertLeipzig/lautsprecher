@@ -1,0 +1,16 @@
+@use "../utilities/colors" as *;
+
+header {
+  background-color: $primaryColorLight;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 5vw;
+  
+}
+
+.header {
+  &__title {
+    margin: 0;
+  }
+}

@@ -1,40 +1,170 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  font-size: 10px;
+}
+
 h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: #4c4c4c;
+  text-align: center;
+  margin: 1em 0 1.5em;
 }
 
 h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #4c4c4c;
+  margin-bottom: 1em;
 }
 
 h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 400;
   color: #4c4c4c;
 }
 
-p {
+p, label, input, textarea, button {
   font-family: "Raleway", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 400;
   color: #4c4c4c;
+  line-height: 1.7em;
 }
 
 a {
   font-family: "Raleway", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #4c4c4c;
 }
 a:visited {
   color: #4c4c4c;
+}
+
+header {
+  background-color: #bbb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 5vw;
+}
+
+.header__title {
+  margin: 0;
+}
+
+footer {
+  /* position: sticky;
+  bottom: 0;
+  */
+  /* position: fixed;
+  inset: auto 0 0 0;  */
+  background-color: #bbb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 5vw;
+}
+
+main {
+  margin: auto 1.5vh 3vh;
+}
+
+button {
+  background-color: #bbb;
+  border: none;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+}
+
+.about h2, .about p {
+  text-align: center;
+}
+.about p {
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: 1.5vh 0;
+}
+
+input, textarea {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #4c4c4c;
 }
 
 /*# sourceMappingURL=main.css.map */

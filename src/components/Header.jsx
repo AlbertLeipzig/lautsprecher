@@ -4,8 +4,7 @@ export const Header = () => {
     <header>
       <>
         <Link to="/">
-          Home
-          <h1>Lautsprecher</h1>
+          <h2 className='header__title'>Lautsprecher</h2>
           <p>Musik Magazine der Stadt Leipzig</p>
         </Link>
       </>

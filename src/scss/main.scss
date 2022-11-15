@@ -1,3 +1,3 @@
-@use './utilities/colors' as *;
-@use './utilities/typography' as *;
-@use './utilities/reset' as *;
+@use './utilities/_utilities.scss';
+@use './components/_components.scss';
+@use './layouts/_layouts.scss';
