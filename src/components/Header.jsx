@@ -14,9 +14,9 @@ export const Header = () => {
         <div className="line3"></div>
       </div>
       <nav className="header-nav">
-        <Link to="/events">Veranstaltungen</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Kontakt</Link>
+        <Link to="/events" className='header-nav__link'>Veranstaltungen</Link>
+        <Link to="/about" className='header-nav__link'>About</Link>
+        <Link to="/contact" className='header-nav__link'>Kontakt</Link>
       </nav>
     </header>
   );

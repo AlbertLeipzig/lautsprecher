@@ -1,16 +1,24 @@
-@use "../utilities/colors" as *;
+@use '../utilities/utilities' as *;
 
 header {
-  background-color: $primaryColorLight;
+  @extend .test;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2vh 5vw;
-  
+
+  a {
+    margin: 0 1vw;
+    font-weight: 400;
+  }
 }
 
 .header {
   &__title {
     margin: 0;
+  }
+
+  &-nav__link {
+    @extend a;
   }
 }

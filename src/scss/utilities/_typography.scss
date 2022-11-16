@@ -1,11 +1,10 @@
-@use "_root.scss" as *;
-@use "_colors.scss" as *;
+@use '_root.scss' as *;
+@use '_colors.scss' as *;
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap');
 
 $primaryFont: 'Raleway', sans-serif;
 $secondaryFont: 'Playfair Display', serif;
-
 
 h1 {
   font-family: $primaryFont;
@@ -31,19 +30,30 @@ h3 {
   color: $primaryColor;
 }
 
-p, label, input, textarea, button {
+p,
+a,
+label,
+input,
+textarea,
+button {
   font-family: $primaryFont;
   font-size: 1.8rem;
   font-weight: 400;
   color: $primaryColor;
   line-height: 1.7em;
 }
-
 a {
-  font-family: $primaryFont;
-  font-size: 2rem;
-  font-weight: 700;
-  color: $primaryColor;
+  /* transition: 200ms; */
+  padding: 0.5em;
+  &:hover {
+    color: orange;
+  }
+  &:focus {
+    color: red;
+  }
+  &:active {
+    color: greenyellow;
+  }
   &:visited {
     color: $primaryColor;
   }

@@ -1,4 +1,4 @@
-@use "../utilities/colors" as *;
+@use "../utilities/utilities" as *;
 
 footer {
     /* position: sticky;
@@ -6,7 +6,7 @@ footer {
     */
     /* position: fixed;
     inset: auto 0 0 0;  */
-    background-color: $primaryColorLight; 
+    @extend .test;
     display: flex;
     justify-content: space-between;
     align-items: center;
