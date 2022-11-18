@@ -143,15 +143,31 @@ footer {
   padding: 2vh 5vw;
 }
 
-main {
-  margin: auto 1.5vh 3vh;
-}
-
 button {
   background-color: #bbb;
   border: none;
   padding: 0.5em 1.5em;
   border-radius: 5px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 75vh;
+  gap: 5px;
+  width: fit-content;
+  margin: 5vh auto;
+  /* justify-items: center ; */
+}
+.calendar__day {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  padding: 10px;
+  overflow: hidden;
+}
+.calendar__day p {
+  margin-left: 10px;
 }
 
 .about h2, .about p {
