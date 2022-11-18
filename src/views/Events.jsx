@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import eventsData from '../data/events.json';
 import { Calendar } from '../components/Calendar';
 
@@ -45,48 +46,57 @@ const eventTags = (event) => {
   addTags(event.musicians);
   addTags(event.bandId);
   addTags(event.tags);
-
+  /* console.log(tagsArray); */
   return tagsArray;
 };
 
 // filter by tag
 
-const filterWords = ['OpenStage'];
+/* const userInput = eventsData.events[2].musicians; */
+const userInput = 'DESPISED ICON & DECAPITATED';
 const eventArray = eventsData.events;
-const testEvent = eventArray[0];
-
-// Filter Single Event
-
-const filterSingleEvent = (tagsArray, filterWord) => {
-  const tags = eventTags(tagsArray);
-  // console.log(filterWord);
-  filterWord.forEach((word) => {
-    if (tags.includes(word)) {
-      // console.log('match');
-      return true;
-    }
-  });
-};
 
 // Filter All Events
 
-const filterAllEvents = (eventArray, filterWord) => {
+const filterAllEvents = (eventArray, filterWords) => {
   let filteredEvents = [];
+  /* console.log(eventArray); */
   eventArray.forEach((event) => {
-    filterSingleEvent(event, filterWord);
-    filterSingleEvent === true ? filteredEvents.push(event) : null;
+    const tags = eventTags(event);
+    /* console.log(tags) */
+    tags.forEach((tag) => {
+      // console.log(tag);
+      if (filterWords.includes(tag)) {
+        filteredEvents.push(event);
+      }
+    });
   });
   console.log(filteredEvents);
 };
 
-filterAllEvents(eventArray, filterWords);
+filterAllEvents(eventArray, userInput);
 
 export const Events = () => {
+  const [events, setEvents] = useState(eventsData.events);
+  const [title, setTitle] = useState('');
+
   return (
     <>
       <h1>Veranstaltungen</h1>
 
       <Calendar />
+      <>
+        <label htmlFor="event">
+          <input
+            type="text"
+            placeholder="event..."
+            onChange={(e) => {
+              testInput(e.target.value);
+            }}
+          />
+        </label>
+      </>
+
       <div className="events-container">
         {eventArray &&
           eventArray.map((event, id) => (

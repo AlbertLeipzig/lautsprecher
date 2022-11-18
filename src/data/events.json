@@ -15,13 +15,21 @@
       "venueId": "VillaKeller",
       "bandId": null,
       "musicians": null,
-      "tags" : ["open stage", "jam session", "pop", "rock", "funk", "punk", "songwriter"],
+      "tags": [
+        "open stage",
+        "jam session",
+        "pop",
+        "rock",
+        "funk",
+        "punk",
+        "songwriter"
+      ],
       "organizerId": "VillaKeller",
       "imageLink": "https://scontent.flej1-1.fna.fbcdn.net/v/t39.30808-6/291336601_5160159894020617_3719042790690768055_n.jpg?stp=dst-jpg_p640x640&_nc_cat=103&ccb=1-7&_nc_sid=340051&_nc_ohc=1QtssNeu504AX_RCs_j&_nc_ht=scontent.flej1-1.fna&oh=00_AfCkHucmgBPt8V103-Lp7JfBNiC6VOxmUiI3pa_T8KFOEg&oe=63766DDB",
       "eventLinks": "https://www.facebook.com/events/443809550602677/443809570602675/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
     },
     {
-      "name": "DESPISED ICON & DECAPITATED ",
+      "name": "DESPISED ICON & DECAPITATED",
       "description": "Avocado Booking presents",
       "start": [
         [15, 11, 2022],
@@ -66,8 +74,8 @@
       "recurrence": 7,
       "venueId": "Heizhaus Leipzig",
       "bandId": null,
-      "musicians": "Sabo",
-      "tags" : ["rap", "hiphop"],
+      "musicians": ["Sabo", "Madonna"],
+      "tags": ["rap", "hiphop"],
       "organizerId": "Heizhaus Leipzig",
       "eventLinks": "https://www.facebook.com/events/1220621832027703/1220621905361029/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
     },
