@@ -60,10 +60,10 @@ const eventArray = eventsData.events;
 
 const filterAllEvents = (eventArray, filterWords) => {
   let filteredEvents = [];
-  /* console.log(eventArray); */
+
   eventArray.forEach((event) => {
     const tags = eventTags(event);
-    /* console.log(tags) */
+    console.log(tags);
     tags.forEach((tag) => {
       // console.log(tag);
       if (filterWords.includes(tag)) {
@@ -72,13 +72,25 @@ const filterAllEvents = (eventArray, filterWords) => {
     });
   });
   console.log(filteredEvents);
+  return filteredEvents;
 };
 
 filterAllEvents(eventArray, userInput);
 
+const testInput = (input) => {
+  console.log(input);
+};
+
 export const Events = () => {
-  const [events, setEvents] = useState(eventsData.events);
-  const [title, setTitle] = useState('');
+  const [events, setEvents] = useState(
+    filterAllEvents(eventArray, 'Open Stage')
+  );
+  const [title, setTitle] = useState('hello');
+
+  const updateEvents = (userInput) => {
+    setEvents(filterAllEvents('Open Stage'));
+    console.log(userInput);
+  };
 
   return (
     <>
@@ -91,10 +103,11 @@ export const Events = () => {
             type="text"
             placeholder="event..."
             onChange={(e) => {
-              testInput(e.target.value);
+              updateEvents(e.target.value);
             }}
           />
         </label>
+        <h1>{title}</h1>
       </>
 
       <div className="events-container">
