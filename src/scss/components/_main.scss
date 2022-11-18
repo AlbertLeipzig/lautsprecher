@@ -1,3 +1,13 @@
 main {
   margin: auto 1.5vh 3vh;
+  padding: 0 1.5vh;
+  @media screen and (min-width: 500px) {
+    padding: 0 3vh;
+  }
+  @media screen and (min-width: 700px) {
+    padding: 0 5vh;
+  }
+  @media screen and (min-width: 900px) {
+    padding: 0 7vh;
+  }
 }

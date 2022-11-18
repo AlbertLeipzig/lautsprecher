@@ -151,23 +151,60 @@ button {
 }
 
 .calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  margin-bottom: 75vh;
-  gap: 5px;
-  width: fit-content;
-  margin: 5vh auto;
-  /* justify-items: center ; */
+  display: none;
 }
-.calendar__day {
-  height: 100px;
-  width: 100px;
-  background-color: tomato;
-  padding: 10px;
-  overflow: hidden;
+@media screen and (min-width: 500px) {
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 75vh;
+    gap: 5px;
+    width: fit-content;
+    margin: 5vh auto;
+    /* justify-items: center ; */
+  }
+  .calendar__day {
+    height: 50px;
+    aspect-ratio: 1/1;
+    background-color: tomato;
+    padding: 0;
+    padding: 5px;
+    overflow: hidden;
+  }
+  .calendar__day p {
+    margin: 10px 5px;
+    line-height: 0;
+  }
 }
-.calendar__day p {
-  margin-left: 10px;
+@media screen and (min-width: 700px) {
+  .calendar__day {
+    height: 75px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .calendar__day {
+    height: 100px;
+  }
+}
+
+main {
+  margin: auto 1.5vh 3vh;
+  padding: 0 1.5vh;
+}
+@media screen and (min-width: 500px) {
+  main {
+    padding: 0 3vh;
+  }
+}
+@media screen and (min-width: 700px) {
+  main {
+    padding: 0 5vh;
+  }
+}
+@media screen and (min-width: 900px) {
+  main {
+    padding: 0 7vh;
+  }
 }
 
 .about h2, .about p {
