@@ -4,40 +4,40 @@ const userList = [
   { name: 'Jane', age: 24 },
   { name: 'Jack', age: 30 },
 ];
-/* const excludedUsers = [20];
-
-const includedUsers = userList.filter((user) => {
-  if (excludedUsers.includes(user.age)) {
-    return false;
-  }
-  return true;
-}); */
 
 export const Test = () => {
   const [users, setUsers] = useState(userList);
   const [filter, setFilter] = useState('');
   const [title, setTitle] = useState('Test');
 
-  useEffect((age) => {
+  useEffect(() => {
     const filteredUsers = [];
     userList.forEach((user) => {
-      if (user.age !== age) {
+      if (user.age === filter) {
         filteredUsers.push(user);
       }
     });
-    console.log(filteredUsers);
     setUsers(filteredUsers);
+    console.log('filtered users ', filteredUsers);
+    console.log('typeof filteredUsers: ', typeof filteredUsers);
   }, [filter]);
+
+  const updateFilter = (filterValue) => {
+    const formatFilter = parseInt(filterValue);
+    console.log('typeof formatFilter: ', typeof formatFilter);
+    setFilter(formatFilter);
+  };
 
   return (
     <div className="test">
       <h1>{title}</h1>
+      <h2>{filter}</h2>
       <label htmlFor="user">
         <input
           type="text"
           placeholder="user..."
-                onChange={(e) => {
-            setFilter(e.target.value);
+          onChange={(e) => {
+            updateFilter(e.target.value);
           }}
         />
       </label>

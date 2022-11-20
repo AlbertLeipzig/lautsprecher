@@ -60,34 +60,33 @@ const filterAllEvents = (eventArray, filterWords) => {
   eventArray.forEach((event) => {
     const tags = eventTags(event);
     tags.forEach((tag) => {
-      // console.log(tag);
       if (filterWords.includes(tag)) {
         filteredEvents.push(event);
       }
     });
   });
-  console.log(filteredEvents);
   return filteredEvents;
 };
 
-// TEST
-const eventArray = allEvents;
-
-// console.log('START', filterAllEvents(eventArray, userInput), 'END');
-
 export const Events = () => {
-  const [events, setEvents] = useState('');
+  const [events, setEvents] = useState(undefined);
+  const [filter, setFilter] = useState('');
+  const filteredEvents = [];
+
   useEffect(() => {
-    filterAllEvents(eventArray, '');
-    setEvents(allEvents);
-  }, []);
-
-  const updateEvents = (userInput) => {
-    console.log(userInput);
-    setEvents(filterAllEvents(allEvents, userInput));
-  };
-
-  const [title, setTitle] = useState('Events');
+    allEvents.forEach((event, i) => {
+      // console.log('Event ', i, ': ', event);
+      // console.log('tags');
+      // console.log(eventTags(event));
+      const tags = eventTags(event);
+      tags.forEach((tag) => {
+        return tag === filter ? filteredEvents.push(event) : null;
+      });
+      filterAllEvents(allEvents, filter);
+      console.log('filteredEvents: ', filteredEvents);
+      setEvents(filteredEvents);
+    });
+  }, [filter]);
 
   return (
     <>
@@ -95,13 +94,13 @@ export const Events = () => {
 
       <Calendar />
       <>
-        <h1>{title}</h1>
+        {/* <h1>{title}</h1> */}
         <label htmlFor="event">
           <input
             type="text"
             placeholder="event..."
             onChange={(e) => {
-              updateEvents(e.target.value);
+              setFilter(e.target.value);
             }}
           />
         </label>
@@ -124,14 +123,12 @@ export const Events = () => {
                 event.tags.map((tag, id) => <p key={id}>{tag.id}</p>)}
               <p>{event.organizerId}</p>
               {/* {event.eventLinks && event.eventLinks.map((link, id) => (
-                console.log(link)
               ))} */}
-              {/* {console.log(event.eventLinks)} */}
               {/* {event.eventLinks &&
                 event.eventLinks.map((eventLink, id) => (
                   <p key={id}>{eventLink.id}</p>
                 ))} */}
-              <p>{event.eventLinks}</p>
+              <a href={event.eventLinks} target={"_blank"}>+info</a>
               {/*  <p>{formatStartDate(event.start)}</p> */}
             </div>
           ))}
