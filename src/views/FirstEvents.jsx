@@ -1,15 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import eventsData from '../data/events.json';
 import { Calendar } from '../components/Calendar';
 
-const allEvents = eventsData.events;
-let filteredEvents = [];
-
-// EVENT FILTERS
-
-// filter by date
-
-// format date into YYYY-MM-DD
 const formatStartDate = (eventStart) => {
   const es = eventStart;
   const date = `${es[(0, 0)]}/${es[(0, 1)]}/${es[(0, 2)]}, ${es[(1, 0)]}:${
@@ -18,21 +10,26 @@ const formatStartDate = (eventStart) => {
   return date;
 };
 
+// EVENT FILTERS
+
+// filter by date
+
 const filterByDate = (events, date) => {
   const filteredEvents = events.filter((event) => {
     const eventDate = formatStartDate(event.start);
     return eventDate === date;
   });
+  return filteredEvents;
 };
 
-// make a tags array for each event, so you can compare it to the filter words
+// tags array
 
 const eventTags = (event) => {
   let tagsArray = [];
   tagsArray.push(event.name);
   tagsArray.push(event.venueId);
 
-  // test if event has musicians/bands/tags. If truthy, test if the value is a string or an array. Then pushes values to an events array.
+  // test if event has musicians. If truthy, test if musician is a string or an array. Then pushes values to array.
 
   const addTags = (tagCategory) => {
     if (tagCategory) {
@@ -49,16 +46,24 @@ const eventTags = (event) => {
   addTags(event.musicians);
   addTags(event.bandId);
   addTags(event.tags);
+  /* console.log(tagsArray); */
   return tagsArray;
 };
 
 // filter by tag
 
+/* const userInput = eventsData.events[2].musicians; */
+const userInput = 'DESPISED ICON & DECAPITATED';
+const eventArray = eventsData.events;
+
 // Filter All Events
 
 const filterAllEvents = (eventArray, filterWords) => {
+  let filteredEvents = [];
+
   eventArray.forEach((event) => {
     const tags = eventTags(event);
+    console.log(tags);
     tags.forEach((tag) => {
       // console.log(tag);
       if (filterWords.includes(tag)) {
@@ -70,24 +75,22 @@ const filterAllEvents = (eventArray, filterWords) => {
   return filteredEvents;
 };
 
-// TEST
-const eventArray = allEvents;
+filterAllEvents(eventArray, userInput);
 
-// console.log('START', filterAllEvents(eventArray, userInput), 'END');
+const testInput = (input) => {
+  console.log(input);
+};
 
 export const Events = () => {
-  const [events, setEvents] = useState('');
-  useEffect(() => {
-    filterAllEvents(eventArray, '');
-    setEvents(allEvents);
-  }, []);
+  const [events, setEvents] = useState(
+    filterAllEvents(eventArray, 'Open Stage')
+  );
+  const [title, setTitle] = useState('');
 
   const updateEvents = (userInput) => {
+    setEvents(filterAllEvents('Open Stage'));
     console.log(userInput);
-    setEvents(filterAllEvents(allEvents, userInput));
   };
-
-  const [title, setTitle] = useState('Events');
 
   return (
     <>
@@ -95,7 +98,6 @@ export const Events = () => {
 
       <Calendar />
       <>
-        <h1>{title}</h1>
         <label htmlFor="event">
           <input
             type="text"
@@ -105,11 +107,12 @@ export const Events = () => {
             }}
           />
         </label>
+        <h1>{title}</h1>
       </>
 
       <div className="events-container">
-        {events &&
-          events.map((event, id) => (
+        {eventArray &&
+          eventArray.map((event, id) => (
             <div className="event" key={id}>
               <h2>{event.name}</h2>
               <p>{event.description}</p>
