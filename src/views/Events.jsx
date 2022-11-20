@@ -111,16 +111,24 @@ export const Events = () => {
           events.map((event, id) => (
             <div className="event" key={id}>
               <h2>{event.name}</h2>
-              <p>{event.description}</p>
+              <p>{event.description.slice(0, 200)}</p>
               <p>{event.venueId}</p>
-              {event.bandId &&
-                event.bandId.map((band, id) => <p key={id}>{band.id}</p>)}
+              {event.bandId && (
+                <ul>
+                  {event.bandId.map((band, id) => (
+                    <li key={id}>{band.id}</li>
+                  ))}
+                </ul>
+              )}
               {/* {event.musicians &&
                 event.musicians.map((musician, id) => (
                   <p key={musician.id}>{musician.id}</p>
                 ))} */}
-              {event.tags &&
-                event.tags.map((tag, id) => <p key={id}>{tag.id}</p>)}
+              {event.tags && (
+                <ul>
+                  {event.tags.map((tag, id) => <ul key={id}>{tag.id}</ul>)}
+                </ul>
+              )}
               <p>{event.organizerId}</p>
               {/* {event.eventLinks && event.eventLinks.map((link, id) => (
               ))} */}
@@ -128,7 +136,9 @@ export const Events = () => {
                 event.eventLinks.map((eventLink, id) => (
                   <p key={id}>{eventLink.id}</p>
                 ))} */}
-              <a href={event.eventLinks} target={"_blank"}>+info</a>
+              <a href={event.eventLinks} target={'_blank'}>
+                +info
+              </a>
               {/*  <p>{formatStartDate(event.start)}</p> */}
             </div>
           ))}
