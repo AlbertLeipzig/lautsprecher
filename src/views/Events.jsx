@@ -27,7 +27,6 @@ const formatInputDate = (date) => {
   return { day, month, year };
 };
 
-console.log(formatInputDate('2021-09-01'));
 
 const filterByDate = (events, date) => {
   const filteredEvents = events.filter((event) => {
@@ -84,7 +83,6 @@ export const Events = () => {
   const [filter, setFilter] = useState('');
   const [date, setDate] = useState('');
   const filteredEvents = [];
-  console.log(typeof date);
 
   useEffect(() => {
     allEvents.forEach((event, i) => {
@@ -93,7 +91,6 @@ export const Events = () => {
         return tag === filter ? filteredEvents.push(event) : null;
       });
       filterAllEvents(allEvents, filter);
-      console.log('filteredEvents: ', filteredEvents);
       setEvents(filteredEvents);
     });
   }, [filter]);
