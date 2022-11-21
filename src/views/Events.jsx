@@ -18,6 +18,17 @@ const formatStartDate = (eventStart) => {
   return date;
 };
 
+// convert the string from the input into variables
+
+const formatInputDate = (date) => {
+  const day = date.slice(8, 10);
+  const month = date.slice(5, 7);
+  const year = date.slice(0, 4);
+  return { day, month, year };
+};
+
+console.log(formatInputDate('2021-09-01'));
+
 const filterByDate = (events, date) => {
   const filteredEvents = events.filter((event) => {
     const eventDate = formatStartDate(event.start);
@@ -71,7 +82,9 @@ const filterAllEvents = (eventArray, filterWords) => {
 export const Events = () => {
   const [events, setEvents] = useState(undefined);
   const [filter, setFilter] = useState('');
+  const [date, setDate] = useState('');
   const filteredEvents = [];
+  console.log(typeof date);
 
   useEffect(() => {
     allEvents.forEach((event, i) => {
@@ -88,11 +101,10 @@ export const Events = () => {
   return (
     <>
       <h1>Veranstaltungen</h1>
-
-      <Calendar />
+      {/* <Calendar /> */}
       <>
         {/* <h1>{title}</h1> */}
-        <label htmlFor="event">
+        <label htmlFor="event__filter">
           <input
             type="text"
             placeholder="event..."
@@ -100,6 +112,12 @@ export const Events = () => {
               setFilter(e.target.value);
             }}
           />
+          <label htmlFor="">
+            <input
+              type="date"
+              onChange={(e) => formatInputDate(e.target.value)}
+            />
+          </label>
         </label>
       </>
 
