@@ -75,9 +75,6 @@ export const Events = () => {
 
   useEffect(() => {
     allEvents.forEach((event, i) => {
-      // console.log('Event ', i, ': ', event);
-      // console.log('tags');
-      // console.log(eventTags(event));
       const tags = eventTags(event);
       tags.forEach((tag) => {
         return tag === filter ? filteredEvents.push(event) : null;
@@ -126,7 +123,9 @@ export const Events = () => {
                 ))} */}
               {event.tags && (
                 <ul>
-                  {event.tags.map((tag, id) => <ul key={id}>{tag.id}</ul>)}
+                  {event.tags.map((tag, id) => (
+                    <ul key={id}>{tag.id}</ul>
+                  ))}
                 </ul>
               )}
               <p>{event.organizerId}</p>
