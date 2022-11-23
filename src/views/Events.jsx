@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import eventsData from '../data/events.json';
-import { Calendar } from '../components/Calendar';
 
 const allEvents = eventsData.events;
 let filteredEvents = [];
@@ -26,7 +25,6 @@ const formatInputDate = (date) => {
   const year = date.slice(0, 4);
   return { day, month, year };
 };
-
 
 const filterByDate = (events, date) => {
   const filteredEvents = events.filter((event) => {
@@ -70,6 +68,7 @@ const filterAllEvents = (eventArray, filterWords) => {
   eventArray.forEach((event) => {
     const tags = eventTags(event);
     tags.forEach((tag) => {
+      console.log(tag)
       if (filterWords.includes(tag)) {
         filteredEvents.push(event);
       }
@@ -92,15 +91,14 @@ export const Events = () => {
       });
       filterAllEvents(allEvents, filter);
       setEvents(filteredEvents);
+      console.log('filteredEvents: ', filteredEvents);
     });
   }, [filter]);
 
   return (
     <>
       <h1>Veranstaltungen</h1>
-      {/* <Calendar /> */}
       <>
-        {/* <h1>{title}</h1> */}
         <label htmlFor="event__filter">
           <input
             type="text"
