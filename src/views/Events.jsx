@@ -146,7 +146,10 @@ export const Events = () => {
         {events &&
           events.map((event, id) => (
             <div className="event" key={id}>
-              <h2>{event.name}</h2>
+              <span>
+                <h2>{event.name}</h2>
+                <p>{formatStartDate(event.start[0])}</p>
+              </span>
               {event.description && <p>{event.description.slice(0, 200)}</p>}
               <p>{event.venueId}</p>
               {event.bandId && (
