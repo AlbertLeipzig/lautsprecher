@@ -68,12 +68,12 @@ const filterAllEvents = (eventArray, filterWords) => {
   eventArray.forEach((event) => {
     const tags = eventTags(event);
     tags.forEach((tag) => {
-      console.log(tag)
       if (filterWords.includes(tag)) {
         filteredEvents.push(event);
       }
     });
   });
+  
   return filteredEvents;
 };
 
@@ -91,7 +91,6 @@ export const Events = () => {
       });
       filterAllEvents(allEvents, filter);
       setEvents(filteredEvents);
-      console.log('filteredEvents: ', filteredEvents);
     });
   }, [filter]);
 
