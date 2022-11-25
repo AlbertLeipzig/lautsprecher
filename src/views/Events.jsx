@@ -22,7 +22,6 @@ const formatInputDate = (date) => {
   const day = parseInt(date.slice(8, 10));
   const month = parseInt(date.slice(5, 7));
   const year = parseInt(date.slice(0, 4));
-  // console.log('SELECTED DATE IS : ', [day, month, year]);
   return [day, month, year];
 };
 
@@ -93,16 +92,13 @@ const getEventTags = (event) => {
 
 // compare all events' tags array with the filter word
 
-const compareTags = (filter) => {
+const filterEventsByTag = (filter) => {
   const filteredEvents = [];
-  allEvents.map((event) => {
-    filteredEvents.push(event);
-    const tags = getEventTags(event);
-    tags.forEach((tag) => {
-      if (filter === tag) {
-        filteredEvents.push(filter, tag);
-      }
-    });
+  allEvents.forEach((event) => {
+    const filterSingleEvent = getEventTags(event);
+    if (filterSingleEvent.includes(filter)) {
+      filteredEvents.push(event);
+    }
   });
   return filteredEvents;
 };
@@ -113,11 +109,10 @@ export const Events = () => {
 
   useEffect(() => {
     if (filter.type === 'date') {
-      setEvents(filterEventsByDate(allEvents, filter.value));
+      setEvents(filterEventsByDate(filter.value));
     } else if (filter.type === 'tag') {
-      setEvents(compareTags(allEvents, filter.value));
+      setEvents(filterEventsByTag(filter.value));
     } else {
-      console.log("ELSE")
       setEvents(allEvents);
     }
   }, [filter]);
@@ -150,7 +145,7 @@ export const Events = () => {
           events.map((event, id) => (
             <div className="event" key={id}>
               <h2>{event.name}</h2>
-              <p>{event.description.slice(0, 200)}</p>
+              {event.description && <p>{event.description.slice(0, 200)}</p>}
               <p>{event.venueId}</p>
               {event.bandId && (
                 <ul>
