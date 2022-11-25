@@ -6,6 +6,7 @@ import { Impressum } from './views/Impressum';
 import { LandingPage } from './views/LandingPage';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import "./scss/main.scss"
 
 function App() {
   return (
