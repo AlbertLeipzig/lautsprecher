@@ -48,9 +48,9 @@ const compareDates = (event, inputDate) => {
 
 // filter every event by date
 
-const filterEventsByDate = (events, date) => {
+const filterEventsByDate = (date) => {
   const filteredEvents = [];
-  events.forEach((event) => {
+  allEvents.forEach((event) => {
     const filteredEvent = compareDates(event, date);
     if (filteredEvent !== undefined) {
       filteredEvents.push(event);
@@ -59,15 +59,14 @@ const filterEventsByDate = (events, date) => {
   return filteredEvents;
 };
 
-console.log(filterEventsByDate(allEvents, '2022-11-15'));
-
 // EVENT FILTERS
 
 // filter by date
 
+// compare one event's tags array with the filter word
 // make a tags array for each event, so you can compare it to the filter words
 
-const eventTags = (event) => {
+const getEventTags = (event) => {
   let tagsArray = [];
   tagsArray.push(event.name);
   tagsArray.push(event.venueId);
@@ -92,37 +91,35 @@ const eventTags = (event) => {
   return tagsArray;
 };
 
-// filter by tag
+// compare all events' tags array with the filter word
 
-const filterByTag = (eventArray, filterWords) => {
-  eventArray.forEach((event) => {
-    const tags = eventTags(event);
+const compareTags = (filter) => {
+  const filteredEvents = [];
+  allEvents.map((event) => {
+    filteredEvents.push(event);
+    const tags = getEventTags(event);
     tags.forEach((tag) => {
-      if (filterWords.includes(tag)) {
-        filteredEvents.push(event);
+      if (filter === tag) {
+        filteredEvents.push(filter, tag);
       }
     });
   });
-
   return filteredEvents;
 };
 
 export const Events = () => {
   const [events, setEvents] = useState(undefined);
   const [filter, setFilter] = useState({});
-  const filteredEvents = [];
 
   useEffect(() => {
     if (filter.type === 'date') {
       setEvents(filterEventsByDate(allEvents, filter.value));
-    }
-    /*  if ((filter.type = 'date')) {
-      filterByDate(allEvents, filter.value);
-    } else if ((filter.type = 'tag')) {
-      filterByTag(allEvents, filter.value);
+    } else if (filter.type === 'tag') {
+      setEvents(compareTags(allEvents, filter.value));
     } else {
+      console.log("ELSE")
       setEvents(allEvents);
-    } */
+    }
   }, [filter]);
 
   return (
@@ -134,13 +131,15 @@ export const Events = () => {
             type="text"
             placeholder="event..."
             onChange={(e) => {
-              setFilter({type : "tag", value : e.target.value});
+              setFilter({ type: 'tag', value: e.target.value });
             }}
           />
           <label htmlFor="">
             <input
               type="date"
-              onChange={(e) => setFilter({type : "date", value : e.target.value})}
+              onChange={(e) =>
+                setFilter({ type: 'date', value: e.target.value })
+              }
             />
           </label>
         </label>
