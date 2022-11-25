@@ -108,7 +108,10 @@ export const Events = () => {
   const [filter, setFilter] = useState({});
 
   useEffect(() => {
-    if (filter.type === 'date') {
+    if (filter.value === '') {
+      setEvents(allEvents);
+    } else if (filter.type === 'date') {
+      console.log(filter.value);
       setEvents(filterEventsByDate(filter.value));
     } else if (filter.type === 'tag') {
       setEvents(filterEventsByTag(filter.value));
