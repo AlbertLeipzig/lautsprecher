@@ -4,11 +4,10 @@ import eventsData from '../data/events.json';
 const allEvents = eventsData.events;
 let filteredEvents = [];
 
-// EVENT FILTERS
-
-// filter by date
+// FORMAT INPUT DATE
 
 // format date into YYYY-MM-DD
+
 const formatStartDate = (eventStart) => {
   const es = eventStart;
   const date = `${es[(0, 0)]}/${es[(0, 1)]}/${es[(0, 2)]}, ${es[(1, 0)]}:${
@@ -17,21 +16,54 @@ const formatStartDate = (eventStart) => {
   return date;
 };
 
-// convert the string from the input into variables
+// convert the date string from the input into variables
 
 const formatInputDate = (date) => {
-  const day = date.slice(8, 10);
-  const month = date.slice(5, 7);
-  const year = date.slice(0, 4);
-  return { day, month, year };
+  const day = parseInt(date.slice(8, 10));
+  const month = parseInt(date.slice(5, 7));
+  const year = parseInt(date.slice(0, 4));
+  // console.log('SELECTED DATE IS : ', [day, month, year]);
+  return [day, month, year];
 };
 
-const filterByDate = (events, date) => {
-  const filteredEvents = events.filter((event) => {
-    const eventDate = formatStartDate(event.start);
-    return eventDate === date;
-  });
+// brings date for an specific event
+
+const getEventDate = (event) => {
+  return event.start[0];
 };
+
+// compares the date of the event with the date of the input
+
+const compareDates = (event, inputDate) => {
+  const selectedDate = formatInputDate(inputDate);
+  const eventDate = getEventDate(event);
+  if (selectedDate[2] === eventDate[2]) {
+    if (selectedDate[1] === eventDate[1]) {
+      if (selectedDate[0] === eventDate[0]) {
+        return event;
+      }
+    }
+  }
+};
+
+// filter every event by date
+
+const filterEventsByDate = (events, date) => {
+  const filteredEvents = [];
+  events.forEach((event) => {
+    const filteredEvent = compareDates(event, date);
+    if (filteredEvent !== undefined) {
+      filteredEvents.push(event);
+    }
+  });
+  return filteredEvents;
+};
+
+console.log(filterEventsByDate(allEvents, '2022-11-15'));
+
+// EVENT FILTERS
+
+// filter by date
 
 // make a tags array for each event, so you can compare it to the filter words
 
@@ -62,9 +94,7 @@ const eventTags = (event) => {
 
 // filter by tag
 
-// Filter All Events
-
-const filterAllEvents = (eventArray, filterWords) => {
+const filterByTag = (eventArray, filterWords) => {
   eventArray.forEach((event) => {
     const tags = eventTags(event);
     tags.forEach((tag) => {
@@ -73,25 +103,26 @@ const filterAllEvents = (eventArray, filterWords) => {
       }
     });
   });
-  
+
   return filteredEvents;
 };
 
 export const Events = () => {
   const [events, setEvents] = useState(undefined);
-  const [filter, setFilter] = useState('');
-  const [date, setDate] = useState('');
+  const [filter, setFilter] = useState({});
   const filteredEvents = [];
 
   useEffect(() => {
-    allEvents.forEach((event, i) => {
-      const tags = eventTags(event);
-      tags.forEach((tag) => {
-        return tag === filter ? filteredEvents.push(event) : null;
-      });
-      filterAllEvents(allEvents, filter);
-      setEvents(filteredEvents);
-    });
+    if (filter.type === 'date') {
+      setEvents(filterEventsByDate(allEvents, filter.value));
+    }
+    /*  if ((filter.type = 'date')) {
+      filterByDate(allEvents, filter.value);
+    } else if ((filter.type = 'tag')) {
+      filterByTag(allEvents, filter.value);
+    } else {
+      setEvents(allEvents);
+    } */
   }, [filter]);
 
   return (
@@ -103,13 +134,13 @@ export const Events = () => {
             type="text"
             placeholder="event..."
             onChange={(e) => {
-              setFilter(e.target.value);
+              setFilter({type : "tag", value : e.target.value});
             }}
           />
           <label htmlFor="">
             <input
               type="date"
-              onChange={(e) => formatInputDate(e.target.value)}
+              onChange={(e) => setFilter({type : "date", value : e.target.value})}
             />
           </label>
         </label>
@@ -129,10 +160,6 @@ export const Events = () => {
                   ))}
                 </ul>
               )}
-              {/* {event.musicians &&
-                event.musicians.map((musician, id) => (
-                  <p key={musician.id}>{musician.id}</p>
-                ))} */}
               {event.tags && (
                 <ul>
                   {event.tags.map((tag, id) => (
@@ -141,16 +168,9 @@ export const Events = () => {
                 </ul>
               )}
               <p>{event.organizerId}</p>
-              {/* {event.eventLinks && event.eventLinks.map((link, id) => (
-              ))} */}
-              {/* {event.eventLinks &&
-                event.eventLinks.map((eventLink, id) => (
-                  <p key={id}>{eventLink.id}</p>
-                ))} */}
               <a href={event.eventLinks} target={'_blank'}>
                 +info
               </a>
-              {/*  <p>{formatStartDate(event.start)}</p> */}
             </div>
           ))}
       </div>
