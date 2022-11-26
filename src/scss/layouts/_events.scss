@@ -1,12 +1,51 @@
 @use '../utilities/colors.scss' as *;
 
 .event {
-  margin: 5vh 0;
+  @media screen and (min-width: 800px) {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
+  &__description {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      margin-left: 5vw;
+    }
+  }
+
+  margin: 5vh 0;
+  &__input-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0;
+    label {
+      margin: 0 auto;
+    }
+  }
+
+  &__filter {
+    margin: 0 auto;
+  }
+  &__main {
+    @media screen and (min-width: 400px) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
   &__time {
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 1em;
+  }
+
+  &__image {
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
   }
 
   a {

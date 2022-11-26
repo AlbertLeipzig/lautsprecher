@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import eventsData from '../data/events.json';
 
+const testImg =
+  'https://images.unsplash.com/photo-1664994817539-8a865f12dc6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60';
+
 const allEvents = eventsData.events;
 let filteredEvents = [];
 
@@ -128,7 +131,7 @@ export const Events = () => {
   return (
     <div className="events">
       <h1>Veranstaltungen</h1>
-      <>
+      <div className="event__input-container">
         <label htmlFor="event__filter">
           <input
             type="text"
@@ -137,40 +140,52 @@ export const Events = () => {
               setFilter({ type: 'tag', value: e.target.value });
             }}
           />
-          <label htmlFor="">
-            <input
-              type="date"
-              onChange={(e) =>
-                setFilter({ type: 'date', value: e.target.value })
-              }
-            />
-          </label>
         </label>
-      </>
+        <label htmlFor="">
+          <input
+            type="date"
+            onChange={(e) => setFilter({ type: 'date', value: e.target.value })}
+          />
+        </label>
+      </div>
 
       <div className="events__container">
         {events &&
           events.map((event, id) => (
             <div className="event" key={id}>
-              <h2>{event.name}</h2>
-              <p className='event__time'>{formatStartDate(event.start[0])}</p>
-              {event.description && <p>{event.description.slice(0, 200)}</p>}
-              <p>{event.venueId}</p>
-              {event.bandId && (
-                <ul>
-                  {event.bandId.map((band, id) => (
-                    <li key={id}>{band.id}</li>
-                  ))}
-                </ul>
-              )}
+              <div className="event__main">
+                <h2>{event.name}</h2>
+                <p className="event__time">{formatStartDate(event.start[0])}</p>
+              </div>
+              <div className="event__description">
+                <div className='event__description-text'>
+                  {event.description && (
+                    <p>{event.description.slice(0, 100)}...</p>
+                  )}
+                  <p>{event.venueId}</p>
+                  {event.bandId && (
+                    <ul>
+                      {event.bandId.map((band, id) => (
+                        <li key={id}>{band.id}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+                {event.imageLink && (
+                  <img
+                    src={event.imageLink}
+                    alt={event.name}
+                    className="event__image"
+                  />
+                )}
+              </div>
               {event.tags && (
-                <ul>
+                <ul className="event__test">
                   {event.tags.map((tag, id) => (
-                    <ul key={id}>{tag.id}</ul>
+                    <p key={id}>{tag.id}</p>
                   ))}
                 </ul>
               )}
-              <p>{event.organizerId}</p>
               <a href={event.eventLinks} target={'_blank'}>
                 +info
               </a>
