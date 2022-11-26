@@ -1,0 +1,15 @@
+@use '../utilities/colors.scss' as *;
+
+.event {
+  margin: 5vh 0;
+
+  &__time {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+
+  a {
+    padding: 0;
+  }
+}

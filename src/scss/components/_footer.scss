@@ -1,14 +1,19 @@
-@use "../utilities/utilities" as *;
+@use '../utilities/utilities' as *;
 
 footer {
-    /* position: sticky;
-    bottom: 0;
-    */
-    /* position: fixed;
-    inset: auto 0 0 0;  */
-    @extend .test;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2vh 5vw;
+  @extend .test;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2vh 5vw;
+  position: fixed;
+  inset: auto 0 0 0;
+}
+
+.footer {
+  &__by {
+    & a {
+      padding: 0;
+    }
+  }
 }

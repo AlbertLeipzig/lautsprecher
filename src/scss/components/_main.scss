@@ -1,6 +1,10 @@
+@use '../utilities/colors.scss' as *;
+
 main {
-  margin: auto 1.5vh 3vh;
-  padding: 0 1.5vh;
+  margin: 0;
+  padding: 5vh 5vw 10vh;
+  max-width: 300px;
+  overflow: hidden;
   @media screen and (min-width: 500px) {
     padding: 0 3vh;
   }

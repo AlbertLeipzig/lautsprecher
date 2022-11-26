@@ -16,6 +16,11 @@ const formatStartDate = (eventStart) => {
   return date;
 };
 
+console.log(allEvents[0].start);
+
+const testData = formatStartDate(allEvents[0].start);
+console.log(testData);
+
 // convert the date string from the input into variables
 
 const formatInputDate = (date) => {
@@ -121,7 +126,7 @@ export const Events = () => {
   }, [filter]);
 
   return (
-    <>
+    <div className="events">
       <h1>Veranstaltungen</h1>
       <>
         <label htmlFor="event__filter">
@@ -143,11 +148,12 @@ export const Events = () => {
         </label>
       </>
 
-      <div className="events-container">
+      <div className="events__container">
         {events &&
           events.map((event, id) => (
             <div className="event" key={id}>
               <h2>{event.name}</h2>
+              <p className='event__time'>{formatStartDate(event.start[0])}</p>
               {event.description && <p>{event.description.slice(0, 200)}</p>}
               <p>{event.venueId}</p>
               {event.bandId && (
@@ -171,6 +177,6 @@ export const Events = () => {
             </div>
           ))}
       </div>
-    </>
+    </div>
   );
 };

@@ -1,11 +1,15 @@
+@use '../utilities/colors.scss' as *;
+
 .about {
-    h2, p {
-        text-align: center;
-    }
-    
-    p {
-        text-align: center;
-        font-style: italic;
-        font-size: 2rem;
-    }
+  h2 {
+    text-align: center;
+    margin: 1.5rem 0 3rem;
+    color: $grey;
+  }
+
+  p {
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+  }
 }
