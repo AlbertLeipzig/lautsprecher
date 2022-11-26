@@ -1,12 +1,11 @@
 @use '../utilities/utilities' as *;
 
 header {
-  @extend .test;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2vh 5vw;
-
+  background-color: $white;
   a {
     margin: 0 1vw;
     font-weight: 400;
@@ -20,5 +19,12 @@ header {
 
   &-nav__link {
     @extend a;
+  }
+
+  &__nav {
+    display: none;
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
   }
 }

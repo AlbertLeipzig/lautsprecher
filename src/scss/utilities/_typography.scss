@@ -8,11 +8,11 @@ $secondaryFont: 'Playfair Display', serif;
 
 h1 {
   font-family: $primaryFont;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-weight: 700;
   color: $primaryColor;
   text-align: center;
-  margin: 1em 0 1.5em;
+  //  margin: 1em 0 1.5em;
 }
 
 h2 {
@@ -39,7 +39,7 @@ button {
   font-family: $primaryFont;
   font-size: 1.8rem;
   font-weight: 400;
-  color: $primaryColor;
+  color: $grey;
   line-height: 1.7em;
 }
 a {
