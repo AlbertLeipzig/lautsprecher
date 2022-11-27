@@ -428,9 +428,9 @@
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Latin Night",
       "description": "",
-      "start": [[], []],
+      "start": [[2, 12, 2022], [20, 30]],
       "end": [[], []],
       "recurrence": 0,
       "venueId": "Tankbar",
@@ -439,12 +439,36 @@
       "tags": [],
       "organizerId": "Tankbar",
       "imageLink": "",
-      "eventLinks": []
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]
     },
     {
-      "name": "",
+      "name": "80er & Depeche Mode ",
       "description": "",
-      "start": [[], []],
+      "start": [[3, 12, 2022], [20, 30]],      "end": [[], []],
+      "recurrence": 0,
+      "venueId": "Tankbar",
+      "bandId": [],
+      "musicians": [],
+      "tags": [],
+      "organizerId": "Tankbar",
+      "imageLink": "",
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]    },
+    {
+      "name": "Open Stage",
+      "description": "",
+      "start": [[7, 12, 2022], [20, 30]],      "end": [[], []],
+      "recurrence": 0,
+      "venueId": "Tankbar",
+      "bandId": [],
+      "musicians": [],
+      "tags": [],
+      "organizerId": "Tankbar",
+      "imageLink": "",
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]    },
+    {
+      "name": "Salsa-Party ",
+      "description": "",
+      "start": [[8, 12, 2022], [20, 30]],
       "end": [[], []],
       "recurrence": 0,
       "venueId": "Tankbar",
@@ -453,12 +477,11 @@
       "tags": [],
       "organizerId": "Tankbar",
       "imageLink": "",
-      "eventLinks": []
-    },
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]    },
     {
-      "name": "",
+      "name": "Streetlife Hand-Music ",
       "description": "",
-      "start": [[], []],
+      "start": [[9, 12, 2022], [20, 30]],
       "end": [[], []],
       "recurrence": 0,
       "venueId": "Tankbar",
@@ -467,12 +490,11 @@
       "tags": [],
       "organizerId": "Tankbar",
       "imageLink": "",
-      "eventLinks": []
-    },
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]    },
     {
-      "name": "",
+      "name": "90er Bombe ",
       "description": "",
-      "start": [[], []],
+      "start": [[10, 12, 2022], [20, 30]],
       "end": [[], []],
       "recurrence": 0,
       "venueId": "Tankbar",
@@ -481,12 +503,24 @@
       "tags": [],
       "organizerId": "Tankbar",
       "imageLink": "",
-      "eventLinks": []
-    },
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]    },
     {
-      "name": "",
+      "name": "Schlagerparty mit Live-Band 'Be Happy'",
       "description": "",
-      "start": [[], []],
+      "start": [[17, 12, 2022], [20, 30]],
+      "end": [[], []],
+      "recurrence": 0,
+      "venueId": "Tankbar",
+      "bandId": [ "Be Happy"],
+      "musicians": [],
+      "tags": [],
+      "organizerId": "Tankbar",
+      "imageLink": "",
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]    },
+    {
+      "name": "Schlagerparty mit Live-Musik und mit Sockenbörse zum tauschen ",
+      "description": "",
+      "start": [[26, 12, 2022], []],
       "end": [[], []],
       "recurrence": 0,
       "venueId": "Tankbar",
@@ -495,12 +529,11 @@
       "tags": [],
       "organizerId": "Tankbar",
       "imageLink": "",
-      "eventLinks": []
-    },
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]    },
     {
-      "name": "",
+      "name": "TamTam (Open Stage)",
       "description": "",
-      "start": [[], []],
+      "start": [[28, 12, 2022], []],
       "end": [[], []],
       "recurrence": 0,
       "venueId": "Tankbar",
@@ -509,12 +542,12 @@
       "tags": [],
       "organizerId": "Tankbar",
       "imageLink": "",
-      "eventLinks": []
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]
     },
     {
-      "name": "",
+      "name": "Latin Night",
       "description": "",
-      "start": [[], []],
+      "start": [[30, 12, 2022], [20, 30]],
       "end": [[], []],
       "recurrence": 0,
       "venueId": "Tankbar",
@@ -523,1308 +556,861 @@
       "tags": [],
       "organizerId": "Tankbar",
       "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "Tankbar",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
-      "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
-      "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
-    },
+      "eventLinks": ["https://tankbar-leipzig.de/tankevents/"]    },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
+      "name": "Motette",
+      "description": "Pfarrer Martin Hundertmark
+      Thomasorganist Johannes Lang
+      Julian Fahrner, Violine
+      
+      Programm (Änderungen vorbehalten):
+      Rheinberger op. 150
+      Reger Romanze für Violine und Orgel G-Dur
+      Bach G-Dur-Sonate BWV 1019
+      u.a.",
+      "start": [[2, 12, 2022], [18, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
-      "description": "",
+      "name": "Bach-Weihnachtsoratorium (I-III) ",
+      "description": "Bach-Weihnachtsoratorium BWV 248, Kantaten I-III
+
+      Anja Zügner, Sopran
+      Marlen Herzog, Alt
+      Stephan Scherpe, Tenor
+      Cornelius Uhle, Bass
+      
+      Leipziger Vocalensemble
+      Mitteldeutsches Kammerorchester
+      Sebastian Reim, Leitung",
       "start": [[], []],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Bach-Weihnachtsoratorium (I-III) ",
       "description": "",
-      "start": [[], []],
+      "start": [[2, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
+      "venueId": "Thomaskirche",
+      "bandId": ["Leipziger Vocalensemble", "Mitteldeutsches Kammerorchester"],
+      "musicians": ["Anja Zügner, Sopran", "Marlen Herzog, Alt", "Stephan Scherpe, Tenor", "Cornelius Uhle, Bass", "Sebastian Reim, Leitung", "Sebastian Reim, Leitung"],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Thomaskirche",
       "imageLink": "",
-      "eventLinks": []
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Bach-Weihnachtsoratorium (I-III) ",
       "description": "",
-      "start": [[], []],
+      "start": [[3, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
+      "venueId": "Thomaskirche",
+      "bandId": ["Leipziger Vocalensemble", "Mitteldeutsches Kammerorchester"],
+      "musicians": ["Anja Zügner, Sopran", "Marlen Herzog, Alt", "Stephan Scherpe, Tenor", "Cornelius Uhle, Bass", "Sebastian Reim, Leitung", "Sebastian Reim, Leitung"],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
+      "name": " Motette
+
+      Orgelvesper plus",
+      "description": "Pfarrer Martin Hundertmark
+      Thomasorganist Johannes Lang
+      Julian Fahrner, Violine
+      
+      Programm (Änderungen vorbehalten):
+      Rheinberger op. 150
+      Reger Romanze für Violine und Orgel G-Dur
+      Bach G-Dur-Sonate BWV 1019 ",
+      "start": [[3, 12, 2022], [15, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
+      "name": "Schulkonzert ",
+      "description": "Schulkonzert zum Nikolaustag "Macht hoch die Tür, die Tor´ macht weit!"
+      Thomanernachwuchs der dritten Klassen der Grundschulen Anna-Magdalena-Bach und forum thomanum
+      Leitung: Claus Straßner und Maria Leistner
+      
+      Frederico Mussi, Truhenorgel/Klavier
+      Paul Fey, Orgel
+      
+      Veranstalter: Musikschule J.S. Bach",
+      "start": [[05, 12, 2022], [10, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Orgelkonzert im Kerzenschein ",
       "description": "",
-      "start": [[], []],
+      "start": [[05, 12, 2022], [19, 30]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
-      "musicians": [],
+      "musicians": ["Johannes Lang, Orgel"],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "J.S. Bach - Weihnachtsoratorium (I-VI) ",
       "description": "",
-      "start": [[], []],
+      "start": [[9, 12, 2022], [19, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
+      "venueId": "Thomaskirche",
+      "bandId": [THOMANERCHOR Leipzig, Gewandhausorchester Leipzig],
+      "musicians": [Christina Landshamer, Sopran
+      Elvira Bill, Alt
+      Benedikt Kristjánsson, Tenor
+      Konstantin Krimmel, Bass Thomaskantor Andreas Reize, Leitung],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "J.S. Bach - Weihnachtsoratorium (I-VI) ",
       "description": "",
-      "start": [[], []],
+      "start": [[11, 12, 2022], [17, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
-      "musicians": [],
+      "venueId": "Thomaskirche",
+      "bandId": [THOMANERCHOR Leipzig, Gewandhausorchester Leipzig],
+      "musicians": [Christina Landshamer, Sopran
+      Elvira Bill, Alt
+      Benedikt Kristjánsson, Tenor
+      Konstantin Krimmel, Bass Thomaskantor Andreas Reize, Leitung],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
+      "name": "Weihnachtskonzert ",
+      "description": "Weihnachtskonzert der Thomasschule
+
+      Chöre und Orchester der Thomasschule stimmen auf Weihnachten ein.",
+      "start": [[12, 12, 2022], [19, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
+      "name": "In Nativitate Domini ",
+      "description": "Weihnachtliche Vokalmusik aus Mittelalter und Renaissance, Konzert mit weihnachtlicher Vokalmusik aus Mittelalter und Renaissance zugunsten von UNICEF",
+      "start": [[15, 12, 2022], [19, 30]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": ["amarcord"],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Motette ",
       "description": "",
-      "start": [[], []],
+      "start": [[16, 12, 2022], [18, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": [Ivo Mrvelj, Orgel
+      Ensemble ARCANUM, Berlin],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Motette ",
       "description": "",
-      "start": [[], []],
+      "start": [[17, 12, 2022], [15, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
-      "musicians": [],
+      "musicians": ["Ivo Mrvelj, Orgel
+      Ensemble ARCANUM, Berlin"],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
       "description": "",
-      "start": [[], []],
+      "start": [[20, 12, 2022], [19, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": [Thomasorganist Johannes Lang, Orgel
+      THOMANERCHOR Leipzig
+      Thomaskantor Andreas Reize, Leitung],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
       "description": "",
-      "start": [[], []],
+      "start": [[21, 12, 2022], [19, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": [Thomasorganist Johannes Lang, Orgel
+      THOMANERCHOR Leipzig
+      Thomaskantor Andreas Reize, Leitung],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
       "description": "",
-      "start": [[], []],
+      "start": [[22, 12, 2022], [19, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": [Thomasorganist Johannes Lang, Orgel
+      THOMANERCHOR Leipzig
+      Thomaskantor Andreas Reize, Leitung],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Weihnachtsmotette ",
       "description": "",
-      "start": [[], []],
+      "start": [[24, 12, 2022], [14, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": ["Pfarrer Martin Hundertmark
+      Thomasorganist Johannes Lang
+      THOMANERCHOR Leipzig
+      Thomaskantor Andreas Reize, Leitung"],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Christvesper ",
       "description": "",
-      "start": [[], []],
+      "start": [[24, 12, 2022], [16, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": ["Pfarrerin Britta Taddiken
+      Thomasorganist Johannes Lang
+      THOMANERCHOR Leipzig
+      Thomaskantor Andreas Reize, Leitung"],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Christvesper ",
       "description": "",
-      "start": [[], []],
+      "start": [[24, 12, 2022], [18, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": ["Pfarrerin Britta Taddiken
+      Thomasorganist Johannes Lang
+      THOMANERCHOR Leipzig
+      Thomaskantor Andreas Reize, Leitung"],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+      "eventLinks": ["https://www.thomaskirche.org/erleben/kalender"]
     },
     {
-      "name": "",
+      "name": "Christvesper mit der Jungen Gemeinde ",
       "description": "",
-      "start": [[], []],
+      "start": [[24, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
-      "musicians": [],
+      "musicians": [Gemeindepädagogin Anika Sawatzki],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Komplet ",
       "description": "",
-      "start": [[], []],
+      "start": [[25, 12, 2022], [00, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": [Männerstimmen des THOMANERCHOR Leipzig
+      Thomaskantor Andreas Reize, Leitung],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Singgottesdienst ",
       "description": "",
-      "start": [[], []],
+      "start": [[26, 12, 2022], [18, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
-      "musicians": [],
+      "musicians": [Thomasorganist Johannes Lang
+      Posaunenchor der Thomaskirche
+      Jürgen Hartmann, Leitung],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Silvestermotette ",
       "description": "",
-      "start": [[], []],
+      "start": [[31, 12, 2022], [13, 30]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
-      "bandId": [],
+      "venueId": "Thomaskirche",
+      "bandId": [Pfarrer Martin Hundertmark
+      Thomasorganist Johannes Lang
+      Julia Sophie Wagner, Sopran
+      Robert Pohlers, Tenor
+      Florian Götz, Bass
+      Gewandhausorchester Leipzig
+      THOMANERCHOR Leipzig
+      Thomaskantor Andreas Reize, Leitung],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Silvesterorgelkonzert ",
       "description": "",
-      "start": [[], []],
+      "start": [[31, 12, 2022], [21, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Thomaskirche",
       "bandId": [],
-      "musicians": [],
+      "musicians": [Assistenzorganist Lukas Euler an den Orgeln der Thomaskirche],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Thomaskirche",
+      "imageLink": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Blues Lounge mit Mama Basuto",
       "description": "",
-      "start": [[], []],
+      "start": [[01, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
-      "musicians": [],
+      "musicians": [Blues Lounge mit Mama Basuto],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Sixty 9",
       "description": "",
-      "start": [[], []],
+      "start": [[20, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "HartBerg",
       "description": "",
-      "start": [[], []],
+      "start": [[03, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "New Guitar Night mit Navin Rebello",
       "description": "",
-      "start": [[], []],
+      "start": [[06, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Rock´n´Roll Stammtisch mit BoBerry",
       "description": "",
-      "start": [[], []],
+      "start": [[07, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Blues Lounge mit  Fabix Halentine&Friends",
       "description": "",
-      "start": [[], []],
+      "start": [[08, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Compadre Sassan",
       "description": "",
-      "start": [[], []],
+      "start": [[09, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Factory of Art",
       "description": "",
-      "start": [[], []],
+      "start": [[10, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "New Guitar Night mit Laszlo",
       "description": "",
-      "start": [[], []],
+      "start": [[13, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Rock´n´Roll Stammtisch",
       "description": "",
-      "start": [[], []],
+      "start": [[14, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Blues Lounge mit Turning Wheelz",
       "description": "",
-      "start": [[], []],
+      "start": [[15, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Feelmen the Soulorchestra",
       "description": "",
-      "start": [[], []],
+      "start": [[16, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Feelmen the Soulorchestra",
       "description": "",
-      "start": [[], []],
+      "start": [[17, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "	New Guitar Night mit Yukee",
       "description": "",
-      "start": [[], []],
+      "start": [[20, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "	Rock´n´Roll Stammtisch mit EvilMrSod",
       "description": "",
-      "start": [[], []],
+      "start": [[21, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "	Blues Lounge mit Twisted Path",
       "description": "",
-      "start": [[], []],
+      "start": [[22, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Jürgen Kerth",
       "description": "",
-      "start": [[], []],
+      "start": [[23, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "	Blues Weihnacht mit Mama Basuto",
       "description": "",
-      "start": [[], []],
+      "start": [[24, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "	SILVESTERPARTY mit MADDOXXX",
       "description": "",
-      "start": [[], []],
+      "start": [[31, 12, 2022], [20, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Tonelli's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Tonelli's",
+      "imageLink": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
+      "name": "Irish Folk Session",
       "description": "",
-      "start": [[], []],
+      "start": [[05, 12, 2022], [19, 00]],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Morrison's",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Morrison's",
+      "imageLink": "https://www.morrisons-pub.de/files/cto_layout/img/feier/IMG_9386.jpg",
       "eventLinks": []
     },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
+      "name": "SantaJAZZClaus",
+      "description": "Weihnachtslieder im Jazz-Gewand
+
+      Fünf Leipziger Jazzmusiker spielen für Euch amerikanische und europäische Weihnachtslieder in eigenen Bearbeitungen. Dabei geht es mal funky oder auch swingend zu.
+      
+      Wir möchten Euch demonstrieren, wie schön Weihnachtslieder klingen, wenn man sie mit neuen Akkorden unterlegt oder mit einem anderen Rhythmus begleitet. So kann sich das Lied „O Tannenbaum“ zum Rock-Song oder „Ihr Kinderlein kommet“ in eine lateinamerikanische Samba verwandeln.
+      
+      Wenn Ihr Euch überraschen lassen wollt, wie wir mit diesen vielen tollen Xmas Songs umgehen, dann begleitet uns auf eine Reise durch den Winter zum Weihnachtsjazz!",
+      "start": [[01, 12, 2022], [10, 00]],
+      "end": [[01, 12, 2022], [11, 00]],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Alte Börse",
       "bandId": [],
-      "musicians": [],
+      "musicians": [Lia Roth, Gesang
+
+      Frank Nowicky, Saxofon, Flöte
+      
+      Matthias Büttner, Posaune
+      
+      Matthäus Krzywdzinski, Gitarre
+      
+      Thomas Moritz, Kontrabass
+      
+      Peter Jakubik, Schlagzeug],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Musikschule Johannes Sebastian Bach",
+      "imageLink": "https://www.musikschule-leipzig.de/files/images/bild_300x450/php6048ff4e8c20190612152337.jpg",
+      "eventLinks": ["https://www.musikschule-leipzig.de/schulkonzerte-v-2322.html"]
     },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
+      "name": "Karneval der Tiere",
+      "description": "
+
+      Das Leipziger Bläserquintett „Windstärke 5“ lädt ein zum „Karneval der Tiere“!
+      
+      Ganz große und ganz kleine Tiere tummeln sich in Camille Saint-Saëns’ leichtfüßiger Zoofantasie, bearbeitet für Bläserquintett: Der stolze Löwe brüllt, die witzigen Hühner machen Kunststücke und die alten Schildkröten tanzen Ballett. Aber auch Esel, Kängurus und ein wunderschöner Schwan sind mit von der Partie. Und wie oft ruft eigentlich der Kuckuck zum Fest?
+      
+      Nach dem tierischen Konzert dürfen die Kinder die Instrumente aus der Nähe sehen, die Musiker:innen mit Fragen löchern und, wenn Corona es zulässt, vielleicht sogar ein Instrument ausprobieren.
+      
+      Dauer: ca. 1 Stunde
+      
+      Kartenvorverkauf ab 18.11.2022 in der Musikalienhandlung M. OELSNER
+      
+       
+      
+      GS: MU, LB 4: Musik wahrnehmen, verstehen und deuten
+      
+      GS: DE, LB: Sprechen und Zuhören
+      
+      GS: SU, LB 5: Begegnung mit Zeit und Raum
+      
+       
+      
+      Bitte informnieren Sie sich vor der Veranstaltung über eventuell geltende Hygieneregeln.
+      ",
+      "start": [[02, 12, 2022], [09, 00]],
+      "end": [[20, 12, 2022], [10, 00]],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Musikschule Leipzig "Johann Sebastian Bach", Kurt-Masur-Saal",
       "bandId": [],
-      "musicians": [],
+      "musicians": [Almuth Donner, Querflöte
+
+      Ilka Dinter, Oboe
+      
+      Bernd Bartholomäus, Klarinette
+      
+      Katharina Hesse, Horn
+      
+      Claire Hochschild, Fagott
+      
+      Claudia Marks, Sprecherin],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Musikschule Johannes Sebastian Bach",
+      "imageLink": "https://www.musikschule-leipzig.de/files/images/bild_300x450/phpa6292668b320210805123402.jpg",
+      "eventLinks": ["https://www.musikschule-leipzig.de/schulkonzerte-v-2323.html"]
     },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
-      "end": [[], []],
+      "name": "Karneval der Tiere",
+      "description": "
+
+      Das Leipziger Bläserquintett „Windstärke 5“ lädt ein zum „Karneval der Tiere“!
+      
+      Ganz große und ganz kleine Tiere tummeln sich in Camille Saint-Saëns’ leichtfüßiger Zoofantasie, bearbeitet für Bläserquintett: Der stolze Löwe brüllt, die witzigen Hühner machen Kunststücke und die alten Schildkröten tanzen Ballett. Aber auch Esel, Kängurus und ein wunderschöner Schwan sind mit von der Partie. Und wie oft ruft eigentlich der Kuckuck zum Fest?
+      
+      Nach dem tierischen Konzert dürfen die Kinder die Instrumente aus der Nähe sehen, die Musiker:innen mit Fragen löchern und, wenn Corona es zulässt, vielleicht sogar ein Instrument ausprobieren.
+      
+      Dauer: ca. 1 Stunde
+      
+      Kartenvorverkauf ab 18.11.2022 in der Musikalienhandlung M. OELSNER
+      
+       
+      
+      GS: MU, LB 4: Musik wahrnehmen, verstehen und deuten
+      
+      GS: DE, LB: Sprechen und Zuhören
+      
+      GS: SU, LB 5: Begegnung mit Zeit und Raum
+      
+       
+      
+      Bitte informnieren Sie sich vor der Veranstaltung über eventuell geltende Hygieneregeln.
+      ",
+      "start": [[02, 12, 2022], [10, 30]],
+      "end": [[20, 12, 2022], [11, 30]],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Musikschule Leipzig "Johann Sebastian Bach", Kurt-Masur-Saal",
       "bandId": [],
-      "musicians": [],
+      "musicians": [Almuth Donner, Querflöte
+
+      Ilka Dinter, Oboe
+      
+      Bernd Bartholomäus, Klarinette
+      
+      Katharina Hesse, Horn
+      
+      Claire Hochschild, Fagott
+      
+      Claudia Marks, Sprecherin],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "organizerId": "Musikschule Johannes Sebastian Bach",
+      "imageLink": "https://www.musikschule-leipzig.de/files/images/bild_300x450/phpa6292668b320210805123402.jpg",
+      "eventLinks": ["https://www.musikschule-leipzig.de/schulkonzerte-v-2323.html"]
     },
     {
-      "name": "",
-      "description": "",
-      "start": [[], []],
+      "name": "ACHTUNG TERMINÄNDERUNG: Macht hoch die Tür, die Tor macht weit!",
+      "description": "
+      Ein adventliches Konzert der Thomaneranwärter zum Nikolaustag
+      
+      An diesem fröhlichen Tag möchten die Thomaneranwärter der dritten Klassen ganz besondere Töne in der Thomaskirche für Euch erklingen lassen. Unser musikalischer Nikolausstiefel ist mit alten und neuen, bekannten aber auch unbekannten Liedern gefüllt. Natürlich darf nicht der berühmteste Thomaskantor -  Johann Sebastian Bach – fehlen. Einige Choräle aus seinem Weihnachtsoratorium werden wir vorstellen. Und da wir am liebsten unsere Sangesfreude teilen, wollen wir gemeinsam mit Euch singen, bis es keinen mehr auf seinem Platz hält. Begleitet werden wir von insgesamt drei Orgeln! Das glaubt Ihr nicht? Dann kommt doch in die wunderschöne Thomaskirche und lasst Euch musikalisch überraschen.
+      
+      Wir freuen uns auf Euch!   
+      
+      Für Vorschulkinder geeignet!  
+      
+      Dauer: ca.  1 Stunde
+      
+      Kartenvorverkauf ab 20.11.2022 in der Musikalienhandlung M. OELSNER 
+      
+       
+      
+      GS: MU, LB 4: Musik wahrnehmen, verstehen und deuten
+      
+      GS: SU, LB 5: Begegnung mit Zeit und Raum
+      
+      GS: RE/e, LB4: Mit der Gemeinde feiern
+      
+      GS: RE/k: LBW 4: Nikolaustag
+      
+      GS: ETH, LB 3: Voneinander
+      
+       
+      
+      Bitte informnieren Sie sich vor der Veranstaltung über eventuell geltende Hygieneregeln.
+      ",
+      "start": [[05, 12, 2022], [10, 00]],
       "end": [[], []],
       "recurrence": 0,
       "venueId": "",
       "bandId": [],
-      "musicians": [],
+      "musicians": [Thomaneranwärter der Grundschulen „Anna-Magdalena Bach“ und forum thomanum
+
+      Leitung: Grit Miamingui und Maria Leistner
+      
+      Truhenorgel: Frederico Baron Mussi
+      
+      Bach-Orgel und Sauer-Orgel: Nicolas Berndt],
       "tags": [],
-      "organizerId": "",
-      "imageLink": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
+      "imageLink": "phpe7acfd797720190611082208.jpg",
       "eventLinks": []
     },
     {
@@ -1833,11 +1419,11 @@
       "start": [[], []],
       "end": [[], []],
       "recurrence": 0,
-      "venueId": "",
+      "venueId": "Entweder MDR-Probensaal oder Musikschule Leipzig",
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
       "imageLink": "",
       "eventLinks": []
     },
@@ -1851,7 +1437,7 @@
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
       "imageLink": "",
       "eventLinks": []
     },
@@ -1865,7 +1451,7 @@
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
       "imageLink": "",
       "eventLinks": []
     },
@@ -1879,7 +1465,7 @@
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
       "imageLink": "",
       "eventLinks": []
     },
@@ -1893,7 +1479,7 @@
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
       "imageLink": "",
       "eventLinks": []
     },
@@ -1907,7 +1493,7 @@
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
       "imageLink": "",
       "eventLinks": []
     },
@@ -1921,7 +1507,7 @@
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
       "imageLink": "",
       "eventLinks": []
     },
@@ -1935,7 +1521,7 @@
       "bandId": [],
       "musicians": [],
       "tags": [],
-      "organizerId": "",
+      "organizerId": "Musikschule Johannes Sebastian Bach",
       "imageLink": "",
       "eventLinks": []
     },
