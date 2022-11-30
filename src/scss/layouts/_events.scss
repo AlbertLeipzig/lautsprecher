@@ -1,54 +1,35 @@
-@use '../utilities/colors.scss' as *;
+
+@use '../utilities/colors' as *;
 
 .event {
-  @media screen and (min-width: 800px) {
-    max-width: 800px;
-    margin: 0 auto;
+  & div {
+    padding: 0 1.5vh;
   }
-
-  &__description {
-    display: flex;
-    justify-content: space-between;
-
-    img {
-      margin-left: 5vw;
-    }
+  h2 {
+    margin: 0;
   }
-
-  margin: 5vh 0;
-  &__input-container {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5vh 0;
-    label {
-      margin: 0 auto;
-    }
-  }
+  margin: 3vh 0;
 
   &__filter {
-    margin: 0 auto;
-  }
-  &__main {
-    @media screen and (min-width: 400px) {
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    & input {
+      margin: 0 1vh;
     }
   }
-  &__time {
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin-bottom: 1em;
+  &__main {
+    display: flex;
+    margin-bottom: 0.5vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primaryColorLight;
   }
 
-  &__image {
-    width: 100px;
-    aspect-ratio: 1/1;
-    border-radius: 5px;
-  }
+  &__add-info {
+    display: flex;
+    font-weight: 200;
 
-  a {
-    padding: 0;
+    & p {
+      color: $primaryColorLight;
+    }
   }
 }

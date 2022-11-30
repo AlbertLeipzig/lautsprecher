@@ -111,15 +111,72 @@ const filterEventsByTag = (filter) => {
   return filteredEvents;
 };
 
+const formattedWeekDay = (day) => {
+  switch (day) {
+    case 0:
+      return 'Sonntag';
+    case 1:
+      return 'Montag';
+    case 2:
+      return 'Dienstag';
+    case 3:
+      return 'Mittwoch';
+    case 4:
+      return 'Donnerstag';
+    case 5:
+      return 'Freitag';
+    case 6:
+      return 'Samstag';
+    default:
+      return '';
+  }
+};
+
+const formattedMonth = (month) => {
+  if (month === 1) {
+    return 'Januar';
+  } else if (month === 2) {
+    return 'Februar';
+  } else if (month === 3) {
+    return 'März';
+  } else if (month === 4) {
+    return 'April';
+  } else if (month === 5) {
+    return 'Mai';
+  } else if (month === 6) {
+    return 'Juni';
+  } else if (month === 7) {
+    return 'Juli';
+  } else if (month === 8) {
+    return 'August';
+  } else if (month === 9) {
+    return 'September';
+  } else if (month === 10) {
+    return 'Oktober';
+  } else if (month === 11) {
+    return 'November';
+  } else {
+    return 'Dezember';
+  }
+};
+
+const formattedDay = (_day) => {
+  console.log(_day);
+  const day = _day === undefined ? new Date() : _day;
+  return `Heute, ${formattedWeekDay(
+    day.getDay()
+  )} ${day.getDate()}. ${formattedMonth(day)} ${day.getFullYear()}`;
+};
+
 export const Events = () => {
   const [events, setEvents] = useState(undefined);
   const [filter, setFilter] = useState({});
-
+  const [date, setDate] = useState(formattedDay());
   useEffect(() => {
     if (filter.value === '') {
       setEvents(allEvents);
     } else if (filter.type === 'date') {
-      console.log(filter.value);
+      /* setDate(filter.value); */
       setEvents(filterEventsByDate(filter.value));
     } else if (filter.type === 'tag') {
       setEvents(filterEventsByTag(filter.value));
@@ -131,7 +188,9 @@ export const Events = () => {
   return (
     <div className="events">
       <h1>Veranstaltungen</h1>
-      <div className="event__input-container">
+
+      <div className="event__filter">
+
         <label htmlFor="event__filter">
           <input
             type="text"
@@ -149,46 +208,33 @@ export const Events = () => {
         </label>
       </div>
 
-      <div className="events__container">
+      <div className="events-container">
+        {/* {date && <h2>{date}</h2>} */}
+
         {events &&
           events.map((event, id) => (
             <div className="event" key={id}>
               <div className="event__main">
                 <h2>{event.name}</h2>
-                <p className="event__time">{formatStartDate(event.start[0])}</p>
+
+                <a href={event.eventLinks} target={'_blank'}>
+                  +info
+                </a>
               </div>
               <div className="event__description">
-                <div className='event__description-text'>
-                  {event.description && (
-                    <p>{event.description.slice(0, 100)}...</p>
-                  )}
-                  <p>{event.venueId}</p>
-                  {event.bandId && (
-                    <ul>
-                      {event.bandId.map((band, id) => (
-                        <li key={id}>{band.id}</li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-                {event.imageLink && (
-                  <img
-                    src={event.imageLink}
-                    alt={event.name}
-                    className="event__image"
-                  />
+                {event.description && <p>{event.description.slice(0, 150)}</p>}
+              </div>
+              <div className="event__add-info">
+                <p>{event.venueId}</p>
+                {event.bandId && (
+                  <ul>
+                    {event.bandId.map((band, id) => (
+                      <li key={id}>{band.id}</li>
+                    ))}
+                  </ul>
                 )}
               </div>
-              {event.tags && (
-                <ul className="event__test">
-                  {event.tags.map((tag, id) => (
-                    <p key={id}>{tag.id}</p>
-                  ))}
-                </ul>
-              )}
-              <a href={event.eventLinks} target={'_blank'}>
-                +info
-              </a>
+
             </div>
           ))}
       </div>
