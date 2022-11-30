@@ -15,6 +15,7 @@ header {
 .header {
   &__title {
     margin: 0;
+    font-family: $logoFont;
   }
 
   &-nav__link {

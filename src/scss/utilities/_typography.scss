@@ -2,12 +2,14 @@
 @use '_colors.scss' as *;
 
 @import url('https://fonts.cdnfonts.com/css/special-elite');
+@import url('https://fonts.cdnfonts.com/css/alegreya-sans');
 
 $primaryFont: 'Alegreya Sans', sans-serif;
 $logoFont: 'Special Elite', sans-serif;
 
 h1 {
   font-family: $primaryFont;
+  font-family: $logoFont;
   font-size: 3.2rem;
   font-weight: 700;
   color: $primaryColor;
