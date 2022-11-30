@@ -1,0 +1,34 @@
+@use '../utilities/colors' as *;
+
+.event {
+  & div {
+    padding: 0 1.5vh;
+  }
+  h2 {
+    margin: 0;
+  }
+  margin: 3vh 0;
+
+  &__filter {
+    display: flex;
+    & input {
+      margin: 0 1vh;
+    }
+  }
+  &__main {
+    display: flex;
+    margin-bottom: 0.5vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primaryColorLight;
+  }
+
+  &__add-info {
+    display: flex;
+    font-weight: 200;
+
+    & p {
+      color: $primaryColorLight;
+    }
+  }
+}
