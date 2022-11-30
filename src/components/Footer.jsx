@@ -1,3 +1,4 @@
+import { BsInstagram } from 'react-icons/bs';
 export const Footer = () => {
   return (
     <footer>
@@ -9,7 +10,7 @@ export const Footer = () => {
       </div>
       <div className="social-container">
         <a href="https://instagram.com" target={'_blank'}>
-          <img src="" alt="instagram" />
+          <BsInstagram />
         </a>
       </div>
     </footer>
