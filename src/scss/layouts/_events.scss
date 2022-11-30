@@ -1,27 +1,95 @@
-
 @use '../utilities/colors' as *;
 
+.events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .event {
-  & div {
-    padding: 0 1.5vh;
-  }
+  display: flex;
+  justify-content: space-between;
+  background-color: $lightGrey;
+  border-radius: 5px;
+  width: clamp(200px, 90vw, 900px);
+  padding: 1rem 1.5rem;
+
   h2 {
-    margin: 0;
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
   }
   margin: 3vh 0;
 
+  a {
+    display: grid;
+    grid-template-areas: 'content';
+    align-items: flex-end;
+    justify-items: end;
+    transition: 150ms ease-in-out;
+    border-radius: 5px;
+    padding: 0;
+    img {
+      grid-area: content;
+      border: 1px solid transparent;
+      background-image: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+      background-size: contain;
+      border-radius: 5px;
+      height: 100px;
+      aspect-ratio: 1/1;
+    }
+    p {
+      grid-area: content;
+      // position: relative;
+      // top: -40px;
+      // left: 10px;
+      color: white;
+      background-color: $secondaryColor;
+      width: fit-content;
+      height: fit-content;
+      padding: 0 10px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+    &:focus {
+      outline: 5px solid $secondaryColor;
+    }
+    &:active {
+      outline: 5px solid $primaryColor;
+    }
+  }
+
   &__filter {
     display: flex;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
     & input {
       margin: 0 1vh;
     }
   }
   &__main {
     display: flex;
+    flex-direction: column;
     margin-bottom: 0.5vh;
-    justify-content: space-between;
-    align-items: center;
-    background-color: $primaryColorLight;
+    justify-content: flex-start;
+  }
+
+  &__link {
+    background-color: green;
+  }
+
+  &__description {
+    display: none;
+    @media screen and (min-width: 600px) {
+      display: block;
+      padding: 0;
+    }
   }
 
   &__add-info {

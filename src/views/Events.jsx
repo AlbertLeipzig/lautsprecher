@@ -19,10 +19,7 @@ const formatStartDate = (eventStart) => {
   return date;
 };
 
-console.log(allEvents[0].start);
-
 const testData = formatStartDate(allEvents[0].start);
-console.log(testData);
 
 // convert the date string from the input into variables
 
@@ -143,7 +140,6 @@ const formattedMonth = (month) => {
 };
 
 const formattedDay = (_day) => {
-  console.log(_day);
   const day = _day === undefined ? new Date() : _day;
   return `Heute, ${formattedWeekDay(
     day.getDay()
@@ -197,15 +193,28 @@ export const Events = () => {
             <div className="event" key={id}>
               <div className="event__main">
                 <h2>{event.name}</h2>
+                <div className="event__description">
+                  {event.description && (
+                    <p>{event.description.slice(0, 150)}</p>
+                  )}
+                </div>
+              </div>
+              <a
+                href={event.eventLinks}
+                target={'_blank'}
+                className="event_link"
+              >
+                <img
+                  src={
+                    event.image ||
+                    'https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
+                  }
+                  alt=""
+                />
+                <p>+info</p>
+              </a>
 
-                <a href={event.eventLinks} target={'_blank'}>
-                  +info
-                </a>
-              </div>
-              <div className="event__description">
-                {event.description && <p>{event.description.slice(0, 150)}</p>}
-              </div>
-              <div className="event__add-info">
+              {/* <div className="event__add-info">
                 <p>{event.venueId}</p>
                 {event.bandId && (
                   <ul>
@@ -214,7 +223,7 @@ export const Events = () => {
                     ))}
                   </ul>
                 )}
-              </div>
+              </div> */}
             </div>
           ))}
       </div>

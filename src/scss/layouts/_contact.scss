@@ -24,4 +24,24 @@ textarea {
 
 .contact {
   margin-bottom: 10vh;
+
+  & button {
+    background-color: $primaryColor;
+    color: white;
+    transition: 150ms ease-in-out;
+
+    &:hover {
+      background-color: $secondaryColor;
+    }
+
+    &:active {
+      background-color: $tertiaryColor;
+    }
+    &:focus {
+      background-color: $white;
+      outline: 2px solid $primaryColor;
+      /* box-shadow: 5px 5px 10px 0px $primaryColor; */
+      color: $grey;
+    }
+  }
 }
