@@ -112,52 +112,34 @@ const filterEventsByTag = (filter) => {
 };
 
 const formattedWeekDay = (day) => {
-  switch (day) {
-    case 0:
-      return 'Sonntag';
-    case 1:
-      return 'Montag';
-    case 2:
-      return 'Dienstag';
-    case 3:
-      return 'Mittwoch';
-    case 4:
-      return 'Donnerstag';
-    case 5:
-      return 'Freitag';
-    case 6:
-      return 'Samstag';
-    default:
-      return '';
-  }
+  const weekdays = [
+    'Montag',
+    'Dienstag',
+    'Mittwoch',
+    'Donnerstag',
+    'Freitag',
+    'Samstag',
+    'Sonntag',
+  ];
+  return weekdays[day - 1];
 };
 
 const formattedMonth = (month) => {
-  if (month === 1) {
-    return 'Januar';
-  } else if (month === 2) {
-    return 'Februar';
-  } else if (month === 3) {
-    return 'März';
-  } else if (month === 4) {
-    return 'April';
-  } else if (month === 5) {
-    return 'Mai';
-  } else if (month === 6) {
-    return 'Juni';
-  } else if (month === 7) {
-    return 'Juli';
-  } else if (month === 8) {
-    return 'August';
-  } else if (month === 9) {
-    return 'September';
-  } else if (month === 10) {
-    return 'Oktober';
-  } else if (month === 11) {
-    return 'November';
-  } else {
-    return 'Dezember';
-  }
+  const months = [
+    'Januar',
+    'Februar',
+    'März',
+    'April',
+    'Mai',
+    'Juni',
+    'Juli',
+    'August',
+    'September',
+    'Oktober',
+    'November',
+    'Dezember',
+  ];
+  return months[month];
 };
 
 const formattedDay = (_day) => {
@@ -190,7 +172,6 @@ export const Events = () => {
       <h1>Veranstaltungen</h1>
 
       <div className="event__filter">
-
         <label htmlFor="event__filter">
           <input
             type="text"
@@ -234,7 +215,6 @@ export const Events = () => {
                   </ul>
                 )}
               </div>
-
             </div>
           ))}
       </div>
