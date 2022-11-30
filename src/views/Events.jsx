@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import eventsData from '../data/events.json';
 
+const testImg =
+  'https://images.unsplash.com/photo-1664994817539-8a865f12dc6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60';
+
 const allEvents = eventsData.events;
 let filteredEvents = [];
 
@@ -15,6 +18,11 @@ const formatStartDate = (eventStart) => {
   }`;
   return date;
 };
+
+console.log(allEvents[0].start);
+
+const testData = formatStartDate(allEvents[0].start);
+console.log(testData);
 
 // convert the date string from the input into variables
 
@@ -178,9 +186,11 @@ export const Events = () => {
   }, [filter]);
 
   return (
-    <>
+    <div className="events">
       <h1>Veranstaltungen</h1>
+
       <div className="event__filter">
+
         <label htmlFor="event__filter">
           <input
             type="text"
@@ -200,11 +210,13 @@ export const Events = () => {
 
       <div className="events-container">
         {/* {date && <h2>{date}</h2>} */}
+
         {events &&
           events.map((event, id) => (
             <div className="event" key={id}>
               <div className="event__main">
                 <h2>{event.name}</h2>
+
                 <a href={event.eventLinks} target={'_blank'}>
                   +info
                 </a>
@@ -222,9 +234,10 @@ export const Events = () => {
                   </ul>
                 )}
               </div>
+
             </div>
           ))}
       </div>
-    </>
+    </div>
   );
 };

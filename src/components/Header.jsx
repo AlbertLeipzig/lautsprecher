@@ -4,7 +4,7 @@ export const Header = () => {
     <header>
       <>
         <Link to="/">
-          <h2 className='header__title'>Lautsprecher</h2>
+          <h2 className="header__title">Lautsprecher</h2>
           <p>Musik Magazine der Stadt Leipzig</p>
         </Link>
       </>
@@ -13,10 +13,16 @@ export const Header = () => {
         <div className="line2"></div>
         <div className="line3"></div>
       </div>
-      <nav className="header-nav">
-        <Link to="/events" className='header-nav__link'>Veranstaltungen</Link>
-        <Link to="/about" className='header-nav__link'>About</Link>
-        <Link to="/contact" className='header-nav__link'>Kontakt</Link>
+      <nav className="header__nav">
+        <Link to="/events" className="header-nav__link">
+          Veranstaltungen
+        </Link>
+        <Link to="/about" className="header-nav__link">
+          About
+        </Link>
+        <Link to="/contact" className="header-nav__link">
+          Kontakt
+        </Link>
       </nav>
     </header>
   );
