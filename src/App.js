@@ -6,6 +6,8 @@ import { Impressum } from './views/Impressum';
 import { LandingPage } from './views/LandingPage';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import { Login } from './views/Login';
+import { Admin } from './views/Admin';
 
 import './scss/main.scss';
 
@@ -20,6 +22,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/impressum" element={<Impressum />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </main>
       <Footer />

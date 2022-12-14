@@ -9,10 +9,83 @@
       "venueId": "",
       "bandId": [],
       "musicians": [],
-      "tags" : [],
+      "tags": [],
       "organizerId": "",
-      "imageLink" : "",
+      "imageLink": "",
       "eventLinks": []
+    }
+  ],
+  "musicians": [
+    {
+      "firstName": "",
+      "lastName": "",
+      "instruments": [],
+      "bands": [],
+      "tags": [],
+      "links": [],
+      "concerts": [],
+      "description": "",
+      "imageLink": ""
+    }
+  ],
+  "bands": [
+    {
+      "name": "",
+      "musicians": [],
+      "tags": [],
+      "links": [],
+      "concerts": [],
+      "description": "",
+      "imageLink": ""
+    }
+  ],
+  "venues": [
+    {
+      "name": "",
+      "address": {
+        "street": "",
+        "number": "",
+        "ZIP": ""
+      },
+      "phone": "",
+      "description": "",
+      "imageLink": "",
+      "tags": [],
+      "links": [],
+      "concerts": []
+    }
+  ],
+  "organizer": [
+    {
+      "name": "",
+      "address": {
+        "street": "",
+        "number": "",
+        "zip": ""
+      },
+      "phone": "",
+      "description": "",
+      "imageLink": "",
+      "tags": [],
+      "links": [],
+      "concerts": []
+    }
+  ],
+  "musicBusiness": [
+    {
+      "name": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zip": "",
+        "country": ""
+      },
+      "phone": "",
+      "description": "",
+      "imageLink": "",
+      "tags": [],
+      "links": []
     }
   ]
 }

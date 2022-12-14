@@ -1,4 +1,6 @@
 import { BsInstagram } from 'react-icons/bs';
+import { GrUserAdmin } from 'react-icons/gr';
+import { Link } from 'react-router-dom';
 export const Footer = () => {
   return (
     <footer>
@@ -12,6 +14,11 @@ export const Footer = () => {
         <a href="https://instagram.com" target={'_blank'}>
           <BsInstagram />
         </a>
+        <button>
+          <Link to="/login">
+            <GrUserAdmin />
+          </Link>
+        </button>
       </div>
     </footer>
   );
