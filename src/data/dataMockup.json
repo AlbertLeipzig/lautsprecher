@@ -5,14 +5,13 @@
       "description": "",
       "start": [[], []],
       "end": [[], []],
-      "recurrence": 0,
       "venueId": "",
       "bandId": [],
-      "musicians": [],
+      "musiciansId": [],
       "tags": [],
       "organizerId": "",
-      "imageLink": "",
-      "eventLinks": []
+      "imageUrl": "",
+      "links": []
     }
   ],
   "musicians": [
@@ -20,23 +19,23 @@
       "firstName": "",
       "lastName": "",
       "instruments": [],
-      "bands": [],
+      "bandsId": [],
       "tags": [],
       "links": [],
-      "concerts": [],
+      "eventsId": [],
       "description": "",
-      "imageLink": ""
+      "imageUrl": ""
     }
   ],
   "bands": [
     {
       "name": "",
-      "musicians": [],
+      "musiciansId": [],
       "tags": [],
       "links": [],
-      "concerts": [],
+      "eventsId": [],
       "description": "",
-      "imageLink": ""
+      "imageUrl": ""
     }
   ],
   "venues": [
@@ -49,10 +48,10 @@
       },
       "phone": "",
       "description": "",
-      "imageLink": "",
+      "imageUrl": "",
       "tags": [],
       "links": [],
-      "concerts": []
+      "eventsId": []
     }
   ],
   "organizer": [
@@ -65,10 +64,10 @@
       },
       "phone": "",
       "description": "",
-      "imageLink": "",
+      "imageUrl": "",
       "tags": [],
       "links": [],
-      "concerts": []
+      "eventsId": []
     }
   ],
   "musicBusiness": [
@@ -83,7 +82,7 @@
       },
       "phone": "",
       "description": "",
-      "imageLink": "",
+      "imageUrl": "",
       "tags": [],
       "links": []
     }

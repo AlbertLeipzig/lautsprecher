@@ -1,0 +1,32 @@
+{
+  "organizers": [
+    {
+      "name": "John Doe",
+      "address": {
+        "street": "Main St",
+        "number": 123,
+        "plz": 12345
+      },
+      "phone": 123456789,
+      "tags": ["tag1", "tag2"],
+      "links": ["http://www.example.com", "http://www.example2.com"],
+      "eventsId": ["concert1", "concert2", "concert3"],
+      "description": "This is a description of the organizer",
+      "imageUrl": "http://www.example.com/image.jpg"
+    },
+    {
+      "name": "Jane Doe",
+      "address": {
+        "street": "Last St",
+        "number": 789,
+        "plz": 78945
+      },
+      "phone": 789456123,
+      "tags": ["tag1", "tag2"],
+      "links": ["http://www.example.com", "http://www.example2.com"],
+      "eventsId": ["concert1", "concert2", "concert3"],
+      "description": "This is a description of the organizer",
+      "imageUrl": "https://images.unsplash.com/photo-1661956602139-ec64991b8b16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    }
+  ]
+}

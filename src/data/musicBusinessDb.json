@@ -1,0 +1,30 @@
+{
+  "musicBusiness": [
+    {
+      "name": "Oelsner, M. Musikalienhandlung",
+      "address": {
+        "street": "Schillerstraße ",
+        "number": 5,
+        "plz": "04109"
+      },
+      "phone": "03419605200",
+      "tags": ["music", "business"],
+      "links": ["https://www.m-oelsner.de/"],
+      "description": "für 162 Jahre Bestehen der Musikalienhandlung",
+      "imageUrl": "https://www.m-oelsner.de/s/img/emotionheader.jpg?1649434205.940px.210px"
+    },
+    {
+      "name": "Berbuer Geigenbau",
+      "address": {
+        "street": "Dufourstraße",
+        "number": 35,
+        "plz": "04107"
+      },
+      "phone": "034168671928",
+      "tags": ["music", "business"],
+      "links": ["https://www.berbuer-geigenbau.de/"],
+      "description": "",
+      "imageUrl": "https://image.jimcdn.com/app/cms/image/transf/dimension=174x10000:format=png/path/se9575581f4ae7d98/image/icf6b1c57687d45a0/version/1532948289/image.png"
+    }
+  ]
+}

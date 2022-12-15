@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import eventsData from '../data/events.json';
+import eventsData from '../data/eventsDb.json';
 
 const testImg =
   'https://images.unsplash.com/photo-1664994817539-8a865f12dc6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60';
