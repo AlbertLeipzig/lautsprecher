@@ -4,8 +4,6 @@ import eventsData from '../data/eventsDb.json';
 
 import { test } from '../logic/eventFilter';
 
-test();
-
 export const Events = () => {
   const [events, setEvents] = useState(undefined);
   const [filter, setFilter] = useState({ date: '', tag: '' });

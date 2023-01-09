@@ -14,8 +14,8 @@ const convertDateStringFromInput = (date, time) => {
     parseInt(date.slice(5, 7)),
     parseInt(date.slice(8, 10)),
     parseInt(date.slice(0, 4)),
-    parseInt(timeValue.slice(0, 2)),
-    parseInt(timeValue.slice(4, 6)),
+    parseInt(time[0]),
+    parseInt(time[1]),
   ];
   return datePartials;
 };
