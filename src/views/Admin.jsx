@@ -1,17 +1,40 @@
 import { useEffect } from 'react';
 import { useState, useContext } from 'react';
 
-<>
-// musicians
-// bands
-// events
-// venues
-// organizer
-// musicBusiness
-</>
+import bandsData from '../data/bandsDb.json';
+import eventsData from '../data/eventsDb.json';
+import musicBusinessData from '../data/musicBusinessDb.json';
+import musiciansData from '../data/musiciansDb.json';
+import organizersData from '../data/organizersDb.json';
+import venuesData from '../data/venuesDb.json';
+
+const data = {
+  bandsData,
+  eventsData,
+  musicBusinessData,
+  musiciansData,
+  organizersData,
+  venuesData,
+};
 
 export const Admin = () => {
   const [activeCategory, setActiveCategory] = useState([]);
+  const [selector, setSelector] = useState('musicians');
+
+  /* const selectData = (selector) => {
+    let targetCategory = Object.entries(data).forEach((category) => {
+      console.log(category[0].slice(0, -4) === selector ? category[1] : '');
+    });
+  }; */
+
+  useEffect(() => {
+    Object.entries(data).forEach((category) => {
+      setActiveCategory(
+        category[0].slice(0, -4) === selector ? category[1] : ''
+      );
+    });
+    console.log(activeCategory);
+  }, [selector]);
 
   return (
     <div className="admin">
@@ -21,7 +44,7 @@ export const Admin = () => {
           name=""
           id=""
           defaultValue={'musicians'}
-          onChange={(e) => setActiveCategory(e.target.value)}
+          onChange={(e) => setSelector(e.target.value)}
         >
           <option value="musicBusiness">Musikgeschäfte</option>
           <option value="musicians">Musiker</option>
@@ -36,22 +59,19 @@ export const Admin = () => {
           <input type="text" />
         </label>
       </div>
-      <div className="admin__list">
-        {/* {activeCategory &&
+      {/* <div className="admin__list">
+        {activeCategory &&
           activeCategory.map((item, index) => {
             <>
               return (
-              <div className="admin__item" key={index}>
-                <div className="admin__item__name">{item.name}</div>
-                <div className="admin__item__actions">
-                  <button className="admin__item__action">Bearbeiten</button>
-                  <button className="admin__item__action">Löschen</button>
-                </div>
+              <div className="admin__list__item" key={index}>
+                <h3>{item.name}</h3>
+                <p>{item.description}</p>
               </div>
               );
             </>;
-          })} */}
-      </div>
+          })}
+      </div> */}
     </div>
   );
 };

@@ -1,1390 +1,1382 @@
-{
-  "events": [
-    {
-      "name": "OpenStage",
-      "description": "Du willst deinen Song endlich einmal vor Publikum spielen? Du möchtest neue Leute kennenlernen? Du möchtest in angenehmer Atmosphäre einen Abend verbringen? Seid dabei, wenn es immer wieder montags heißt: 3 Songs - the rest is up to you.... Du musst dich nicht anmelden. Du musst keine Nummer ziehen. Der OpenStage findet entsprechend der jeweils aktuell geltenden Corona-Regeln statt ",
-      "start": [
-        [14, 11, 2022],
-        [20, 0]
-      ],
-      "end": [
-        [14, 11, 2022],
-        [23, 0]
-      ],
-      "venueId": "VillaKeller",
-      "bandsId": null,
-      "musiciansId": null,
-      "tags": [
-        "open stage",
-        "jam session",
-        "pop",
-        "rock",
-        "funk",
-        "punk",
-        "songwriter"
-      ],
-      "organizerId": "VillaKeller",
-      "imageUrl": "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29uY2VydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      "links": "https://www.facebook.com/events/443809550602677/443809570602675/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
-    },
-    {
-      "name": "DESPISED ICON & DECAPITATED",
-      "description": "Avocado Booking presents",
-      "start": [
-        [15, 11, 2022],
-        [18, 0]
-      ],
-      "end": [
-        [15, 11, 2022],
-        [23, 0]
-      ],
-      "venueId": "Felsenkeller",
-      "bandsId": [
-        "DespisedIcon",
-        "Decapitated",
-        "BRAND OF SACRIFICE ",
-        "DISTANT",
-        "VISCERA"
-      ],
-      "musiciansId": null,
-      "tags": ["metal"],
-      "organizerId": "Felsenkeller",
-      "links": [
-        "https://www.facebook.com/despisedicon",
-        "https://www.facebook.com/decapitated?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
-        "https://www.facebook.com/decapitated?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
-        "https://www.facebook.com/DistantOfficial?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
-        "https://www.facebook.com/VisceraUK?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
-        "https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F386wpBT%3Ffbclid%3DIwAR0t4W5Wd5hf7k_OF9aRESpMydUhge8RBrQBKeG8CAUY1sKcqzaK40spIU4&h=AT18r9-ofT1rlAOLpl9-tBMn7KZm2lwDNEH5_4n8xcrgzI048nRwImGGnBrmUZeQTG7gzIIPQqLUmm4HloJRGE72fC4Sm7genB3kmWUDBdRGPJqorUqJxaEa85LfGgRWiP3a&__tn__=q&c[0]=AT0RPBIG4EzQ8ncOzkvX6PVcD6qDVHCnrgkZgSK5DrwyhwEriFN5915GK5o_jaWuWVx07P1as7FRae7SV03yc63Khv36GVNwbS9FAHkQqbVyYqntYfxgHszQiTXIbKJbTAl6tYqetvTE9LiAtVIXGbj4ZH_P"
-      ]
-    },
-    {
-      "name": "RAPWORKSHOP mit SHABO",
-      "description": "Each one teach one - der Rap Workshop mit dem Grünauer Rapper Shabo209 im HEIZHAUS Musikstudio für Jugendliche und junge Erwachsene Nutze die einmalige Gelegenheit und arbeite an deinem Style mit dem Grünauer Newcomer Shabo209 in entspannter Atmosphere und recorde deine Songs anschließend mit professionellem Studioequipment im HEIZHAUS Musikstudio. Du interessierst dich für das Angebot, hast noch Fragen dazu oder willst  gerne Mitmachen? Dann schreibt uns eine Mail an musik@heizhaus-leipzig.de oder kontaktiere uns über whatsapp 0157 35754554 Wann: jeden Dienstag von  18:30 - 21.30 Uhr Wo: HEIZHAUS Musikstudio Alte Salzstraße 59a, 04209 Leipzig Anmeldung vorher erforderlich. Wir freuen uns auch Dich! Deine HEIZI Crew",
-      "start": [
-        [15, 11, 2022],
-        [18, 30]
-      ],
-      "end": [
-        [15, 11, 2022],
-        [21, 30]
-      ],
-      "venueId": "Heizhaus Leipzig",
-      "bandsId": null,
-      "musiciansId": ["Sabo", "Madonna"],
-      "tags": ["rap", "hiphop"],
-      "organizerId": "Heizhaus Leipzig",
-      "links": "https://www.facebook.com/events/1220621832027703/1220621905361029/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
-    },
-    {
-      "name": "Der W | Leipzig",
-      "description": " Stephan Weidner kehrt aus dem Stadion zurück in die Clubs des Landes: Mit DER W feiert der Bassist und Texter der megaerfolgreichen Böhsen Onkelz den emotionalen Schulterschluss aus nächster Nähe. Auf der Tour zum neuen Album 'V' lässt Weidner die Menschen ganz nah an sich ran. Seelisch vor allem, darum geht es bei DER W. Doch es geht auch um das gemeinsame Erlebnis, die Energie, die durch Reibung entsteht. Rock'n'Roll zum Anfassen.",
-      "start": [
-        [15, 11, 2022],
-        [19, 0]
-      ],
-      "end": [
-        [15, 11, 2022],
-        [22, 0]
-      ],
-      "venueId": "Haus Auensee Leipzig",
-      "bandsId": ["Der W ", "Vagabundos De Lujo"],
-      "musiciansId": null,
-      "organizerId": "Haus Auensee Leipzig",
-      "links": [
-        "https://www.facebook.com/events/714722879583642/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
-      ]
-    },
-    {
-      "name": "Kwam.E",
-      "description": "Seit Oktober 2020 wartet Kwam.E darauf, dass er mit Tom Hengst diesen Juni auf gemeinsame - und fast ausverkaufte - CONCRETE  COWBOYS Tour gehen kann. Jetzt kündigt der Rapper eine weitere Tour für November 2022 an: Unter dem Motto „IZZA COLD WORLD' wird er bei 18 Shows die Konzerthallen zum Kochen bringen. Während der Pandemie nutzte der Hamburger Rapper die Zeit, um kontinuierlich an neuen Songs zu arbeiten, die er auf seiner Solo-Tour erstmals live spielen wird. Charakteristisch für ihn und seinen Sound bleibt dabei der perfekte Mix aus Old-School Vibe und New School.",
-      "start": [
-        [1, 12, 2022],
-        [19, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [],
-      "musiciansId": ["Kwam.E"],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/04/KwamE_1_c_ModouTouray_@nvsavibes_0322.jpeg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Stick To Your Guns ",
-      "description": "Spectre Record Release Tour 2022",
-      "start": [
-        [1, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [
-        "Stick To Your Guns",
-        "KNOCKED LOOSE",
-        "LANDMVRKS",
-        " SOUL BLIND"
-      ],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Kingstar Music presents",
-      "imageUrl": "",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Talco ",
-      "description": "TALCO Album Release Tour 2022 Mit mehr als 8.000.000 Streams des Songs „La Danza dell'Autunno Rosa' ist die Brass-Punk-Band Talco weit mehr als ein Underground-Phänomen. Aber Talco beweisen bei jeder Liveshow, dass sie auch in der alten physischen Welt problemlos ein großes Publikum anziehen.",
-      "start": [
-        [2, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": ["TALCO"],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/08/talco_FB.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Betterov ",
-      "description": "Es gibt wohl wenige Künstler*innen, die während der zwei Jahre Pandemie derart durchgestartet sind wie Betterov. Eine erste kleine Tour im April 2020 musste noch aus bekannten Gründen abgesagt werden. Es folgten 2020 und 2021 Corona-Open-Airs, eine eigene kleine (ausverkaufte) Berlinshow und zwei Shows auf dem Reeperbahn Festival. Im April 2022 dann die erste eigene Tour, die komplett ausverkauft war. Sein Song „Angst' wird Ende 2020 auf Platz 1 der FluxFM Hörerjahrescharts gewählt und mit seiner 2021 folgenden Single „Dussmann' spielt sich Betterov unter anderem in die Herzen und auf die Jahreslisten von Kollegen wie Casper oder Kraftklub. etterov ist ein Songwriter mit einer sehr eigenen und konsequenten Note. Großgeworden im Theater, nimmt er die Texte von dort mit, schreibt so seit 2015 seine Musik und tritt in den Clubs und Kneipen Berlins auf. Die zwischen Indierock und Post-Punk angesiedelten Songs behandeln die großen Themen seiner Generation: Aufwachsen zum Beispiel. Oder wie das ist, wenn das Zuhause nicht mehr der Ort ist, an dem man bleiben kann. Oder der Druck, der aus den unendlichen Möglichkeiten und dem Zwang zur Selbstoptimierung entsteht und der so groß wird, dass man es am Ende vielleicht gar nicht aus dem eigenen Zimmer schafft.",
-      "start": [
-        [4, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [],
-      "musiciansId": ["BETTEROV"],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/08/BETTEROV_OLYMPIA4_Rebecca_Kraemer-500x500-1-e1659362137504.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Kind Kaputt ",
-      "description": "Sind Kind Kaputt gerade aus einem Alptraum erwacht oder ist es schlicht das reale Leben selbst, das sortiert werden muss? In ihren neuen Songs räumt die Band aus Leipzig mit der Destruktivität auf und hat den Mut zum pointierten Fingerzeig. Ein Schritt, mit dem das Quartett nicht nur thematisch eine neue Deutlichkeit gewinnt, sondern im Herausschlagen aus dem Dickicht des Lebens auch einen ganz neuen Sound findet. Analog zur geradlinigeren Lyrik klingt der neue Kind-Kaputt-Sound geradezu schnörkellos und gleichzeitig eigenständiger denn je. Musik, die die Lasten des Alltags nicht auslöschen kann, aber dir die Hand reicht, wenn es aussichtslos erscheint. Das 2019 veröffentlichte Kind-Kaputt-Debütalbum „Zerfall' war ein bildgewaltiger Monolith, dessen Titel allein schon seine destruktive Ader unterstreicht. In zwölf konzeptuell zusammenhängenden Songs formulierte die Band um Sänger Johannes Prautzsch, Drummer Mathis Kerscher, Gitarrist Konstantin Cajkin und Videograph Fabian Willi Simon die Geschichte einer ganzen Generation, die nach Halt suchte. Wie aber macht man nach einer Platte weiter, die die Sorgen einer fragilen Lebensrealität zwar zielsicher auf den Punkt brachte, aber kaum nach Auswegen suchte?",
-      "start": [
-        [9, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": ["KIND KAPUTT"],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/280290095_2193596594129522_3259980059747967386_n.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Amorphis & Eluveitie ",
-      "description": "EUROPE & UK CO-HEADLINE TOUR Endlich kehren die Konzerte wieder auf die Bühnen der Welt zurück und für Ende diesen Jahres steht eine ganz besondere Combo an: AMORPHIS und ELUVEITIE schließen sich für eine große Co- Headline-Tour im November und Dezember 2022 zusammen! Seit mehr als 30 Jahren haben sich die fi nnischen Pioniere AMORPHIS hier ihre ureigene Nische zwischen innig empfundener und aggressiver,  melancholischer und doch tröstender Musik gegraben. Mit ihrem aktuellen Studioalbum »Halo«, das sofort auf Platz 1 in Finnland und Platz 3 in den deutschen Charts einstieg, unterstreicht die Combo erneut ihren wegweisenden Status als eine der originellsten, kulturell relevantesten und besten Bands, die jemals aus dem Land der tausend Seen gekommen sind. ELUVEITIE sind ein Phänomen, das sich seit mehr als 15 Jahren weltweit ausbreitet. Angefangen bei ihrem legendären Debütalbum „Spirit' (2006) über das für das großartige „Slania' (2008) bis hin zu ihrem letzten Meisterwerk „Ategnatos' (2019), haben die Schweizer ein bahnbrechendes Rezept entwickelt. Fernab von jeglichen Trunkenheitsklischees und albernem Schlachtengetümmel haben sie einen Stil entwickelt, der das Beste aus Folk Metal und Melodic Death zu einer unvergleichlichen Einheit formt. Ihr großer Respekt vor der Geschichte, die sie in historischer Genauigkeit ausleben, gepaart mit fantastischem Songwriting, ergeben einen Sound, dem sich bis heute kaum ein Fan entziehen kann.",
-      "start": [
-        [10, 12, 2022],
-        [18, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": ["Kind Kaputt "],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/280290095_2193596594129522_3259980059747967386_n.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Amorphis & Eluveitie ",
-      "description": "EUROPE & UK CO-HEADLINE TOUR Endlich kehren die Konzerte wieder auf die Bühnen der Welt zurück und für Ende diesen Jahres steht eine ganz besondere Combo an: AMORPHIS und ELUVEITIE schließen sich für eine große Co- Headline-Tour im November und Dezember 2022 zusammen! Seit mehr als 30 Jahren haben sich die fi nnischen Pioniere AMORPHIS hier ihre ureigene Nische zwischen innig empfundener und aggressiver, melancholischer und doch tröstender Musik gegraben. Mit ihrem aktuellen Studioalbum »Halo«, das sofort auf Platz 1 in Finnland und Platz 3 in den deutschen Charts einstieg, unterstreicht die Combo erneut ihren wegweisenden Status als eine der originellsten, kulturell relevantesten und besten Bands, die jemals aus dem Land der tausend Seen gekommen sind. ELUVEITIE sind ein Phänomen, das sich seit mehr als 15 Jahren weltweit ausbreitet. Angefangen bei ihrem legendären Debütalbum „Spirit' (2006) über das für das großartige „Slania' (2008) bis hin zu ihrem letzten Meisterwerk „Ategnatos' (2019), haben die Schweizer ein bahnbrechendes Rezept entwickelt. Fernab von jeglichen Trunkenheitsklischees und albernem Schlachtengetümmel haben sie einen Stil entwickelt, der das Beste aus Folk Metal und Melodic Death zu einer unvergleichlichen Einheit formt. Ihr großer Respekt vor der Geschichte, die sie in historischer Genauigkeit ausleben, gepaart mit fantastischem Songwriting, ergeben einen Sound, dem sich bis heute kaum ein Fan entziehen kann.",
-      "start": [
-        [10, 12, 2022],
-        [18, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": ["Amorphis & Eluveitie "],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/04/Eluveitie-Band-2019-low-res-scaled-e1648931567297.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "CALIBAN ",
-      "description": "Kingstar presents. CALIBAN",
-      "start": [[], []],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": ["CALIBAN ", "GHOST KID", "RESOLVE", "LEAGUE OF DISTORTION"],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/06/YHT0IazY.jpeg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Orbit ",
-      "description": "orbit is a dream pop project of 26 year old producer and songwriter Marcel Heym. With a soundscape marked by a blend of raw acoustic sounds and atmospheric synth leads, orbit combines imagery of life in the countryside with a longing for higher purpose. At the age of seventeen, Marcel gained international stage experience with his first rock band which he formed together with his brother Patrick. As teenagers they played shows in Shanghai, Los Angeles, London as well as major festivals in Germany.",
-      "start": [
-        [12, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [],
-      "musiciansId": ["Marcel Heym"],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/orbitweb-e1666730564104.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Hochverlegt: Ennio ",
-      "description": "Im letzten Jahr, das geprägt war von der Pandemie, veröffentlichte der Münchner Künstler ENNIO seine Debüt Single 'Blaulicht', pünktlich zu seinen allerersten Konzerten, als Support von Provinz und MAJAN. Seine Social Media Zahlen steigen rasant an und Musik Größen wie Casper, MAJAN, Paula Hartmann oder Jeremias reagieren auf ENNIO's ersten Song und bekennen sich als Fans. Während ENNIO bereits mit den aktuell spannendsten Künstler*innen der deutschen Musikszene arbeitet, knacken seine ersten beiden Singles 'Blaulicht' und 'Kippe' gerade die eine Millionen Streams Marke. ENNIO überzeugt. Nicht nur mit seiner Liveshow, die er neben weiteren Support Shows für MAJAN und Jeremias auch auf ersten Festivals wie dem About You Pangea Festival, Reeperbahn Festival oder Musikschutzgebiet spielen wird, sondern auch musikalisch. Mit seiner markanten, tiefen Stimme, den eingängigen Texten und den zeitgemäßen Produktionen seiner Songs. Nun hat der Newcomer seine Debüt EP 'stundenull' veröffentlicht, auf der neben seinen ersten Singles, drei weitere Songs vorhanden sind. Die Songs der EP fallen auf, es sind Songseiner Generation, die sich nicht in die übliche Release Welt der deutschen Musiklandschaft einreiht und eine Bandbreite an musikalischer Vielfalt und unterschiedlichen Emotionen zeigt. Rund um den Release seiner Debut EP announced ENNIO seine erste eigene Headline Tour, bei der er in Deutschland und Österreich im Dezember 2022 auf 'Die Erste Tour' gehen wird. Die Stunde Null hat geschlagen, Indie Fans macht euch bereit.",
-      "start": [
-        [14, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [],
-      "musiciansId": ["Ennio "],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/06/ennio-520x520-1-e1655914233851.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "Bilbao ",
-      "description": "Shake Well Tour Präsentiert von: DIFFUS, kulturnews, event. und Herzmukke.de",
-      "start": [
-        [15, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": ["Bilbao "],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/08/Bilbao_web-e1659362340591.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "The Butcher Sisters + Ruins of Perception ",
-      "description": "Presse: Sechs vor Testosteron strotzende Moschusochsen, behangen mit Goldketten, schwerer als ihre Stiernacken sie tragen können. Männlichkeit wird hier groß geschrieben, weil es ist ein Namenwort. Deutschrap hat die Messlatte sehr tief gelegt, doch die sechsköpfige Hustlebande tanzt gekonnt Limbo drunter hindurch. Mit einem Sound, der härter knallt als jeder Booster und Riffs, so fett, als seien sie in der Massephase, ist das neue Album „Alpha & Opfah' das größte musikalische Schwergewicht Deutschlands und die garantierte Supernova eines jeden Gendersterns. Nur das Niveau ist tiefer als der Bass. Spannung : ** // Humor : ** // Anspruch : - // Action : * // Erotik      Warnhinweis: Exzessives Hören könnte Ihren Bizeps auf ungeahnte Größe wachsen lassen und bei Frauen eine spontane Schwangerschaft hervorrufen.",
-      "start": [
-        [17, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": ["The Butcher Sisters", "Ruins of Perception"],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/307986846_621105842819035_1378229299062245902_n.jpg",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "MELE ",
-      "description": "„300 Möglichkeiten' erschien am 18.März 2022. Ein Jahr hat MELE an der EP gearbeitet - dabei herausgekommen ist Popmusik mit treibenden Beats, die an Hip-Hop kratzen, mit Akustikgitarre und Meles melancholisch-entspannter Stimme, die uns wie ein gestrickter Schal aus rauchigen Wolken umarmt.       „Kann ich das fragen?' - 'Soll ich das so posten?' - 'Darf ich mich so fühlen?' Wir alle haben täglich diese Fragen im Kopf und das ist kein Wunder. In einer Zeit, in der nicht nur auf unseren Social-Media-Posts Weichzeichner und Filter liegen, sondern auch auf dem, was wir offline sagen, kommt jetzt MELE mit einer musikalischen Abrissbirne in unser Leben. Alles, was echt ist, darf bleiben.      MELE war Supportact bei Philipp Poisel, Maeckes und JEREMIAS. Bevor es im Dezember auf ihre erste eigene Headliner-Tour geht, stehen außerdem weitere Supportshows für Grossstadtgeflüster und Antje Schomaker an.",
-      "start": [
-        [21, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [],
-      "musiciansId": ["MELE "],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/04/Mele_Tourfoto_%C2%A9SvenjaTrierscheid-500x500-1-e1651050069397.png",
-      "links": ["https://www.felsenkeller-leipzig.com/programm/"]
-    },
-    {
-      "name": "NORTHERN LITE ",
-      "description": "25 Years Nothern Lite Tour       Das Konzert von NORTHERN LITE am 28.12.2021 in Leipzig konnte leider nicht wie geplant stattfinden und wurde auf den 26.12.2022 verschoben. Bereits gekaufte Tickets behalten auch für den neuen Termin ihre Gültigkeit.",
-      "start": [
-        [26, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [],
-      "musiciansId": ["NORTHERN LITE "],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2021/11/NorthernLite-Felsenkeller-Leipzig.jpg",
-      "links": []
-    },
-    {
-      "name": "Elephant in the Room Festival ",
-      "description": "***UPDATE: Leider mussten RISKEE AND THE RIDICULE aus familiären Gründen ihre Tourdates absagen. Wir freuen uns umso mehr, euch die derzeit beste italienische Skaband THE MAGNETICS stattdessen präsentieren zu können, die am 28.12. mit dem unglaublichen DR.RING DING die Bühne entern werden. Ok, da ist ein Elefant im Raum, aber es ist an der Zeit, darüber zu reden. Leipzig hat kein Festival zum Jahreswechsel? Von wegen!!! Endless Summer Booking und der Felsenkeller machen Tabula Rasa. Die großartigen „Jaya The Cat' werden am 28.12.2022 im Felsenkeller ihre Gitarren auspacken, dazu gibt's Berlin's Smartest von „Berliner Weisse', „Riskee & Ridicule' die Prag-Leipzig-Achse „Wayward Caines' und das heimliche Tornados-Sideprojekt „Paddy's Punk'. Davor, danach und dazwischen machen DJ Emperor und the incredible Dr. Ring Ding das Ganze zum systemrelevanten Ereignis. Noch Fragen? Das Elephant in the Room Festival erwartet euch mit diesem Line-Up: JAYA THE CAT, BERLINER WEISSE, THE MAGNETICS & DR.RING DING, WAYWARD CAINES, PADDYS PUNK DJs: Emporer & Dr. Ring Ding",
-      "start": [
-        [28, 12, 2022],
-        [18, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [
-        "JAYA THE CAT",
-        "BERLINER WEISSE",
-        "THE MAGNETICS & DR.RING DING",
-        "WAYWARD CAINES",
-        "PADDYS PUNK"
-      ],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/EITR_Header_Web_mini.jpg",
-      "links": [
-        "https://www.felsenkeller-leipzig.com/programm/",
-        "https://www.reservix.de/tickets-elephant-in-the-room-festival-in-leipzig-felsenkeller-leipzig-am-28-12-2022/e2006762",
-        "https://www.eventim-light.com/de/a/573474f9e4b0e47b2924e6a3/e/6355776490e55214c6b90b17/"
-      ]
-    },
-    {
-      "name": "The Great New Year's Eve 2022",
-      "description": "The Great New Year's Eve 2022 ★ BABYLON® - Party like 1920 ★✰★ The Great New Year's Eve 2022 ★✰ Leipzig, 1921. Mesdames & Messieurs, ein wahrhaft turbulentes Jahr neigt sich dem Ende zu und die ganze Stadt fiebert den großen Feierlichkeiten entgegen. Egal ob als Gentleman, zwielichtiger Alkoholschmuggler, Glücksritter, oder feine Dame… Wir feiern im Stil der Goldenen Zwanziger den Jahreswechsel. Bitte erscheine im angemessenen Zwirn.",
-      "start": [
-        [31, 12, 2022],
-        [21, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Felsenkeller",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Felsenkeller",
-      "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/309560570_2375088932632913_5630427560824661291_n.jpg",
-      "links": []
-    },
-    {
-      "name": "Latin Night",
-      "description": "",
-      "start": [
-        [2, 12, 2022],
-        [20, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "80er & Depeche Mode ",
-      "description": "",
-      "start": [
-        [3, 12, 2022],
-        [20, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "Open Stage",
-      "description": "",
-      "start": [
-        [7, 12, 2022],
-        [20, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "Salsa-Party ",
-      "description": "",
-      "start": [
-        [8, 12, 2022],
-        [20, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "Streetlife Hand-Music ",
-      "description": "",
-      "start": [
-        [9, 12, 2022],
-        [20, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "90er Bombe ",
-      "description": "",
-      "start": [
-        [10, 12, 2022],
-        [20, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "Schlagerparty mit Live-Band 'Be Happy'",
-      "description": "",
-      "start": [
-        [17, 12, 2022],
-        [20, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": ["Be Happy"],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "Schlagerparty mit Live-Musik und mit Sockenbörse zum tauschen ",
-      "description": "",
-      "start": [[26, 12, 2022], []],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "TamTam (Open Stage)",
-      "description": "",
-      "start": [[28, 12, 2022], []],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "Latin Night",
-      "description": "",
-      "start": [
-        [30, 12, 2022],
-        [20, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Tankbar",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tankbar",
-      "imageUrl": "",
-      "links": ["https://tankbar-leipzig.de/tankevents/"]
-    },
-    {
-      "name": "Motette",
-      "description": "",
-      "start": [
-        [2, 12, 2022],
-        [18, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [],
-      "musiciansId": ["Thomasorganist Johannes Lang", "Julian Fahrner, Violine"],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Bach-Weihnachtsoratorium (I-III) ",
-      "description": "Bach-Weihnachtsoratorium BWV 248, Kantaten I-III",
-      "start": [[], []],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["Leipziger Vocalensemble", "Mitteldeutsches Kammerorchester"],
-      "musiciansId": [
-        "Anja Zügner, Sopran",
-        "Marlen Herzog, Alt",
-        "Stephan Scherpe, Tenor",
-        "Cornelius Uhle, Bass",
-        "Sebastian Reim, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Bach-Weihnachtsoratorium (I-III) ",
-      "description": "",
-      "start": [
-        [2, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["Leipziger Vocalensemble", "Mitteldeutsches Kammerorchester"],
-      "musiciansId": [
-        "Anja Zügner, Sopran",
-        "Marlen Herzog, Alt",
-        "Stephan Scherpe, Tenor",
-        "Cornelius Uhle, Bass",
-        "Sebastian Reim, Leitung",
-        "Sebastian Reim, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Bach-Weihnachtsoratorium (I-III) ",
-      "description": "",
-      "start": [
-        [3, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["Leipziger Vocalensemble", "Mitteldeutsches Kammerorchester"],
-      "musiciansId": [
-        "Anja Zügner, Sopran",
-        "Marlen Herzog, Alt",
-        "Stephan Scherpe, Tenor",
-        "Cornelius Uhle, Bass",
-        "Sebastian Reim, Leitung",
-        "Sebastian Reim, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": " Motette Orgelvesper plus",
-      "description": "Programm (Änderungen vorbehalten): Rheinberger op. 150, Reger Romanze für Violine und Orgel G-Dur, Bach G-Dur-Sonate BWV 1019 ",
-      "start": [
-        [3, 12, 2022],
-        [15, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [],
-      "musiciansId": ["Thomasorganist Johannes Lang", "Julian Fahrner, Violine"],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Schulkonzert ",
-      "description": "Schulkonzert zum Nikolaustag 'Macht hoch die Tür, die Tor' macht weit!' Thomanernachwuchs der dritten Klassen der Grundschulen Anna-Magdalena-Bach und forum thomanum",
-      "start": [
-        [5, 12, 2022],
-        [10, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [],
-      "musiciansId": [
-        "Leitung: Claus Straßner und Maria Leistner",
-        "Frederico Mussi, Truhenorgel/Klavier",
-        "Paul Fey, Orgel"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Orgelkonzert im Kerzenschein ",
-      "description": "",
-      "start": [
-        [5, 12, 2022],
-        [19, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [],
-      "musiciansId": ["Johannes Lang, Orgel"],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "J.S. Bach - Weihnachtsoratorium (I-VI) ",
-      "description": "",
-      "start": [
-        [9, 12, 2022],
-        [19, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["THOMANERCHOR Leipzig", "Gewandhausorchester Leipzig"],
-      "musiciansId": [
-        "Christina Landshamer, Sopran",
-        "Elvira Bill, Alt",
-        "Benedikt Kristjánsson, Tenor",
-        "Konstantin Krimmel, Bass",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "J.S. Bach - Weihnachtsoratorium (I-VI) ",
-      "description": "",
-      "start": [
-        [11, 12, 2022],
-        [17, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["THOMANERCHOR Leipzig", "Gewandhausorchester Leipzig"],
-      "musiciansId": [
-        "Christina Landshamer, Sopran",
-        "Elvira Bill, Alt",
-        "Benedikt Kristjánsson, Tenor",
-        "Konstantin Krimmel, Bass",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
+[
+  {
+    "name": "OpenStage",
+    "description": "Du willst deinen Song endlich einmal vor Publikum spielen? Du möchtest neue Leute kennenlernen? Du möchtest in angenehmer Atmosphäre einen Abend verbringen? Seid dabei, wenn es immer wieder montags heißt: 3 Songs - the rest is up to you.... Du musst dich nicht anmelden. Du musst keine Nummer ziehen. Der OpenStage findet entsprechend der jeweils aktuell geltenden Corona-Regeln statt ",
+    "start": [
+      [14, 11, 2022],
+      [20, 0]
+    ],
+    "end": [
+      [14, 11, 2022],
+      [23, 0]
+    ],
+    "venueId": "VillaKeller",
+    "bandsId": null,
+    "musiciansId": null,
+    "tags": [
+      "open stage",
+      "jam session",
+      "pop",
+      "rock",
+      "funk",
+      "punk",
+      "songwriter"
+    ],
+    "organizerId": "VillaKeller",
+    "imageUrl": "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29uY2VydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "links": "https://www.facebook.com/events/443809550602677/443809570602675/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+  },
+  {
+    "name": "DESPISED ICON & DECAPITATED",
+    "description": "Avocado Booking presents",
+    "start": [
+      [15, 11, 2022],
+      [18, 0]
+    ],
+    "end": [
+      [15, 11, 2022],
+      [23, 0]
+    ],
+    "venueId": "Felsenkeller",
+    "bandsId": [
+      "DespisedIcon",
+      "Decapitated",
+      "BRAND OF SACRIFICE ",
+      "DISTANT",
+      "VISCERA"
+    ],
+    "musiciansId": null,
+    "tags": ["metal"],
+    "organizerId": "Felsenkeller",
+    "links": [
+      "https://www.facebook.com/despisedicon",
+      "https://www.facebook.com/decapitated?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
+      "https://www.facebook.com/decapitated?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
+      "https://www.facebook.com/DistantOfficial?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
+      "https://www.facebook.com/VisceraUK?__cft__[0]=AZVvjOriY9t9ucSg_gosYY4E97Rutvp5cy4bLd5gwtgOO5Uo2r2xhK2Wfku7VbhuEyo6-bhyI85t1CquxdgJW-HKE3gk4C36ShF-o6aAtqEbbS4rsp3KlKfrAmYj1f0HDNY&__tn__=q",
+      "https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F386wpBT%3Ffbclid%3DIwAR0t4W5Wd5hf7k_OF9aRESpMydUhge8RBrQBKeG8CAUY1sKcqzaK40spIU4&h=AT18r9-ofT1rlAOLpl9-tBMn7KZm2lwDNEH5_4n8xcrgzI048nRwImGGnBrmUZeQTG7gzIIPQqLUmm4HloJRGE72fC4Sm7genB3kmWUDBdRGPJqorUqJxaEa85LfGgRWiP3a&__tn__=q&c[0]=AT0RPBIG4EzQ8ncOzkvX6PVcD6qDVHCnrgkZgSK5DrwyhwEriFN5915GK5o_jaWuWVx07P1as7FRae7SV03yc63Khv36GVNwbS9FAHkQqbVyYqntYfxgHszQiTXIbKJbTAl6tYqetvTE9LiAtVIXGbj4ZH_P"
+    ]
+  },
+  {
+    "name": "RAPWORKSHOP mit SHABO",
+    "description": "Each one teach one - der Rap Workshop mit dem Grünauer Rapper Shabo209 im HEIZHAUS Musikstudio für Jugendliche und junge Erwachsene Nutze die einmalige Gelegenheit und arbeite an deinem Style mit dem Grünauer Newcomer Shabo209 in entspannter Atmosphere und recorde deine Songs anschließend mit professionellem Studioequipment im HEIZHAUS Musikstudio. Du interessierst dich für das Angebot, hast noch Fragen dazu oder willst  gerne Mitmachen? Dann schreibt uns eine Mail an musik@heizhaus-leipzig.de oder kontaktiere uns über whatsapp 0157 35754554 Wann: jeden Dienstag von  18:30 - 21.30 Uhr Wo: HEIZHAUS Musikstudio Alte Salzstraße 59a, 04209 Leipzig Anmeldung vorher erforderlich. Wir freuen uns auch Dich! Deine HEIZI Crew",
+    "start": [
+      [15, 11, 2022],
+      [18, 30]
+    ],
+    "end": [
+      [15, 11, 2022],
+      [21, 30]
+    ],
+    "venueId": "Heizhaus Leipzig",
+    "bandsId": null,
+    "musiciansId": ["Sabo", "Madonna"],
+    "tags": ["rap", "hiphop"],
+    "organizerId": "Heizhaus Leipzig",
+    "links": "https://www.facebook.com/events/1220621832027703/1220621905361029/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+  },
+  {
+    "name": "Der W | Leipzig",
+    "description": " Stephan Weidner kehrt aus dem Stadion zurück in die Clubs des Landes: Mit DER W feiert der Bassist und Texter der megaerfolgreichen Böhsen Onkelz den emotionalen Schulterschluss aus nächster Nähe. Auf der Tour zum neuen Album 'V' lässt Weidner die Menschen ganz nah an sich ran. Seelisch vor allem, darum geht es bei DER W. Doch es geht auch um das gemeinsame Erlebnis, die Energie, die durch Reibung entsteht. Rock'n'Roll zum Anfassen.",
+    "start": [
+      [15, 11, 2022],
+      [19, 0]
+    ],
+    "end": [
+      [15, 11, 2022],
+      [22, 0]
+    ],
+    "venueId": "Haus Auensee Leipzig",
+    "bandsId": ["Der W ", "Vagabundos De Lujo"],
+    "musiciansId": null,
+    "organizerId": "Haus Auensee Leipzig",
+    "links": [
+      "https://www.facebook.com/events/714722879583642/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22bookmark_search%22%7D]%2C%22ref_notif_type%22%3Anull%7D"
+    ]
+  },
+  {
+    "name": "Kwam.E",
+    "description": "Seit Oktober 2020 wartet Kwam.E darauf, dass er mit Tom Hengst diesen Juni auf gemeinsame - und fast ausverkaufte - CONCRETE  COWBOYS Tour gehen kann. Jetzt kündigt der Rapper eine weitere Tour für November 2022 an: Unter dem Motto „IZZA COLD WORLD' wird er bei 18 Shows die Konzerthallen zum Kochen bringen. Während der Pandemie nutzte der Hamburger Rapper die Zeit, um kontinuierlich an neuen Songs zu arbeiten, die er auf seiner Solo-Tour erstmals live spielen wird. Charakteristisch für ihn und seinen Sound bleibt dabei der perfekte Mix aus Old-School Vibe und New School.",
+    "start": [
+      [1, 12, 2022],
+      [19, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [],
+    "musiciansId": ["Kwam.E"],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/04/KwamE_1_c_ModouTouray_@nvsavibes_0322.jpeg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Stick To Your Guns ",
+    "description": "Spectre Record Release Tour 2022",
+    "start": [
+      [1, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [
+      "Stick To Your Guns",
+      "KNOCKED LOOSE",
+      "LANDMVRKS",
+      " SOUL BLIND"
+    ],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Kingstar Music presents",
+    "imageUrl": "",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Talco ",
+    "description": "TALCO Album Release Tour 2022 Mit mehr als 8.000.000 Streams des Songs „La Danza dell'Autunno Rosa' ist die Brass-Punk-Band Talco weit mehr als ein Underground-Phänomen. Aber Talco beweisen bei jeder Liveshow, dass sie auch in der alten physischen Welt problemlos ein großes Publikum anziehen.",
+    "start": [
+      [2, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": ["TALCO"],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/08/talco_FB.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Betterov ",
+    "description": "Es gibt wohl wenige Künstler*innen, die während der zwei Jahre Pandemie derart durchgestartet sind wie Betterov. Eine erste kleine Tour im April 2020 musste noch aus bekannten Gründen abgesagt werden. Es folgten 2020 und 2021 Corona-Open-Airs, eine eigene kleine (ausverkaufte) Berlinshow und zwei Shows auf dem Reeperbahn Festival. Im April 2022 dann die erste eigene Tour, die komplett ausverkauft war. Sein Song „Angst' wird Ende 2020 auf Platz 1 der FluxFM Hörerjahrescharts gewählt und mit seiner 2021 folgenden Single „Dussmann' spielt sich Betterov unter anderem in die Herzen und auf die Jahreslisten von Kollegen wie Casper oder Kraftklub. etterov ist ein Songwriter mit einer sehr eigenen und konsequenten Note. Großgeworden im Theater, nimmt er die Texte von dort mit, schreibt so seit 2015 seine Musik und tritt in den Clubs und Kneipen Berlins auf. Die zwischen Indierock und Post-Punk angesiedelten Songs behandeln die großen Themen seiner Generation: Aufwachsen zum Beispiel. Oder wie das ist, wenn das Zuhause nicht mehr der Ort ist, an dem man bleiben kann. Oder der Druck, der aus den unendlichen Möglichkeiten und dem Zwang zur Selbstoptimierung entsteht und der so groß wird, dass man es am Ende vielleicht gar nicht aus dem eigenen Zimmer schafft.",
+    "start": [
+      [4, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [],
+    "musiciansId": ["BETTEROV"],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/08/BETTEROV_OLYMPIA4_Rebecca_Kraemer-500x500-1-e1659362137504.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Kind Kaputt ",
+    "description": "Sind Kind Kaputt gerade aus einem Alptraum erwacht oder ist es schlicht das reale Leben selbst, das sortiert werden muss? In ihren neuen Songs räumt die Band aus Leipzig mit der Destruktivität auf und hat den Mut zum pointierten Fingerzeig. Ein Schritt, mit dem das Quartett nicht nur thematisch eine neue Deutlichkeit gewinnt, sondern im Herausschlagen aus dem Dickicht des Lebens auch einen ganz neuen Sound findet. Analog zur geradlinigeren Lyrik klingt der neue Kind-Kaputt-Sound geradezu schnörkellos und gleichzeitig eigenständiger denn je. Musik, die die Lasten des Alltags nicht auslöschen kann, aber dir die Hand reicht, wenn es aussichtslos erscheint. Das 2019 veröffentlichte Kind-Kaputt-Debütalbum „Zerfall' war ein bildgewaltiger Monolith, dessen Titel allein schon seine destruktive Ader unterstreicht. In zwölf konzeptuell zusammenhängenden Songs formulierte die Band um Sänger Johannes Prautzsch, Drummer Mathis Kerscher, Gitarrist Konstantin Cajkin und Videograph Fabian Willi Simon die Geschichte einer ganzen Generation, die nach Halt suchte. Wie aber macht man nach einer Platte weiter, die die Sorgen einer fragilen Lebensrealität zwar zielsicher auf den Punkt brachte, aber kaum nach Auswegen suchte?",
+    "start": [
+      [9, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": ["KIND KAPUTT"],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/280290095_2193596594129522_3259980059747967386_n.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Amorphis & Eluveitie ",
+    "description": "EUROPE & UK CO-HEADLINE TOUR Endlich kehren die Konzerte wieder auf die Bühnen der Welt zurück und für Ende diesen Jahres steht eine ganz besondere Combo an: AMORPHIS und ELUVEITIE schließen sich für eine große Co- Headline-Tour im November und Dezember 2022 zusammen! Seit mehr als 30 Jahren haben sich die fi nnischen Pioniere AMORPHIS hier ihre ureigene Nische zwischen innig empfundener und aggressiver,  melancholischer und doch tröstender Musik gegraben. Mit ihrem aktuellen Studioalbum »Halo«, das sofort auf Platz 1 in Finnland und Platz 3 in den deutschen Charts einstieg, unterstreicht die Combo erneut ihren wegweisenden Status als eine der originellsten, kulturell relevantesten und besten Bands, die jemals aus dem Land der tausend Seen gekommen sind. ELUVEITIE sind ein Phänomen, das sich seit mehr als 15 Jahren weltweit ausbreitet. Angefangen bei ihrem legendären Debütalbum „Spirit' (2006) über das für das großartige „Slania' (2008) bis hin zu ihrem letzten Meisterwerk „Ategnatos' (2019), haben die Schweizer ein bahnbrechendes Rezept entwickelt. Fernab von jeglichen Trunkenheitsklischees und albernem Schlachtengetümmel haben sie einen Stil entwickelt, der das Beste aus Folk Metal und Melodic Death zu einer unvergleichlichen Einheit formt. Ihr großer Respekt vor der Geschichte, die sie in historischer Genauigkeit ausleben, gepaart mit fantastischem Songwriting, ergeben einen Sound, dem sich bis heute kaum ein Fan entziehen kann.",
+    "start": [
+      [10, 12, 2022],
+      [18, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": ["Kind Kaputt "],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/280290095_2193596594129522_3259980059747967386_n.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Amorphis & Eluveitie ",
+    "description": "EUROPE & UK CO-HEADLINE TOUR Endlich kehren die Konzerte wieder auf die Bühnen der Welt zurück und für Ende diesen Jahres steht eine ganz besondere Combo an: AMORPHIS und ELUVEITIE schließen sich für eine große Co- Headline-Tour im November und Dezember 2022 zusammen! Seit mehr als 30 Jahren haben sich die fi nnischen Pioniere AMORPHIS hier ihre ureigene Nische zwischen innig empfundener und aggressiver, melancholischer und doch tröstender Musik gegraben. Mit ihrem aktuellen Studioalbum »Halo«, das sofort auf Platz 1 in Finnland und Platz 3 in den deutschen Charts einstieg, unterstreicht die Combo erneut ihren wegweisenden Status als eine der originellsten, kulturell relevantesten und besten Bands, die jemals aus dem Land der tausend Seen gekommen sind. ELUVEITIE sind ein Phänomen, das sich seit mehr als 15 Jahren weltweit ausbreitet. Angefangen bei ihrem legendären Debütalbum „Spirit' (2006) über das für das großartige „Slania' (2008) bis hin zu ihrem letzten Meisterwerk „Ategnatos' (2019), haben die Schweizer ein bahnbrechendes Rezept entwickelt. Fernab von jeglichen Trunkenheitsklischees und albernem Schlachtengetümmel haben sie einen Stil entwickelt, der das Beste aus Folk Metal und Melodic Death zu einer unvergleichlichen Einheit formt. Ihr großer Respekt vor der Geschichte, die sie in historischer Genauigkeit ausleben, gepaart mit fantastischem Songwriting, ergeben einen Sound, dem sich bis heute kaum ein Fan entziehen kann.",
+    "start": [
+      [10, 12, 2022],
+      [18, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": ["Amorphis & Eluveitie "],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/04/Eluveitie-Band-2019-low-res-scaled-e1648931567297.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "CALIBAN ",
+    "description": "Kingstar presents. CALIBAN",
+    "start": [[], []],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": ["CALIBAN ", "GHOST KID", "RESOLVE", "LEAGUE OF DISTORTION"],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/06/YHT0IazY.jpeg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Orbit ",
+    "description": "orbit is a dream pop project of 26 year old producer and songwriter Marcel Heym. With a soundscape marked by a blend of raw acoustic sounds and atmospheric synth leads, orbit combines imagery of life in the countryside with a longing for higher purpose. At the age of seventeen, Marcel gained international stage experience with his first rock band which he formed together with his brother Patrick. As teenagers they played shows in Shanghai, Los Angeles, London as well as major festivals in Germany.",
+    "start": [
+      [12, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [],
+    "musiciansId": ["Marcel Heym"],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/orbitweb-e1666730564104.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Hochverlegt: Ennio ",
+    "description": "Im letzten Jahr, das geprägt war von der Pandemie, veröffentlichte der Münchner Künstler ENNIO seine Debüt Single 'Blaulicht', pünktlich zu seinen allerersten Konzerten, als Support von Provinz und MAJAN. Seine Social Media Zahlen steigen rasant an und Musik Größen wie Casper, MAJAN, Paula Hartmann oder Jeremias reagieren auf ENNIO's ersten Song und bekennen sich als Fans. Während ENNIO bereits mit den aktuell spannendsten Künstler*innen der deutschen Musikszene arbeitet, knacken seine ersten beiden Singles 'Blaulicht' und 'Kippe' gerade die eine Millionen Streams Marke. ENNIO überzeugt. Nicht nur mit seiner Liveshow, die er neben weiteren Support Shows für MAJAN und Jeremias auch auf ersten Festivals wie dem About You Pangea Festival, Reeperbahn Festival oder Musikschutzgebiet spielen wird, sondern auch musikalisch. Mit seiner markanten, tiefen Stimme, den eingängigen Texten und den zeitgemäßen Produktionen seiner Songs. Nun hat der Newcomer seine Debüt EP 'stundenull' veröffentlicht, auf der neben seinen ersten Singles, drei weitere Songs vorhanden sind. Die Songs der EP fallen auf, es sind Songseiner Generation, die sich nicht in die übliche Release Welt der deutschen Musiklandschaft einreiht und eine Bandbreite an musikalischer Vielfalt und unterschiedlichen Emotionen zeigt. Rund um den Release seiner Debut EP announced ENNIO seine erste eigene Headline Tour, bei der er in Deutschland und Österreich im Dezember 2022 auf 'Die Erste Tour' gehen wird. Die Stunde Null hat geschlagen, Indie Fans macht euch bereit.",
+    "start": [
+      [14, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [],
+    "musiciansId": ["Ennio "],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/06/ennio-520x520-1-e1655914233851.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "Bilbao ",
+    "description": "Shake Well Tour Präsentiert von: DIFFUS, kulturnews, event. und Herzmukke.de",
+    "start": [
+      [15, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": ["Bilbao "],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/08/Bilbao_web-e1659362340591.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "The Butcher Sisters + Ruins of Perception ",
+    "description": "Presse: Sechs vor Testosteron strotzende Moschusochsen, behangen mit Goldketten, schwerer als ihre Stiernacken sie tragen können. Männlichkeit wird hier groß geschrieben, weil es ist ein Namenwort. Deutschrap hat die Messlatte sehr tief gelegt, doch die sechsköpfige Hustlebande tanzt gekonnt Limbo drunter hindurch. Mit einem Sound, der härter knallt als jeder Booster und Riffs, so fett, als seien sie in der Massephase, ist das neue Album „Alpha & Opfah' das größte musikalische Schwergewicht Deutschlands und die garantierte Supernova eines jeden Gendersterns. Nur das Niveau ist tiefer als der Bass. Spannung : ** // Humor : ** // Anspruch : - // Action : * // Erotik      Warnhinweis: Exzessives Hören könnte Ihren Bizeps auf ungeahnte Größe wachsen lassen und bei Frauen eine spontane Schwangerschaft hervorrufen.",
+    "start": [
+      [17, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": ["The Butcher Sisters", "Ruins of Perception"],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/307986846_621105842819035_1378229299062245902_n.jpg",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "MELE ",
+    "description": "„300 Möglichkeiten' erschien am 18.März 2022. Ein Jahr hat MELE an der EP gearbeitet - dabei herausgekommen ist Popmusik mit treibenden Beats, die an Hip-Hop kratzen, mit Akustikgitarre und Meles melancholisch-entspannter Stimme, die uns wie ein gestrickter Schal aus rauchigen Wolken umarmt.       „Kann ich das fragen?' - 'Soll ich das so posten?' - 'Darf ich mich so fühlen?' Wir alle haben täglich diese Fragen im Kopf und das ist kein Wunder. In einer Zeit, in der nicht nur auf unseren Social-Media-Posts Weichzeichner und Filter liegen, sondern auch auf dem, was wir offline sagen, kommt jetzt MELE mit einer musikalischen Abrissbirne in unser Leben. Alles, was echt ist, darf bleiben.      MELE war Supportact bei Philipp Poisel, Maeckes und JEREMIAS. Bevor es im Dezember auf ihre erste eigene Headliner-Tour geht, stehen außerdem weitere Supportshows für Grossstadtgeflüster und Antje Schomaker an.",
+    "start": [
+      [21, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [],
+    "musiciansId": ["MELE "],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/04/Mele_Tourfoto_%C2%A9SvenjaTrierscheid-500x500-1-e1651050069397.png",
+    "links": ["https://www.felsenkeller-leipzig.com/programm/"]
+  },
+  {
+    "name": "NORTHERN LITE ",
+    "description": "25 Years Nothern Lite Tour       Das Konzert von NORTHERN LITE am 28.12.2021 in Leipzig konnte leider nicht wie geplant stattfinden und wurde auf den 26.12.2022 verschoben. Bereits gekaufte Tickets behalten auch für den neuen Termin ihre Gültigkeit.",
+    "start": [
+      [26, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [],
+    "musiciansId": ["NORTHERN LITE "],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2021/11/NorthernLite-Felsenkeller-Leipzig.jpg",
+    "links": []
+  },
+  {
+    "name": "Elephant in the Room Festival ",
+    "description": "***UPDATE: Leider mussten RISKEE AND THE RIDICULE aus familiären Gründen ihre Tourdates absagen. Wir freuen uns umso mehr, euch die derzeit beste italienische Skaband THE MAGNETICS stattdessen präsentieren zu können, die am 28.12. mit dem unglaublichen DR.RING DING die Bühne entern werden. Ok, da ist ein Elefant im Raum, aber es ist an der Zeit, darüber zu reden. Leipzig hat kein Festival zum Jahreswechsel? Von wegen!!! Endless Summer Booking und der Felsenkeller machen Tabula Rasa. Die großartigen „Jaya The Cat' werden am 28.12.2022 im Felsenkeller ihre Gitarren auspacken, dazu gibt's Berlin's Smartest von „Berliner Weisse', „Riskee & Ridicule' die Prag-Leipzig-Achse „Wayward Caines' und das heimliche Tornados-Sideprojekt „Paddy's Punk'. Davor, danach und dazwischen machen DJ Emperor und the incredible Dr. Ring Ding das Ganze zum systemrelevanten Ereignis. Noch Fragen? Das Elephant in the Room Festival erwartet euch mit diesem Line-Up: JAYA THE CAT, BERLINER WEISSE, THE MAGNETICS & DR.RING DING, WAYWARD CAINES, PADDYS PUNK DJs: Emporer & Dr. Ring Ding",
+    "start": [
+      [28, 12, 2022],
+      [18, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [
+      "JAYA THE CAT",
+      "BERLINER WEISSE",
+      "THE MAGNETICS & DR.RING DING",
+      "WAYWARD CAINES",
+      "PADDYS PUNK"
+    ],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/EITR_Header_Web_mini.jpg",
+    "links": [
+      "https://www.felsenkeller-leipzig.com/programm/",
+      "https://www.reservix.de/tickets-elephant-in-the-room-festival-in-leipzig-felsenkeller-leipzig-am-28-12-2022/e2006762",
+      "https://www.eventim-light.com/de/a/573474f9e4b0e47b2924e6a3/e/6355776490e55214c6b90b17/"
+    ]
+  },
+  {
+    "name": "The Great New Year's Eve 2022",
+    "description": "The Great New Year's Eve 2022 ★ BABYLON® - Party like 1920 ★✰★ The Great New Year's Eve 2022 ★✰ Leipzig, 1921. Mesdames & Messieurs, ein wahrhaft turbulentes Jahr neigt sich dem Ende zu und die ganze Stadt fiebert den großen Feierlichkeiten entgegen. Egal ob als Gentleman, zwielichtiger Alkoholschmuggler, Glücksritter, oder feine Dame… Wir feiern im Stil der Goldenen Zwanziger den Jahreswechsel. Bitte erscheine im angemessenen Zwirn.",
+    "start": [
+      [31, 12, 2022],
+      [21, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Felsenkeller",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Felsenkeller",
+    "imageUrl": "https://www.felsenkeller-leipzig.com/wp-content/uploads/2022/10/309560570_2375088932632913_5630427560824661291_n.jpg",
+    "links": []
+  },
+  {
+    "name": "Latin Night",
+    "description": "",
+    "start": [
+      [2, 12, 2022],
+      [20, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "80er & Depeche Mode ",
+    "description": "",
+    "start": [
+      [3, 12, 2022],
+      [20, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "Open Stage",
+    "description": "",
+    "start": [
+      [7, 12, 2022],
+      [20, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "Salsa-Party ",
+    "description": "",
+    "start": [
+      [8, 12, 2022],
+      [20, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "Streetlife Hand-Music ",
+    "description": "",
+    "start": [
+      [9, 12, 2022],
+      [20, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "90er Bombe ",
+    "description": "",
+    "start": [
+      [10, 12, 2022],
+      [20, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "Schlagerparty mit Live-Band 'Be Happy'",
+    "description": "",
+    "start": [
+      [17, 12, 2022],
+      [20, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": ["Be Happy"],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "Schlagerparty mit Live-Musik und mit Sockenbörse zum tauschen ",
+    "description": "",
+    "start": [[26, 12, 2022], []],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "TamTam (Open Stage)",
+    "description": "",
+    "start": [[28, 12, 2022], []],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "Latin Night",
+    "description": "",
+    "start": [
+      [30, 12, 2022],
+      [20, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Tankbar",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tankbar",
+    "imageUrl": "",
+    "links": ["https://tankbar-leipzig.de/tankevents/"]
+  },
+  {
+    "name": "Motette",
+    "description": "",
+    "start": [
+      [2, 12, 2022],
+      [18, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [],
+    "musiciansId": ["Thomasorganist Johannes Lang", "Julian Fahrner, Violine"],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Bach-Weihnachtsoratorium (I-III) ",
+    "description": "Bach-Weihnachtsoratorium BWV 248, Kantaten I-III",
+    "start": [[], []],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["Leipziger Vocalensemble", "Mitteldeutsches Kammerorchester"],
+    "musiciansId": [
+      "Anja Zügner, Sopran",
+      "Marlen Herzog, Alt",
+      "Stephan Scherpe, Tenor",
+      "Cornelius Uhle, Bass",
+      "Sebastian Reim, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Bach-Weihnachtsoratorium (I-III) ",
+    "description": "",
+    "start": [
+      [2, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["Leipziger Vocalensemble", "Mitteldeutsches Kammerorchester"],
+    "musiciansId": [
+      "Anja Zügner, Sopran",
+      "Marlen Herzog, Alt",
+      "Stephan Scherpe, Tenor",
+      "Cornelius Uhle, Bass",
+      "Sebastian Reim, Leitung",
+      "Sebastian Reim, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Bach-Weihnachtsoratorium (I-III) ",
+    "description": "",
+    "start": [
+      [3, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["Leipziger Vocalensemble", "Mitteldeutsches Kammerorchester"],
+    "musiciansId": [
+      "Anja Zügner, Sopran",
+      "Marlen Herzog, Alt",
+      "Stephan Scherpe, Tenor",
+      "Cornelius Uhle, Bass",
+      "Sebastian Reim, Leitung",
+      "Sebastian Reim, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": " Motette Orgelvesper plus",
+    "description": "Programm (Änderungen vorbehalten): Rheinberger op. 150, Reger Romanze für Violine und Orgel G-Dur, Bach G-Dur-Sonate BWV 1019 ",
+    "start": [
+      [3, 12, 2022],
+      [15, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [],
+    "musiciansId": ["Thomasorganist Johannes Lang", "Julian Fahrner, Violine"],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Schulkonzert ",
+    "description": "Schulkonzert zum Nikolaustag 'Macht hoch die Tür, die Tor' macht weit!' Thomanernachwuchs der dritten Klassen der Grundschulen Anna-Magdalena-Bach und forum thomanum",
+    "start": [
+      [5, 12, 2022],
+      [10, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [],
+    "musiciansId": [
+      "Leitung: Claus Straßner und Maria Leistner",
+      "Frederico Mussi, Truhenorgel/Klavier",
+      "Paul Fey, Orgel"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Orgelkonzert im Kerzenschein ",
+    "description": "",
+    "start": [
+      [5, 12, 2022],
+      [19, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [],
+    "musiciansId": ["Johannes Lang, Orgel"],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "J.S. Bach - Weihnachtsoratorium (I-VI) ",
+    "description": "",
+    "start": [
+      [9, 12, 2022],
+      [19, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["THOMANERCHOR Leipzig", "Gewandhausorchester Leipzig"],
+    "musiciansId": [
+      "Christina Landshamer, Sopran",
+      "Elvira Bill, Alt",
+      "Benedikt Kristjánsson, Tenor",
+      "Konstantin Krimmel, Bass",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "J.S. Bach - Weihnachtsoratorium (I-VI) ",
+    "description": "",
+    "start": [
+      [11, 12, 2022],
+      [17, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["THOMANERCHOR Leipzig", "Gewandhausorchester Leipzig"],
+    "musiciansId": [
+      "Christina Landshamer, Sopran",
+      "Elvira Bill, Alt",
+      "Benedikt Kristjánsson, Tenor",
+      "Konstantin Krimmel, Bass",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
 
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Weihnachtskonzert ",
-      "description": "Weihnachtskonzert der Thomasschule Chöre und Orchester der Thomasschule stimmen auf Weihnachten ein.",
-      "start": [
-        [12, 12, 2022],
-        [19, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "In Nativitate Domini ",
-      "description": "Weihnachtliche Vokalmusik aus Mittelalter und Renaissance, Konzert mit weihnachtlicher Vokalmusik aus Mittelalter und Renaissance zugunsten von UNICEF",
-      "start": [
-        [15, 12, 2022],
-        [19, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["amarcord"],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Motette ",
-      "description": "",
-      "start": [
-        [16, 12, 2022],
-        [18, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["Ensemble ARCANUM, Berlin"],
-      "musiciansId": ["Ivo Mrvelj, Orgel"],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Motette ",
-      "description": "",
-      "start": [
-        [17, 12, 2022],
-        [15, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [],
-      "musiciansId": ["Ensemble ARCANUM, Berlin"],
-      "tags": ["Ivo Mrvelj, Orgel"],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
-      "description": "",
-      "start": [
-        [20, 12, 2022],
-        [19, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["THOMANERCHOR Leipzig"],
-      "musiciansId": [
-        "Thomasorganist Johannes Lang, Orgel",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
-      "description": "",
-      "start": [
-        [21, 12, 2022],
-        [19, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["THOMANERCHOR Leipzig"],
-      "musiciansId": [
-        "Thomasorganist Johannes Lang, Orgel",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
-      "description": "",
-      "start": [
-        [22, 12, 2022],
-        [19, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["THOMANERCHOR Leipzig"],
-      "musiciansId": [
-        "Thomasorganist Johannes Lang, Orgel",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Weihnachtsmotette ",
-      "description": "",
-      "start": [
-        [24, 12, 2022],
-        [14, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["THOMANERCHOR Leipzig"],
-      "musiciansId": [
-        "Thomasorganist Johannes Lang",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Christvesper ",
-      "description": "",
-      "start": [
-        [24, 12, 2022],
-        [16, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["THOMANERCHOR Leipzig"],
-      "musiciansId": [
-        "Thomasorganist Johannes Lang",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Christvesper ",
-      "description": "",
-      "start": [
-        [24, 12, 2022],
-        [18, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["THOMANERCHOR Leipzig"],
-      "musiciansId": [
-        "Thomasorganist Johannes Lang",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": ["https://www.thomaskirche.org/erleben/kalender"]
-    },
-    {
-      "name": "Christvesper mit der Jungen Gemeinde ",
-      "description": "",
-      "start": [
-        [24, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [],
-      "musiciansId": ["Gemeindepädagogin Anika Sawatzki"],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": []
-    },
-    {
-      "name": "Komplet ",
-      "description": "",
-      "start": [
-        [25, 12, 2022],
-        [0, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["Männerstimmen des THOMANERCHOR Leipzig"],
-      "musiciansId": ["Thomaskantor Andreas Reize, Leitung"],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": []
-    },
-    {
-      "name": "Singgottesdienst ",
-      "description": "",
-      "start": [
-        [26, 12, 2022],
-        [18, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": ["Posaunenchor der Thomaskirche"],
-      "musiciansId": ["Thomasorganist Johannes Lang", "Jürgen Hartmann, Leitung"],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": []
-    },
-    {
-      "name": "Silvestermotette ",
-      "description": "",
-      "start": [
-        [31, 12, 2022],
-        [13, 30]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [
-        "Gewandhausorchester Leipzig",
-        "THOMANERCHOR Leipzig",
-        "Thomaskantor Andreas Reize, Leitung"
-      ],
-      "musiciansId": [
-        "Thomasorganist Johannes Lang",
-        "Julia Sophie Wagner, Sopran",
-        "Robert Pohlers, Tenor",
-        "Florian Götz, Bass"
-      ],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": []
-    },
-    {
-      "name": "Silvesterorgelkonzert ",
-      "description": "",
-      "start": [
-        [31, 12, 2022],
-        [21, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Thomaskirche",
-      "bandsId": [],
-      "musiciansId": ["Assistenzorganist Lukas Euler"],
-      "tags": [],
-      "organizerId": "Thomaskirche",
-      "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
-      "links": []
-    },
-    {
-      "name": "Blues Lounge mit Mama Basuto",
-      "description": "",
-      "start": [
-        [1, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": ["Mama Basuto"],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Sixty 9",
-      "description": "",
-      "start": [
-        [20, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "HartBerg",
-      "description": "",
-      "start": [
-        [3, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "New Guitar Night mit Navin Rebello",
-      "description": "",
-      "start": [
-        [6, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Rock'n'Roll Stammtisch mit BoBerry",
-      "description": "",
-      "start": [
-        [7, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Blues Lounge mit  Fabix Halentine&Friends",
-      "description": "",
-      "start": [
-        [8, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Compadre Sassan",
-      "description": "",
-      "start": [
-        [9, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Factory of Art",
-      "description": "",
-      "start": [
-        [10, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "New Guitar Night mit Laszlo",
-      "description": "",
-      "start": [
-        [13, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Rock'n'Roll Stammtisch",
-      "description": "",
-      "start": [
-        [14, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Blues Lounge mit Turning Wheelz",
-      "description": "",
-      "start": [
-        [15, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Feelmen the Soulorchestra",
-      "description": "",
-      "start": [
-        [16, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Feelmen the Soulorchestra",
-      "description": "",
-      "start": [
-        [17, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "New Guitar Night mit Yukee",
-      "description": "",
-      "start": [
-        [20, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Rock'n'Roll Stammtisch mit EvilMrSod",
-      "description": "",
-      "start": [
-        [21, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Blues Lounge mit Twisted Path",
-      "description": "",
-      "start": [
-        [22, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Jürgen Kerth",
-      "description": "",
-      "start": [
-        [23, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Blues Weihnacht mit Mama Basuto",
-      "description": "",
-      "start": [
-        [24, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "SILVESTERPARTY mit MADDOXXX",
-      "description": "",
-      "start": [
-        [31, 12, 2022],
-        [20, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Tonelli's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Tonelli's",
-      "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
-      "links": []
-    },
-    {
-      "name": "Irish Folk Session",
-      "description": "",
-      "start": [
-        [5, 12, 2022],
-        [19, 0]
-      ],
-      "end": [[], []],
-      "venueId": "Morrison's",
-      "bandsId": [],
-      "musiciansId": [],
-      "tags": [],
-      "organizerId": "Morrison's",
-      "imageUrl": "https://www.morrisons-pub.de/files/cto_layout/img/feier/IMG_9386.jpg",
-      "links": []
-    },
-    {
-      "name": "SantaJAZZClaus",
-      "description": "Weihnachtslieder im Jazz-Gewand. Fünf Leipziger Jazzmusiker spielen für Euch amerikanische und europäische Weihnachtslieder in eigenen Bearbeitungen. Dabei geht es mal funky oder auch swingend zu. Wir möchten Euch demonstrieren, wie schön Weihnachtslieder klingen, wenn man sie mit neuen Akkorden unterlegt oder mit einem anderen Rhythmus begleitet. So kann sich das Lied „O Tannenbaum' zum Rock-Song oder „Ihr Kinderlein kommet' in eine lateinamerikanische Samba verwandeln. Wenn Ihr Euch überraschen lassen wollt, wie wir mit diesen vielen tollen Xmas Songs umgehen, dann begleitet uns auf eine Reise durch den Winter zum Weihnachtsjazz!",
-      "start": [
-        [1, 12, 2022],
-        [10, 0]
-      ],
-      "end": [
-        [1, 12, 2022],
-        [11, 0]
-      ],
-      "venueId": "Alte Börse",
-      "bandsId": [],
-      "musiciansId": [
-        "Lia Roth, Gesang",
-        "Frank Nowicky, Saxofon, Flöte",
-        "Matthias Büttner, Posaune",
-        "Matthäus Krzywdzinski, Gitarre",
-        "Thomas Moritz, Kontrabass",
-        "Peter Jakubik, Schlagzeug"
-      ],
-      "tags": [],
-      "organizerId": "Musikschule Johannes Sebastian Bach",
-      "imageUrl": "https://www.musikschule-leipzig.de/files/images/bild_300x450/php6048ff4e8c20190612152337.jpg",
-      "links": [
-        "https://www.musikschule-leipzig.de/schulkonzerte-v-2322.html"
-      ]
-    },
-    {
-      "name": "Karneval der Tiere",
-      "description": "Das Leipziger Bläserquintett „Windstärke 5' lädt ein zum „Karneval der Tiere'! Ganz große und ganz kleine Tiere tummeln sich in Camille Saint-Saëns' leichtfüßiger Zoofantasie, bearbeitet für Bläserquintett: Der stolze Löwe brüllt, die witzigen Hühner machen Kunststücke und die alten Schildkröten tanzen Ballett. Aber auch Esel, Kängurus und ein wunderschöner Schwan sind mit von der Partie. Und wie oft ruft eigentlich der Kuckuck zum Fest? Nach dem tierischen Konzert dürfen die Kinder die Instrumente aus der Nähe sehen, die Musiker:innen mit Fragen löchern und, wenn Corona es zulässt, vielleicht sogar ein Instrument ausprobieren.",
-      "start": [
-        [2, 12, 2022],
-        [9, 0]
-      ],
-      "end": [
-        [20, 12, 2022],
-        [10, 0]
-      ],
-      "venueId": "Musikschule Leipzig 'Johann Sebastian Bach', Kurt-Masur-Saal",
-      "bandsId": [],
-      "musiciansId": [
-        "Almuth Donner, Querflöte",
-        "Ilka Dinter, Oboe",
-        "Bernd Bartholomäus, Klarinette",
-        "Katharina Hesse, Horn",
-        "Claire Hochschild, Fagott",
-        "Claudia Marks, Sprecherin"
-      ],
-      "tags": [],
-      "organizerId": "Musikschule Johannes Sebastian Bach",
-      "imageUrl": "https://www.musikschule-leipzig.de/files/images/bild_300x450/phpa6292668b320210805123402.jpg",
-      "links": [
-        "https://www.musikschule-leipzig.de/schulkonzerte-v-2323.html"
-      ]
-    },
-    {
-      "name": "Karneval der Tiere",
-      "description": "Das Leipziger Bläserquintett „Windstärke 5' lädt ein zum „Karneval der Tiere'! Ganz große und ganz kleine Tiere tummeln sich in Camille Saint-Saëns' leichtfüßiger Zoofantasie, bearbeitet für Bläserquintett: Der stolze Löwe brüllt, die witzigen Hühner machen Kunststücke und die alten Schildkröten tanzen Ballett. Aber auch Esel, Kängurus und ein wunderschöner Schwan sind mit von der Partie. Und wie oft ruft eigentlich der Kuckuck zum Fest? Nach dem tierischen Konzert dürfen die Kinder die Instrumente aus der Nähe sehen, die Musiker:innen mit Fragen löchern und, wenn Corona es zulässt, vielleicht sogar ein Instrument ausprobieren.",
-      "start": [
-        [2, 12, 2022],
-        [10, 30]
-      ],
-      "end": [
-        [20, 12, 2022],
-        [11, 30]
-      ],
-      "venueId": "Musikschule Leipzig 'Johann Sebastian Bach', Kurt-Masur-Saal",
-      "bandsId": [],
-      "musiciansId": [
-        "Almuth Donner, Querflöte",
-        "Ilka Dinter, Oboe",
-        "Bernd Bartholomäus, Klarinette",
-        "Katharina Hesse, Horn",
-        "Claire Hochschild, Fagott",
-        "Claudia Marks, Sprecherin"
-      ],
-      "tags": [],
-      "organizerId": "Musikschule Johannes Sebastian Bach",
-      "imageUrl": "https://www.musikschule-leipzig.de/files/images/bild_300x450/phpa6292668b320210805123402.jpg",
-      "links": [
-        "https://www.musikschule-leipzig.de/schulkonzerte-v-2323.html"
-      ]
-    },
-    {
-      "name": "ACHTUNG TERMINÄNDERUNG: Macht hoch die Tür, die Tor macht weit!",
-      "description": "Ein adventliches Konzert der Thomaneranwärter zum Nikolaustag An diesem fröhlichen Tag möchten die Thomaneranwärter der dritten Klassen ganz besondere Töne in der Thomaskirche für Euch erklingen lassen. Unser musikalischer Nikolausstiefel ist mit alten und neuen, bekannten aber auch unbekannten Liedern gefüllt. Natürlich darf nicht der berühmteste Thomaskantor -  Johann Sebastian Bach - fehlen. Einige Choräle aus seinem Weihnachtsoratorium werden wir vorstellen. Und da wir am liebsten unsere Sangesfreude teilen, wollen wir gemeinsam mit Euch singen, bis es keinen mehr auf seinem Platz hält. Begleitet werden wir von insgesamt drei Orgeln! Das glaubt Ihr nicht? Dann kommt doch in die wunderschöne Thomaskirche und lasst Euch musikalisch überraschen. Wir freuen uns auf Euch!",
-      "start": [
-        [5, 12, 2022],
-        [10, 0]
-      ],
-      "end": [[], []],
-      "venueId": "",
-      "bandsId": ["Thomaneranwärter der Grundschulen Anna-Magdalena Bach'"],
-      "musiciansId": [
-        "Leitung: Grit Miamingui und Maria Leistner",
-        "Truhenorgel: Frederico Baron Mussi",
-        "Bach-Orgel und Sauer-Orgel: Nicolas Berndt"
-      ],
-      "tags": [],
-      "organizerId": "Musikschule Johannes Sebastian Bach",
-      "imageUrl": "phpe7acfd797720190611082208.jpg",
-      "links": []
-    }
-  ]
-}
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Weihnachtskonzert ",
+    "description": "Weihnachtskonzert der Thomasschule Chöre und Orchester der Thomasschule stimmen auf Weihnachten ein.",
+    "start": [
+      [12, 12, 2022],
+      [19, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "In Nativitate Domini ",
+    "description": "Weihnachtliche Vokalmusik aus Mittelalter und Renaissance, Konzert mit weihnachtlicher Vokalmusik aus Mittelalter und Renaissance zugunsten von UNICEF",
+    "start": [
+      [15, 12, 2022],
+      [19, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["amarcord"],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Motette ",
+    "description": "",
+    "start": [
+      [16, 12, 2022],
+      [18, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["Ensemble ARCANUM, Berlin"],
+    "musiciansId": ["Ivo Mrvelj, Orgel"],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Motette ",
+    "description": "",
+    "start": [
+      [17, 12, 2022],
+      [15, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [],
+    "musiciansId": ["Ensemble ARCANUM, Berlin"],
+    "tags": ["Ivo Mrvelj, Orgel"],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
+    "description": "",
+    "start": [
+      [20, 12, 2022],
+      [19, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["THOMANERCHOR Leipzig"],
+    "musiciansId": [
+      "Thomasorganist Johannes Lang, Orgel",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
+    "description": "",
+    "start": [
+      [21, 12, 2022],
+      [19, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["THOMANERCHOR Leipzig"],
+    "musiciansId": [
+      "Thomasorganist Johannes Lang, Orgel",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Weihnachtsliederabend THOMANERCHOR Leipzig ",
+    "description": "",
+    "start": [
+      [22, 12, 2022],
+      [19, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["THOMANERCHOR Leipzig"],
+    "musiciansId": [
+      "Thomasorganist Johannes Lang, Orgel",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Weihnachtsmotette ",
+    "description": "",
+    "start": [
+      [24, 12, 2022],
+      [14, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["THOMANERCHOR Leipzig"],
+    "musiciansId": [
+      "Thomasorganist Johannes Lang",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Christvesper ",
+    "description": "",
+    "start": [
+      [24, 12, 2022],
+      [16, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["THOMANERCHOR Leipzig"],
+    "musiciansId": [
+      "Thomasorganist Johannes Lang",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Christvesper ",
+    "description": "",
+    "start": [
+      [24, 12, 2022],
+      [18, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["THOMANERCHOR Leipzig"],
+    "musiciansId": [
+      "Thomasorganist Johannes Lang",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": ["https://www.thomaskirche.org/erleben/kalender"]
+  },
+  {
+    "name": "Christvesper mit der Jungen Gemeinde ",
+    "description": "",
+    "start": [
+      [24, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [],
+    "musiciansId": ["Gemeindepädagogin Anika Sawatzki"],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": []
+  },
+  {
+    "name": "Komplet ",
+    "description": "",
+    "start": [
+      [25, 12, 2022],
+      [0, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["Männerstimmen des THOMANERCHOR Leipzig"],
+    "musiciansId": ["Thomaskantor Andreas Reize, Leitung"],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": []
+  },
+  {
+    "name": "Singgottesdienst ",
+    "description": "",
+    "start": [
+      [26, 12, 2022],
+      [18, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": ["Posaunenchor der Thomaskirche"],
+    "musiciansId": ["Thomasorganist Johannes Lang", "Jürgen Hartmann, Leitung"],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": []
+  },
+  {
+    "name": "Silvestermotette ",
+    "description": "",
+    "start": [
+      [31, 12, 2022],
+      [13, 30]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [
+      "Gewandhausorchester Leipzig",
+      "THOMANERCHOR Leipzig",
+      "Thomaskantor Andreas Reize, Leitung"
+    ],
+    "musiciansId": [
+      "Thomasorganist Johannes Lang",
+      "Julia Sophie Wagner, Sopran",
+      "Robert Pohlers, Tenor",
+      "Florian Götz, Bass"
+    ],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": []
+  },
+  {
+    "name": "Silvesterorgelkonzert ",
+    "description": "",
+    "start": [
+      [31, 12, 2022],
+      [21, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Thomaskirche",
+    "bandsId": [],
+    "musiciansId": ["Assistenzorganist Lukas Euler"],
+    "tags": [],
+    "organizerId": "Thomaskirche",
+    "imageUrl": "https://www.thomaskirche.org/fileadmin/_processed_file_storage/a/7/csm_Deckengewoelbe_d9aa8b56c2.jpg",
+    "links": []
+  },
+  {
+    "name": "Blues Lounge mit Mama Basuto",
+    "description": "",
+    "start": [
+      [1, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": ["Mama Basuto"],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Sixty 9",
+    "description": "",
+    "start": [
+      [20, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "HartBerg",
+    "description": "",
+    "start": [
+      [3, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "New Guitar Night mit Navin Rebello",
+    "description": "",
+    "start": [
+      [6, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Rock'n'Roll Stammtisch mit BoBerry",
+    "description": "",
+    "start": [
+      [7, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Blues Lounge mit  Fabix Halentine&Friends",
+    "description": "",
+    "start": [
+      [8, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Compadre Sassan",
+    "description": "",
+    "start": [
+      [9, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Factory of Art",
+    "description": "",
+    "start": [
+      [10, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "New Guitar Night mit Laszlo",
+    "description": "",
+    "start": [
+      [13, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Rock'n'Roll Stammtisch",
+    "description": "",
+    "start": [
+      [14, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Blues Lounge mit Turning Wheelz",
+    "description": "",
+    "start": [
+      [15, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Feelmen the Soulorchestra",
+    "description": "",
+    "start": [
+      [16, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Feelmen the Soulorchestra",
+    "description": "",
+    "start": [
+      [17, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "New Guitar Night mit Yukee",
+    "description": "",
+    "start": [
+      [20, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Rock'n'Roll Stammtisch mit EvilMrSod",
+    "description": "",
+    "start": [
+      [21, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Blues Lounge mit Twisted Path",
+    "description": "",
+    "start": [
+      [22, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Jürgen Kerth",
+    "description": "",
+    "start": [
+      [23, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Blues Weihnacht mit Mama Basuto",
+    "description": "",
+    "start": [
+      [24, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "SILVESTERPARTY mit MADDOXXX",
+    "description": "",
+    "start": [
+      [31, 12, 2022],
+      [20, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Tonelli's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Tonelli's",
+    "imageUrl": "https://www.tonellis.de/wp-content/uploads/2021/05/cropped-Header1-1024x614.jpg",
+    "links": []
+  },
+  {
+    "name": "Irish Folk Session",
+    "description": "",
+    "start": [
+      [5, 12, 2022],
+      [19, 0]
+    ],
+    "end": [[], []],
+    "venueId": "Morrison's",
+    "bandsId": [],
+    "musiciansId": [],
+    "tags": [],
+    "organizerId": "Morrison's",
+    "imageUrl": "https://www.morrisons-pub.de/files/cto_layout/img/feier/IMG_9386.jpg",
+    "links": []
+  },
+  {
+    "name": "SantaJAZZClaus",
+    "description": "Weihnachtslieder im Jazz-Gewand. Fünf Leipziger Jazzmusiker spielen für Euch amerikanische und europäische Weihnachtslieder in eigenen Bearbeitungen. Dabei geht es mal funky oder auch swingend zu. Wir möchten Euch demonstrieren, wie schön Weihnachtslieder klingen, wenn man sie mit neuen Akkorden unterlegt oder mit einem anderen Rhythmus begleitet. So kann sich das Lied „O Tannenbaum' zum Rock-Song oder „Ihr Kinderlein kommet' in eine lateinamerikanische Samba verwandeln. Wenn Ihr Euch überraschen lassen wollt, wie wir mit diesen vielen tollen Xmas Songs umgehen, dann begleitet uns auf eine Reise durch den Winter zum Weihnachtsjazz!",
+    "start": [
+      [1, 12, 2022],
+      [10, 0]
+    ],
+    "end": [
+      [1, 12, 2022],
+      [11, 0]
+    ],
+    "venueId": "Alte Börse",
+    "bandsId": [],
+    "musiciansId": [
+      "Lia Roth, Gesang",
+      "Frank Nowicky, Saxofon, Flöte",
+      "Matthias Büttner, Posaune",
+      "Matthäus Krzywdzinski, Gitarre",
+      "Thomas Moritz, Kontrabass",
+      "Peter Jakubik, Schlagzeug"
+    ],
+    "tags": [],
+    "organizerId": "Musikschule Johannes Sebastian Bach",
+    "imageUrl": "https://www.musikschule-leipzig.de/files/images/bild_300x450/php6048ff4e8c20190612152337.jpg",
+    "links": ["https://www.musikschule-leipzig.de/schulkonzerte-v-2322.html"]
+  },
+  {
+    "name": "Karneval der Tiere",
+    "description": "Das Leipziger Bläserquintett „Windstärke 5' lädt ein zum „Karneval der Tiere'! Ganz große und ganz kleine Tiere tummeln sich in Camille Saint-Saëns' leichtfüßiger Zoofantasie, bearbeitet für Bläserquintett: Der stolze Löwe brüllt, die witzigen Hühner machen Kunststücke und die alten Schildkröten tanzen Ballett. Aber auch Esel, Kängurus und ein wunderschöner Schwan sind mit von der Partie. Und wie oft ruft eigentlich der Kuckuck zum Fest? Nach dem tierischen Konzert dürfen die Kinder die Instrumente aus der Nähe sehen, die Musiker:innen mit Fragen löchern und, wenn Corona es zulässt, vielleicht sogar ein Instrument ausprobieren.",
+    "start": [
+      [2, 12, 2022],
+      [9, 0]
+    ],
+    "end": [
+      [20, 12, 2022],
+      [10, 0]
+    ],
+    "venueId": "Musikschule Leipzig 'Johann Sebastian Bach', Kurt-Masur-Saal",
+    "bandsId": [],
+    "musiciansId": [
+      "Almuth Donner, Querflöte",
+      "Ilka Dinter, Oboe",
+      "Bernd Bartholomäus, Klarinette",
+      "Katharina Hesse, Horn",
+      "Claire Hochschild, Fagott",
+      "Claudia Marks, Sprecherin"
+    ],
+    "tags": [],
+    "organizerId": "Musikschule Johannes Sebastian Bach",
+    "imageUrl": "https://www.musikschule-leipzig.de/files/images/bild_300x450/phpa6292668b320210805123402.jpg",
+    "links": ["https://www.musikschule-leipzig.de/schulkonzerte-v-2323.html"]
+  },
+  {
+    "name": "Karneval der Tiere",
+    "description": "Das Leipziger Bläserquintett „Windstärke 5' lädt ein zum „Karneval der Tiere'! Ganz große und ganz kleine Tiere tummeln sich in Camille Saint-Saëns' leichtfüßiger Zoofantasie, bearbeitet für Bläserquintett: Der stolze Löwe brüllt, die witzigen Hühner machen Kunststücke und die alten Schildkröten tanzen Ballett. Aber auch Esel, Kängurus und ein wunderschöner Schwan sind mit von der Partie. Und wie oft ruft eigentlich der Kuckuck zum Fest? Nach dem tierischen Konzert dürfen die Kinder die Instrumente aus der Nähe sehen, die Musiker:innen mit Fragen löchern und, wenn Corona es zulässt, vielleicht sogar ein Instrument ausprobieren.",
+    "start": [
+      [2, 12, 2022],
+      [10, 30]
+    ],
+    "end": [
+      [20, 12, 2022],
+      [11, 30]
+    ],
+    "venueId": "Musikschule Leipzig 'Johann Sebastian Bach', Kurt-Masur-Saal",
+    "bandsId": [],
+    "musiciansId": [
+      "Almuth Donner, Querflöte",
+      "Ilka Dinter, Oboe",
+      "Bernd Bartholomäus, Klarinette",
+      "Katharina Hesse, Horn",
+      "Claire Hochschild, Fagott",
+      "Claudia Marks, Sprecherin"
+    ],
+    "tags": [],
+    "organizerId": "Musikschule Johannes Sebastian Bach",
+    "imageUrl": "https://www.musikschule-leipzig.de/files/images/bild_300x450/phpa6292668b320210805123402.jpg",
+    "links": ["https://www.musikschule-leipzig.de/schulkonzerte-v-2323.html"]
+  },
+  {
+    "name": "ACHTUNG TERMINÄNDERUNG: Macht hoch die Tür, die Tor macht weit!",
+    "description": "Ein adventliches Konzert der Thomaneranwärter zum Nikolaustag An diesem fröhlichen Tag möchten die Thomaneranwärter der dritten Klassen ganz besondere Töne in der Thomaskirche für Euch erklingen lassen. Unser musikalischer Nikolausstiefel ist mit alten und neuen, bekannten aber auch unbekannten Liedern gefüllt. Natürlich darf nicht der berühmteste Thomaskantor -  Johann Sebastian Bach - fehlen. Einige Choräle aus seinem Weihnachtsoratorium werden wir vorstellen. Und da wir am liebsten unsere Sangesfreude teilen, wollen wir gemeinsam mit Euch singen, bis es keinen mehr auf seinem Platz hält. Begleitet werden wir von insgesamt drei Orgeln! Das glaubt Ihr nicht? Dann kommt doch in die wunderschöne Thomaskirche und lasst Euch musikalisch überraschen. Wir freuen uns auf Euch!",
+    "start": [
+      [5, 12, 2022],
+      [10, 0]
+    ],
+    "end": [[], []],
+    "venueId": "",
+    "bandsId": ["Thomaneranwärter der Grundschulen Anna-Magdalena Bach'"],
+    "musiciansId": [
+      "Leitung: Grit Miamingui und Maria Leistner",
+      "Truhenorgel: Frederico Baron Mussi",
+      "Bach-Orgel und Sauer-Orgel: Nicolas Berndt"
+    ],
+    "tags": [],
+    "organizerId": "Musikschule Johannes Sebastian Bach",
+    "imageUrl": "phpe7acfd797720190611082208.jpg",
+    "links": []
+  }
+]

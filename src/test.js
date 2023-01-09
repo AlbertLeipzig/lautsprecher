@@ -1,1 +1,0 @@
-console.log({message : process.env.npm_config_message })
