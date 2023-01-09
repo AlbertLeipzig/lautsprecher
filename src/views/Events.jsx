@@ -2,7 +2,9 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import eventsData from '../data/eventsDb.json';
 
-import { convertDateStringFromInput } from '../logic/formatDate';
+import { test } from '../logic/eventFilter';
+
+test();
 
 export const Events = () => {
   const [events, setEvents] = useState(undefined);

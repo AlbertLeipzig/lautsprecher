@@ -1,16 +1,21 @@
 /* 
+both dates (from front and back end) must have the same format : dd / mm / yyyy / hh / mm
+*/
+
+/* 
 DATE STRING FROM FRONT END
 2023-01-03
 */
 
-export const convertDateStringFromInput = (date, time) => {
-  const dateFormat = new Intl.DateTimeFormat('en-US').format(date);
+const convertDateStringFromInput = (date, time) => {
+  /* const dateFormat = new Intl.DateTimeFormat('en-US').format(date); */
+  const timeValue = time[0];
   const datePartials = [
-    parseInt(dateFormat.slice(4, 8)),
-    parseInt(dateFormat.slice(0, 1)),
-    parseInt(dateFormat.slice(2, 3)),
-    parseInt(Object.values(time)[0]),
-    parseInt(Object.values(time)[1]),
+    parseInt(date.slice(5, 7)),
+    parseInt(date.slice(8, 10)),
+    parseInt(date.slice(0, 4)),
+    parseInt(timeValue.slice(0, 2)),
+    parseInt(timeValue.slice(4, 6)),
   ];
   return datePartials;
 };
@@ -21,13 +26,14 @@ DATE FROM BACK END
 */
 
 const convertDateStringFromDb = (date) => {
-  return (date = ['year', 'month', 'day', 'hour', 'minute']);
+  const datePartials = [
+    parseInt(date.slice(5, 7)),
+    parseInt(date.slice(8, 10)),
+    parseInt(date.slice(0, 4)),
+    parseInt(date.slice(11, 13)),
+    parseInt(date.slice(14, 16)),
+  ];
+  return datePartials;
 };
 
-let year;
-let month;
-let day;
-let hour;
-let minute;
-
-let date = ['year', 'month', 'day', 'hour', 'minute'];
+export { convertDateStringFromInput, convertDateStringFromDb };
