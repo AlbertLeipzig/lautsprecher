@@ -1,15 +1,13 @@
 - clean events.jsx
 
-- format and compare date logic in a file
+- different format function must be used to format dbData
+
+- date must somehow take into consideration not only start time, but events that already started too, even if we don't the duration
 
 - filter events in a file
 
-  - by date
-  - by word
-    - name
-    - tag
-    - location
+- "tag" must be converted into "word", and word must include : tag, name, location
 
-- fetch data in Home Page, so the data is available as soon as the user lands in event page
+- fetch data in Home Page, so the data lands in a Context and is available as soon as the user lands in event page
 
 b) UI polish

@@ -5,6 +5,8 @@ import {
 
 // the front end gets an array of events from the back end
 
+// TESTING DATA
+
 const initialEvents = [
   {
     name: 'first event',
@@ -32,11 +34,11 @@ const initialEvents = [
   },
 ];
 
-let filteredEvents = [];
-
 // this array can be filtered thru date and/or tag => thus
 
 // callback function to filter BY DATE
+
+// this must somehow take into consideration not only start time, but events that already started too, even if we don't the duration
 
 const filteredByDate = (events, filter) => {
   let filteredEvents = [];
@@ -84,13 +86,11 @@ const filterEvents = (events, filter) => {
     ? filteredByTag(filteredByDateData, filter)
     : filteredByDateData;
 
-  console.log(filteredByTagData);
+  return filteredByTagData;
 };
+
+// TEST
 
 const testFilter = { date: '2023-01-03', time: ['20', '30'], tag: '' };
 
 export const test = filterEvents(initialEvents, testFilter);
-
-// the user can have 0, 1 or 2 filters
-
-// filter evey event by tag
