@@ -1,32 +1,53 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-import eventsData from '../data/eventsDb.json';
+import { useEffect, useState, useContext } from 'react';
+import { DataContext } from '../context/DataContext';
+import { eventFilter } from '../logic/eventFilter';
 
-import { test } from '../logic/eventFilter';
+// TEST
+
+// DATA
+/* 
+const initialEvents = [
+  {
+    name: 'first event',
+    date: '2023-01-03',
+    time: ['20', '50'],
+    tags: ['jazz'],
+  },
+  {
+    name: 'second event',
+    date: '2023-01-03',
+    time: ['20', '30'],
+    tags: ['funk', 'metal'],
+  },
+  {
+    name: 'third event',
+    date: '2023-01-03',
+    time: ['20', '30'],
+    tags: ['funk', 'gospel'],
+  },
+  {
+    name: 'fourth event',
+    date: '2023-01-04',
+    time: ['20', '20'],
+    tags: ['folk'],
+  },
+];
+
+const testFilter = { date: '2023-01-04', time: ['20', '20'], tag: '' };
+
+export const test = eventFilter(initialEvents, testFilter);
+console.log(test); */
 
 export const Events = () => {
-  const [events, setEvents] = useState(undefined);
   const [filter, setFilter] = useState({ date: '', tag: '' });
-
-  /*   const updateFilter = () => {};
-
-  useEffect(() => {
-    if (filter.value === '') {
-      updateFilter(eventsData);
-    } else if (filter.type === 'date') {
-      updateFilter(filter.value);
-    } else if (filter.type === 'word') {
-      updateFilter(filter.value);
-    } else {
-      updateFilter(eventsData);
-    }
-  }, [filter]); */
+  const [filteredEvents, setFilteredEvents] = useState([]);
+  const [events] = useContext(DataContext);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/v1/events')
-      .then((res) => res.json())
-      .then((data) => console.log(data.data));
-  }, []);
+    eventFilter(events, filter);
+    setFilteredEvents(eventFilter(events, filter));
+    console.log(filteredEvents);
+  }, [filter]);
 
   return (
     <div className="events">
@@ -50,6 +71,10 @@ export const Events = () => {
           />
         </label>
       </div>
+      <label htmlFor="filter">
+        Filter
+        <input type="text" onChange={(e) => setFilter(e.target.value)} />
+      </label>
 
       {/* <div className="events-container">
 

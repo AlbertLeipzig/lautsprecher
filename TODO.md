@@ -1,13 +1,13 @@
 - clean events.jsx
 
-- different format function must be used to format dbData
-
 - date must somehow take into consideration not only start time, but events that already started too, even if we don't the duration
 
-- filter events in a file
+\*\* actual filter => filter.date === eventDate.startTime
 
-- "tag" must be converted into "word", and word must include : tag, name, location
+\*\* target filter => filter.date >= eventDate.startTime || filter.date <= eventDate.endTime
 
-- fetch data in Home Page, so the data lands in a Context and is available as soon as the user lands in event page
+- fetched data in a Context and is available as soon as the user lands in event page
+
+- what happens if there's no answer from database? implement a message
 
 b) UI polish
