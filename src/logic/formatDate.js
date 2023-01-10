@@ -9,13 +9,12 @@ DATE STRING FROM FRONT END
 
 const convertDateStringFromInput = (date, time) => {
   /* const dateFormat = new Intl.DateTimeFormat('en-US').format(date); */
-  const timeValue = time[0];
   const datePartials = [
     parseInt(date.slice(5, 7)),
     parseInt(date.slice(8, 10)),
     parseInt(date.slice(0, 4)),
-    parseInt(time[0]),
-    parseInt(time[1]),
+    parseInt(time[0] || 0),
+    parseInt(time[1] || 0),
   ];
   return datePartials;
 };

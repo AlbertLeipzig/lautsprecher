@@ -3,6 +3,7 @@ import {
   convertDateStringFromDb,
 } from '../logic/formatDate';
 
+import { filteredByDate } from './filteredByDate';
 import { filteredByTag } from './filteredByTag';
 
 // the front end gets an array of events from the back end
@@ -13,7 +14,7 @@ import { filteredByTag } from './filteredByTag';
 
 // this must somehow take into consideration not only start time, but events that already started too, even if we don't the duration
 
-const filteredByDate = (events, filter) => {
+/* const filteredByDate = (events, filter) => {
   let filteredEvents = [];
   events.forEach((event) => {
     const formattedEventDate = convertDateStringFromInput(
@@ -32,7 +33,7 @@ const filteredByDate = (events, filter) => {
     eventsFilter();
   });
   return filteredEvents;
-};
+}; */
 
 // callback function to filter BY TAG is in imported function filterByTag
 
@@ -46,10 +47,12 @@ const eventFilter = (events, filter) => {
   // filter every filterByDate event BY TAG
 
   const filteredByTagData = filter.tag
-    ? filteredByTag(filteredByDateData, filter)
-    : filteredByDateData;
+    ? filteredByTag(events, filter)
+    : events;
 
-  return filteredByTagData;
+  const filteredEvents = events.includes(filteredByDateData).includes(filteredByTagData)
+
+  return filteredEvents;
 };
 
 export { eventFilter };

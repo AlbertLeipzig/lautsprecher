@@ -38,10 +38,28 @@ const testFilter = { date: '2023-01-04', time: ['20', '20'], tag: '' };
 export const test = eventFilter(initialEvents, testFilter);
 console.log(test); */
 
+const printEvents = (eventsArray) => {
+  const data = eventsArray.data;
+  data.forEach((event) => {
+    console.log(event);
+  });
+};
+
 export const Events = () => {
   const [filter, setFilter] = useState({ date: '', tag: '' });
-  const { events } = useContext(DataContext);
-  console.log('events', events);
+  const { events, setEvents } = useContext(DataContext);
+  /* console.log('events', events); */
+
+  useEffect(() => {
+    console.log(filter);
+    /* printEvents(events); */
+    console.log(filter);
+    /* eventFilter(events.data, filter); */
+/*     !events &&
+      fetch('http://localhost:5000/api/v1/events')
+        .then((res) => res.json())
+        .then((data) => setEvents(data)); */
+  }, [filter]);
 
   return (
     <div className="events">
@@ -54,24 +72,21 @@ export const Events = () => {
             type="text"
             placeholder="event..."
             onChange={(e) => {
-              setFilter({ tag: e.target.value });
+              setFilter({ tag: e.target.value, date: filter.date });
             }}
           />
         </label>
         <label htmlFor="">
           <input
             type="date"
-            onChange={(e) => setFilter({ date: e.target.value })}
+            onChange={(e) =>
+              setFilter({ date: e.target.value, tag: filter.tag })
+            }
           />
         </label>
       </div>
-      <label htmlFor="filter">
-        Filter
-        <input type="text" onChange={(e) => setFilter(e.target.value)} />
-      </label>
 
       <div className="events-container">
-
         {events?.data.map((event, id) => (
           <div className="event" key={id}>
             <div className="event__main">
