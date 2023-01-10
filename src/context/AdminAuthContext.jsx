@@ -1,4 +1,4 @@
-import { useState, createContext, useContext } from 'react';
+import { useState, createContext } from 'react';
 export const AdminAuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {

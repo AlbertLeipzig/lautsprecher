@@ -1,6 +1,6 @@
 import { useEffect, useState, useContext } from 'react';
-import { DataContext } from '../context/DataContext';
 import { eventFilter } from '../logic/eventFilter';
+import { DataContext } from '../context/DataContext';
 
 // TEST
 
@@ -40,14 +40,8 @@ console.log(test); */
 
 export const Events = () => {
   const [filter, setFilter] = useState({ date: '', tag: '' });
-  const [filteredEvents, setFilteredEvents] = useState([]);
-  const [events] = useContext(DataContext);
-
-  useEffect(() => {
-    eventFilter(events, filter);
-    setFilteredEvents(eventFilter(events, filter));
-    console.log(filteredEvents);
-  }, [filter]);
+  const { events } = useContext(DataContext);
+  console.log('events', events);
 
   return (
     <div className="events">
@@ -76,7 +70,7 @@ export const Events = () => {
         <input type="text" onChange={(e) => setFilter(e.target.value)} />
       </label>
 
-      {/* <div className="events-container">
+      <div className="events-container">
 
         {events?.data.map((event, id) => (
           <div className="event" key={id}>
@@ -98,7 +92,7 @@ export const Events = () => {
             </a>
           </div>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };

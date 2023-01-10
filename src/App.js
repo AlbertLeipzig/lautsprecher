@@ -1,5 +1,4 @@
-import { useContext } from 'react';
-import { DataContext } from './context/DataContext';
+import { DataProvider } from './context/DataContext';
 import { Routes, Route } from 'react-router-dom';
 import { About } from './views/About';
 import { Contact } from './views/Contact';
@@ -17,8 +16,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <DataContext.Provider value="events, setEvents">
-        <main>
+      <main>
+        <DataProvider>
           <Routes>
             <Route exact path="/" element={<LandingPage />} />
             <Route path="/events" element={<Events />} />
@@ -29,8 +28,8 @@ function App() {
             <Route path="/admin" element={<Admin />} />
             <Route path="/test" element={<Test />} />
           </Routes>
-        </main>
-      </DataContext.Provider>
+        </DataProvider>
+      </main>
       <Footer />
     </div>
   );
