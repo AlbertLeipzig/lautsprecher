@@ -8,16 +8,48 @@ import { filteredByDate } from './filteredByDate';
 import { filteredByTag } from './filteredByTag';
 
 const eventFilter = (events, filter) => {
-  let filteredEvents = [];
+  let filteredEvents;
+  filteredEvents = 'not yet';
+  let tagEvents;
+  let dateEvents;
 
   const eventsArray = events?.data;
 
-  /* eventsArray &&
-    filter.tag &&
-    console.log('FILTERED BY TAG', filteredByTag(eventsArray, filter)); */
+  const completeFilterEvent = () => {
+    const eventByDate = filteredByDate(eventsArray, filter);
+    const eventByTag = filteredByTag(eventByDate, filter);
+    return eventByTag;
+  };
 
-  eventsArray && filter.date && filteredByDate(eventsArray, filter);
+  if (filter.date && filter.tag) {
+    filteredEvents = completeFilterEvent();
+  } else if (filter.date) {
+    eventsArray && (filteredEvents = filteredByDate(eventsArray, filter));
+  } else if (filter.tag) {
+    eventsArray && (filteredEvents = filteredByTag(eventsArray, filter));
+  } else {
+    filteredEvents = events;
+  }
 
+  /* tagEvents && dateEvents && (filteredEvents = 'both events');
+  tagEvents && (filteredEvents = 'tag events');
+  dateEvents && (filteredEvents = 'date events'); */
+
+  // if only tagEvents
+
+  // filteredEvents = tagEvents
+
+  // if only dateEvents
+
+  // filteredEvents = dateEvents
+
+  // if both
+
+  // filteredEvents = eventComparisson
+
+  /*   console.log('tagEvents : ', tagEvents);
+  console.log('dateEvents : ', dateEvents); */
+  console.log(filteredEvents);
   return filteredEvents;
 };
 

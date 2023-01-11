@@ -16,11 +16,10 @@ const filteredByDate = (events, filter) => {
     const date = event.date;
     const time = event.time || [0, 0];
     const formattedEventDate = convertDateStringFromDb(date, time);
-    console.log('formatted input : ', formattedInputDate);
-    console.log('formatted event : ', formattedEventDate);
+    /* formattedEventDate === formattedInputDate && console.log({"input date : ", formattedInputDate}); */
     formattedEventDate === formattedInputDate && filteredEvents.push(event);
   });
-  console.log(filteredEvents);
+  return filteredEvents;
 };
 
 export { filteredByDate };

@@ -57,7 +57,7 @@ export const Events = () => {
 
   useEffect(() => {
     eventFilter(events, filter);
-  }, [events]);
+  }, [filter]);
 
   return (
     <div className="events">
