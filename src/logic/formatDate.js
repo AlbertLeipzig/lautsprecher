@@ -7,16 +7,15 @@ DATE STRING FROM FRONT END
 2023-01-03
 */
 
-const convertDateStringFromInput = (date, time) => {
+const convertDateStringFromInput = (date) => {
   /* const dateFormat = new Intl.DateTimeFormat('en-US').format(date); */
   const datePartials = [
     parseInt(date.slice(5, 7)),
     parseInt(date.slice(8, 10)),
     parseInt(date.slice(0, 4)),
-    parseInt(time[0] || 0),
-    parseInt(time[1] || 0),
   ];
-  return datePartials;
+  const dateString = datePartials.toString();
+  return dateString;
 };
 
 /*
@@ -29,10 +28,9 @@ const convertDateStringFromDb = (date) => {
     parseInt(date.slice(5, 7)),
     parseInt(date.slice(8, 10)),
     parseInt(date.slice(0, 4)),
-    parseInt(date.slice(11, 13)),
-    parseInt(date.slice(14, 16)),
   ];
-  return datePartials;
+  const dateString = datePartials.toString();
+  return dateString;
 };
 
 export { convertDateStringFromInput, convertDateStringFromDb };

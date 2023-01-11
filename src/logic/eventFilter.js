@@ -12,13 +12,11 @@ const eventFilter = (events, filter) => {
 
   const eventsArray = events?.data;
 
-  eventsArray &&
-    filter.tag &&
-    console.log('FILTERED BY TAG', filteredByTag(eventsArray, filter));
-
   /* eventsArray &&
-    filter.date &&
-    console.log(filteredByDate('FILTERED BY DATE', eventsArray, filter)); */
+    filter.tag &&
+    console.log('FILTERED BY TAG', filteredByTag(eventsArray, filter)); */
+
+  eventsArray && filter.date && filteredByDate(eventsArray, filter);
 
   return filteredEvents;
 };
