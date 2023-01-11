@@ -49,7 +49,6 @@ const eventFilter = (events, filter) => {
 
   /*   console.log('tagEvents : ', tagEvents);
   console.log('dateEvents : ', dateEvents); */
-  console.log(filteredEvents);
   return filteredEvents;
 };
 

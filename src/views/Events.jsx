@@ -48,6 +48,7 @@ const printEvents = (eventsArray) => {
 export const Events = () => {
   const [filter, setFilter] = useState({ date: '', tag: '' });
   const { events, setEvents } = useContext(DataContext);
+  const [filteredEvents, setFilteredEvents] = useState([events]);
 
   useEffect(() => {
     fetch('http://localhost:5000/api/v1/events')
@@ -56,7 +57,18 @@ export const Events = () => {
   }, [filter]);
 
   useEffect(() => {
-    eventFilter(events, filter);
+    /*  console.log('EVENTS : ', events);
+    console.log('FILTER : ', typeof filter);
+    console.log('VALUE OF DATE  : ', filter.date.valueOf()); */
+    if (filter.date === '' && filter.tag === '') {
+      setFilteredEvents(events);
+    } else {
+      setFilteredEvents(eventFilter(events, filter));
+    }
+    /* filter
+      ? setFilteredEvents(eventFilter(events, filter))
+      : setFilteredEvents(events);
+    console.log('HI THERE', filteredEvents); */
   }, [filter]);
 
   return (
@@ -85,7 +97,7 @@ export const Events = () => {
       </div>
 
       <div className="events-container">
-        {events?.data?.map((event, id) => (
+        {filteredEvents.map((event, id) => (
           <div className="event" key={id}>
             <div className="event__main">
               <h2>{event.name}</h2>
