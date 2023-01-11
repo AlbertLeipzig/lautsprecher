@@ -2,9 +2,26 @@ import {
   convertDateStringFromInput,
   convertDateStringFromDb,
 } from '../logic/formatDate';
+import { Events } from '../views/Events';
 
 import { filteredByDate } from './filteredByDate';
 import { filteredByTag } from './filteredByTag';
+
+const eventFilter = (events, filter) => {
+  let filteredEvents = [];
+
+  const eventsArray = events?.data;
+
+  eventsArray &&
+    filter.tag &&
+    console.log('FILTERED BY TAG', filteredByTag(eventsArray, filter));
+
+  /* eventsArray &&
+    filter.date &&
+    console.log(filteredByDate('FILTERED BY DATE', eventsArray, filter)); */
+
+  return filteredEvents;
+};
 
 // the front end gets an array of events from the back end
 
@@ -36,23 +53,5 @@ import { filteredByTag } from './filteredByTag';
 }; */
 
 // callback function to filter BY TAG is in imported function filterByTag
-
-const eventFilter = (events, filter) => {
-  // if there's a date value, filter every event BY DATE
-
-  const filteredByDateData = filter.date
-    ? filteredByDate(events, filter)
-    : events;
-
-  // filter every filterByDate event BY TAG
-
-  const filteredByTagData = filter.tag
-    ? filteredByTag(events, filter)
-    : events;
-
-  const filteredEvents = events.includes(filteredByDateData).includes(filteredByTagData)
-
-  return filteredEvents;
-};
 
 export { eventFilter };

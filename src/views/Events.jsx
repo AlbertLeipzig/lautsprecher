@@ -48,18 +48,16 @@ const printEvents = (eventsArray) => {
 export const Events = () => {
   const [filter, setFilter] = useState({ date: '', tag: '' });
   const { events, setEvents } = useContext(DataContext);
-  /* console.log('events', events); */
 
   useEffect(() => {
-    console.log(filter);
-    /* printEvents(events); */
-    console.log(filter);
-    /* eventFilter(events.data, filter); */
-/*     !events &&
-      fetch('http://localhost:5000/api/v1/events')
-        .then((res) => res.json())
-        .then((data) => setEvents(data)); */
+    fetch('http://localhost:5000/api/v1/events')
+      .then((res) => res.json())
+      .then((data) => setEvents(data));
   }, [filter]);
+
+  useEffect(() => {
+    eventFilter(events, filter);
+  }, [events]);
 
   return (
     <div className="events">
@@ -87,7 +85,7 @@ export const Events = () => {
       </div>
 
       <div className="events-container">
-        {events?.data.map((event, id) => (
+        {events?.data?.map((event, id) => (
           <div className="event" key={id}>
             <div className="event__main">
               <h2>{event.name}</h2>
