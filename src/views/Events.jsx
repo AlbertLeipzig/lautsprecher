@@ -48,7 +48,9 @@ const printEvents = (eventsArray) => {
 export const Events = () => {
   const [filter, setFilter] = useState({ date: '', tag: '' });
   const { events, setEvents } = useContext(DataContext);
-  const [filteredEvents, setFilteredEvents] = useState([events]);
+  const [filteredEvents, setFilteredEvents] = useState(events);
+
+  // empty fields => filteredEvents.data
 
   useEffect(() => {
     fetch('http://localhost:5000/api/v1/events')
@@ -61,20 +63,45 @@ export const Events = () => {
     console.log('FILTER : ', typeof filter);
     console.log('VALUE OF DATE  : ', filter.date.valueOf()); */
     if (filter.date === '' && filter.tag === '') {
-      setFilteredEvents(events);
+      setFilteredEvents(events.data);
     } else {
       setFilteredEvents(eventFilter(events, filter));
     }
-    /* filter
-      ? setFilteredEvents(eventFilter(events, filter))
-      : setFilteredEvents(events);
-    console.log('HI THERE', filteredEvents); */
   }, [filter]);
+
+  filteredEvents &&
+    filteredEvents.forEach((event) => console.log(event.organizer));
+
+  {
+    /* <div className="event" key={id}>
+              <div className="event__main">
+                <h2>{event.name}</h2>
+                <div className="event__description">
+                  {event.description && (
+                    <p>{event.description.slice(0, 150)}</p>
+                  )}
+                </div>
+              </div>
+              <a
+                href={event.eventLinks}
+                target={'_blank'}
+                className="event_link"
+              >
+                <img
+                  src={
+                    event.image ||
+                    'https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
+                  }
+                  alt=""
+                />
+                <p>+info</p>
+              </a>
+            </div> */
+  }
 
   return (
     <div className="events">
       <h1>Veranstaltungen</h1>
-      {filter && <h1>{filter.date}</h1>}
 
       <div className="event__filter">
         <label htmlFor="event__filter">
@@ -97,26 +124,8 @@ export const Events = () => {
       </div>
 
       <div className="events-container">
-        {filteredEvents.map((event, id) => (
-          <div className="event" key={id}>
-            <div className="event__main">
-              <h2>{event.name}</h2>
-              <div className="event__description">
-                {event.description && <p>{event.description.slice(0, 150)}</p>}
-              </div>
-            </div>
-            <a href={event.eventLinks} target={'_blank'} className="event_link">
-              <img
-                src={
-                  event.image ||
-                  'https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
-                }
-                alt=""
-              />
-              <p>+info</p>
-            </a>
-          </div>
-        ))}
+        {filteredEvents &&
+          filteredEvents.map((concert) => <h1>{concert.name}</h1>)}
       </div>
     </div>
   );
