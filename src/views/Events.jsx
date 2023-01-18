@@ -1,6 +1,7 @@
 import { useEffect, useState, useContext } from 'react';
 import { eventFilter } from '../logic/eventFilter';
 import { DataContext } from '../context/DataContext';
+import { EventCard } from '../components/EventCard';
 
 export const Events = () => {
   const [filter, setFilter] = useState({ date: '', tag: '' });
@@ -45,7 +46,9 @@ export const Events = () => {
   return (
     <div className="events">
       <h1>Veranstaltungen</h1>
-      <h2 className='events__crash'>Uns tut es Leid, derzeit ist keine Veranstaltung vorhanden</h2>
+      <h2 className="events__crash">
+        Uns tut es Leid, derzeit ist keine Veranstaltung vorhanden
+      </h2>
       {/* {filteredEvents === undefined && (
       )} */}
       {filteredEvents && (
@@ -71,7 +74,9 @@ export const Events = () => {
       )}
       <div className="events-container">
         {filteredEvents &&
-          Object.values(filteredEvents).forEach((value) => <h1>{value}</h1>)}
+          Object.values(filteredEvents).forEach((value) => (
+            <EventCard event={value} />
+          ))}
       </div>
     </div>
   );

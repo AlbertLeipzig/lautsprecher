@@ -9,7 +9,6 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Login } from './views/Login';
 import { Admin } from './views/Admin';
-import { Test } from './views/Test';
 import './scss/main.scss';
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
             <Route path="/impressum" element={<Impressum />} />
             <Route path="/login" element={<Login />} />
             <Route path="/admin" element={<Admin />} />
-            <Route path="/test" element={<Test />} />
           </Routes>
         </DataProvider>
       </main>
