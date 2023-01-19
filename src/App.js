@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { DataProvider } from './context/DataContext';
 import { Routes, Route } from 'react-router-dom';
 import { About } from './views/About';
@@ -10,6 +11,7 @@ import { Footer } from './components/Footer';
 import { Login } from './views/Login';
 import { Admin } from './views/Admin';
 import './scss/main.scss';
+
 
 function App() {
   return (

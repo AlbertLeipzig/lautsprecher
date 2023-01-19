@@ -2,7 +2,7 @@ import { useEffect, useState, useContext } from 'react';
 import { eventFilter } from '../logic/eventFilter';
 import { DataContext } from '../context/DataContext';
 import { EventCard } from '../components/EventCard';
-
+import axios from 'axios';
 export const Events = () => {
   const [filter, setFilter] = useState({ date: '', tag: '' });
   const { events, setEvents } = useContext(DataContext);
@@ -12,9 +12,9 @@ export const Events = () => {
   /* fetch data from api */
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/v1/events')
+    axios('http://localhost/api/v1/events')
       .then((res) => res.json())
-      .then((data) => setEvents(data));
+      .then((data) => console.log(data));
   }, []);
 
   /* filter events */
@@ -22,26 +22,18 @@ export const Events = () => {
   useEffect(() => {
     if (filter.date === '' && filter.tag === '') {
       setFilteredEvents(events.data);
-      setSingleEvent(filteredEvents[0]);
-    } else {
+      /* setSingleEvent(filteredEvents[0]); */
+    } else if (filter.date || filter.tag) {
       setFilteredEvents(eventFilter(events, filter));
-      setSingleEvent(filteredEvents[0]);
+      /* setSingleEvent(filteredEvents[0]); */
+    } else {
+      setFilteredEvents(events.data);
     }
   }, [filter]);
 
-  /*  filteredEvents && for (const entry of filteredEvents) {
-    console.log(entry);
-  } */
+  filteredEvents && console.log(filteredEvents);
 
-  /* {filteredEvents &&
-    Object.values(filteredEvents).forEach((value) => (
-      <>
-        <p>test</p>
-        <p>test</p>
-      </>
-    ))} */
-
-  singleEvent && console.log('SINGLE EVENT : ', singleEvent);
+  /* singleEvent && console.log('SINGLE EVENT : ', singleEvent); */
 
   return (
     <div className="events">
@@ -49,7 +41,10 @@ export const Events = () => {
       <h2 className="events__crash">
         Uns tut es Leid, derzeit ist keine Veranstaltung vorhanden
       </h2>
-      {/* {filteredEvents === undefined && (
+      {/* {filteredEvents && (
+        <>
+        <p>Bei Lautsprecher bemühen wir uns, Ihnen möglichst aktuelle Informationen zur Verfügung zu stellen. Dennoch sind wir im Moment nicht in der Lage, dafür zu sorgen, dass sich nichts ändert. Lautsprecher übernimmt daher keine Verantwortung für Änderungen in letzter Minute. Bitte beachten Sie den Link zur Veranstaltung für weitere Informationen und Bestätigung. Vielen Dank!</p>
+        </>
       )} */}
       {filteredEvents && (
         <div className="event__filter">

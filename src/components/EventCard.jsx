@@ -10,6 +10,23 @@ const placeholderImageArray = [
 export const EventCard = ({ event }) => {
   const [image, setImage] = useState(null);
 
+  // function to capitalize the first letter of a string
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
+  // function to make every word in the title start with a capital letter
+
+  const formattedTitle = (title) => {
+    const titleArray = title.split(' ');
+    const formattedTitleArray = titleArray.map((word) => {
+      return capitalizeFirstLetter(word);
+    });
+    return formattedTitleArray.join(' ');
+  };
+
+  event.title && (event.title = formattedTitle(event.title));
+
   useEffect(() => {
     if (event.img) {
       setImage(event.img);
@@ -24,17 +41,17 @@ export const EventCard = ({ event }) => {
 
   return (
     <div className="event__card">
-      <img src={image} alt={event.name ?? 'event image'} />
+      <img src={image} alt={`${event.name} image` ?? 'event image'} />
       <div className="event__card__content">
         <h3>{event.title ?? 'event name'}</h3>
         <p className="event__subtitle">{event?.subtitle}</p>
         <p>{event.date}</p>
-        <p>{event.location}</p>
-        <p>
-          {event.price}
-        </p>
+        <p>{capitalizeFirstLetter(event.location)}</p>
+        <p>{event.price} E</p>
         <p>{event?.description.slice(0, 100)}</p>
-        <a href={event.link}>+info</a>
+        <a href={event.link} target={'_blank'}>
+          +info
+        </a>
       </div>
     </div>
   );
