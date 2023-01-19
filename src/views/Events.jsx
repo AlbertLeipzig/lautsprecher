@@ -46,11 +46,15 @@ export const Events = () => {
   return (
     <div className="events">
       <h1>Veranstaltungen</h1>
-      <h2 className="events__crash">
-        Uns tut es Leid, derzeit ist keine Veranstaltung vorhanden
+      
+      {filteredEvents === undefined && (
+        <div className='events__nodb'>
+        <img src="https://images.unsplash.com/photo-1617405207340-954e2e19755c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZW1wdHklMjBjb25jZXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="" />
+        <h2 className="events__crash">
+        Uns tut es Leid, derzeit ist keine Veranstaltung vorhanden. Kommt bitte auf eine späteren Zeitpunkt zurück. Wir freuen uns auf Dich!
       </h2>
-      {/* {filteredEvents === undefined && (
-      )} */}
+        </div>
+      )}
       {filteredEvents && (
         <div className="event__filter">
           <label htmlFor="event__filter">
