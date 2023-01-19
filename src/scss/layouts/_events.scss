@@ -105,3 +105,13 @@
   text-align: center;
   margin: 5vh 0;
 }
+
+.events__nodb{
+  img {
+    display: block;
+    margin: 3vh auto 0;
+    border-radius: 50%;
+    height: 50vh;
+    aspect-ratio: 1/1;
+  }
+}
