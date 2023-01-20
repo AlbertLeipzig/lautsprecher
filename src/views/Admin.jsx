@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-import { useState } from 'react';
 
 export const Admin = () => {
   return (

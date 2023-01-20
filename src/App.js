@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { DataProvider } from './context/DataContext';
 import { Routes, Route } from 'react-router-dom';
 import { About } from './views/About';
