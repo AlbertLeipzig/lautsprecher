@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useState, useContext } from 'react';
+import { useState } from 'react';
 
 import bandsData from '../data/bandsDb.json';
 import eventsData from '../data/eventsDb.json';
@@ -34,7 +34,7 @@ export const Admin = () => {
       );
     });
     console.log(activeCategory);
-  }, [selector]);
+  }, [activeCategory, selector]);
 
   return (
     <div className="admin">

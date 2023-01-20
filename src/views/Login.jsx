@@ -1,4 +1,3 @@
-import { Navigate } from "react-router-dom";
 export const Login = () => {
   return (
     <div className="login">

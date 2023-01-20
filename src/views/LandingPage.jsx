@@ -1,8 +1,6 @@
-import { useEffect, useContext } from 'react';
+import { useContext } from 'react';
 import { DataContext } from '../context/DataContext';
-import axios from 'axios';
 export const LandingPage = () => {
-  const { setEvents } = useContext(DataContext);
 /*   useEffect(() => {
     axios
       .get('http://localhost:6000/api/v1/events')

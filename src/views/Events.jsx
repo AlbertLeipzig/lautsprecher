@@ -5,8 +5,7 @@ import { EventCard } from '../components/EventCard';
 import axios from 'axios';
 export const Events = () => {
   const [filter, setFilter] = useState({ date: '', tag: '' });
-  const { events, setEvents } = useContext(DataContext);
-  const [singleEvent, setSingleEvent] = useState({});
+  const { events } = useContext(DataContext);
   const [filteredEvents, setFilteredEvents] = useState(events);
 
   /* fetch data from api */
@@ -29,7 +28,7 @@ export const Events = () => {
     } else {
       setFilteredEvents(events.data);
     }
-  }, [filter]);
+  }, [filter, events]);
 
   filteredEvents && console.log(filteredEvents);
 
